@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="talaAqaY-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="تَلَاقَى" transliteration="talaAqaY" transname="تلاقى" wn="">
+            <Root name="لقي" transliteration="lqy"/>
+            <Deverbal name="تَلَاقِي" transliteration="talaAqiy" transname="تلاقي" wn=""/>
+            <Active_participle name="مُتَلَاقِي" transliteration="mutalaAqiy" transname="متلاقي" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَصَادَفَ" transliteration="taSaAdafa" transname="تصادف" wn="">
+            <Root name="صدف" transliteration="Sdf"/>
+            <Deverbal name="تَصَادُف" transliteration="taSaAduf" transname="تصادف" wn=""/>
+            <Active_participle name="مُتَصَادِف" transliteration="mutaSaAdif" transname="متصادف" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَصَادَقَ" transliteration="taSaAdaqa" transname="تصادق" wn="">
+            <Root name="سدق" transliteration="sdq"/>
+            <Deverbal name="تَصَادُق" transliteration="taSaAduq" transname="تصادق" wn=""/>
+            <Active_participle name="مُتَصَادِق" transliteration="mutaSaAdiq" transname="متصادق" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَجَالَسَ" transliteration="tajaAlasa" transname="تجالس" wn="">
+            <Root name="جلس" transliteration="jls"/>
+            <Deverbal name="تَجَالُس" transliteration="tajaAlus" transname="تجالس" wn=""/>
+            <Active_participle name="مُتَجَالِس" transliteration="mutajaAlis" transname="متجالس" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَقَابَلَ" transliteration="taqaAbala" transname="تقابل" wn="">
+            <Root name="قبل" transliteration="qbl"/>
+            <Deverbal name="تَقَابُل" transliteration="taqaAbul" transname="تقابل" wn=""/>
+            <Active_participle name="مُتَقَابِل" transliteration="mutaqaAbil" transname="متقابل" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَلَاعَبَ" transliteration="talaAEaba" transname="تلاعب" wn="">
+            <Root name="لعب" transliteration="lEb"/>
+            <Deverbal name="تَلَاعُب" transliteration="talaAEub" transname="تلاعب" wn=""/>
+            <Active_participle name="مُتَلَاعِب" transliteration="mutalaAEib" transname="متلاعب" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَدَاعَبَ" transliteration="tadaAEaba" transname="تداعب" wn="">
+            <Root name="دعب" transliteration="dEb"/>
+            <Deverbal name="تَدَاعُب" transliteration="tadaAEub" transname="تداعب" wn=""/>
+            <Active_participle name="مُتَدَاعِب" transliteration="mutadaAEib" transname="متداعب" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَخَالَطَ" transliteration="taxaAlaTa" transname="تخالط" wn="">
+            <Root name="خلط" transliteration="xlT"/>
+            <Deverbal name="تَخَالُط" transliteration="taxaAluT" transname="تخالط" wn=""/>
+            <Active_participle name="مُتَخَالِط" transliteration="mutaxaAliT" transname="متخالط" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَعَايَشَ" transliteration="taEaAya$a" transname="تعايش" wn="">
+            <Root name="عيش" transliteration="Ey$"/>
+            <Deverbal name="تَعَايُش" transliteration="taEaAyu$" transname="تعايش" wn=""/>
+            <Active_participle name="مُتَعَايِش" transliteration="mutaEaAyi$" transname="متعايش" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَعَاشَرَ" transliteration="taEaA$ara" transname="تعاشر" wn="">
+            <Root name="عشر" transliteration="E$r"/>
+            <Deverbal name="تَعَاشُر" transliteration="taEaA$ur" transname="تعاشر" wn=""/>
+            <Active_participle name="مُتَعَاشِر" transliteration="mutaEaA$ir" transname="متعاشر" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَخَادَنَ" transliteration="taxaAdana" transname="تخادن" wn="">
+            <Root name="خدن" transliteration="xdn"/>
+            <Deverbal name="تَخَادُن" transliteration="taxaAdun" transname="تخادن" wn=""/>
+            <Active_participle name="مُتَخَادِن" transliteration="mutaxaAdin" transname="متخادن" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Actor">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Actor1">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Actor2">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="V NP PP.actor2" secondary="PPmaEa-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَلَاقَى الضَيْفُ مَعَ المُضِيف." transliteration="talaAqaY AlDayofu maEa AlmuDiyf."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Actor1">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="مَعَ">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Actor2">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="social_interaction">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Actor1"/>
+                        <ARG type="ThemRole" value="Actor2"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="V NP" secondary="Simple Reciprocal Intransitive" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَلَاقَت سَلْمَى وَ صَدِيقَاتِهَا." transliteration="talaAqat salomaY wa SadiyqaAtihaA."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Actor1">
+                    <SYNRESTRS/>
+                </NP>
+                <LEX value="وَ"/>
+                <NP value="Actor2">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="social_interaction">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Actor1"/>
+                        <ARG type="ThemRole" value="Actor2"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="V NP" secondary="IntransitivePlural Subject" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَلَاقَى الأَصْدِقَاء." transliteration="talaAqaY AlOaSodiqaA'."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Actor">
+                    <SYNRESTRS logic="or">
+                        <SYNRESTR Value="+" type="plural"/>
+                        <SYNRESTR Value="+" type="dual"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="social_interaction">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Actor_i"/>
+                        <ARG type="ThemRole" value="Actor_j"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="laAqaY-1"/>
+    </SIBLINGCLASSES>
+</VNCLASS>

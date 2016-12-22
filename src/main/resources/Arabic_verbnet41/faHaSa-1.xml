@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="faHaSa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="حَلَّلَ" transliteration="Hal~ala" transname="حلل" wn="">
+            <Root name="حلل" transliteration="Hll"/>
+            <Deverbal name="تَحْلِيل" transliteration="taHoliyl" transname="تحليل" wn=""/>
+            <Active_participle name="مُحَلِّل" transliteration="muHal~il" transname="محلل" wn=""/>
+        </MEMBER>
+        <MEMBER name="فَحَصَ" transliteration="faHaSa" transname="فحص" wn="">
+            <Root name="فحص" transliteration="fHS"/>
+            <Deverbal name="فَحْصَ" transliteration="faHoSa" transname="فحص" wn=""/>
+            <Active_participle name="فَاحِص" transliteration="faAHiS" transname="فاحص" wn=""/>
+        </MEMBER>
+        <MEMBER name="مَحَّصَ" transliteration="maH~aSa" transname="محص" wn="">
+            <Root name="محص" transliteration="mHS"/>
+            <Deverbal name="تَمْحِيص" transliteration="tamoHiyS" transname="تمحيص" wn=""/>
+            <Active_participle name="مُمَحِّص" transliteration="mumaH~iS" transname="ممحص" wn=""/>
+        </MEMBER>
+        <MEMBER name="قَيَّمَ" transliteration="qay~ama" transname="قيم" wn="">
+            <Root name="قيم" transliteration="qym"/>
+            <Deverbal name="تَقْيِيم" transliteration="taqoyiym" transname="تقييم" wn=""/>
+            <Active_participle name="مُقَيِّم" transliteration="muqay~im" transname="مقيم" wn=""/>
+        </MEMBER>
+        <MEMBER name="رَاجَعَ" transliteration="raAjaEa" transname="راجع" wn="">
+            <Root name="رجع" transliteration="rjE"/>
+            <Deverbal name="مُرَاَجَعَة" transliteration="muraAajaEap" transname="مراجعة" wn=""/>
+            <Active_participle name="مُرَاجِع" transliteration="muraAjiE" transname="مراجع" wn=""/>
+        </MEMBER>
+        <MEMBER name="نَقَّحَ" transliteration="naq~aHa" transname="نقح" wn="">
+            <Root name="نقح" transliteration="nqH"/>
+            <Deverbal name="تَنْقِيح" transliteration="tanoqiyH" transname="تنقيح" wn=""/>
+            <Active_participle name="مُنَقِّح" transliteration="munaq~iH" transname="منقح" wn=""/>
+        </MEMBER>
+        <MEMBER name="دَرَسَ" transliteration="darasa" transname="درس" wn="">
+            <Root name="درس" transliteration="drs"/>
+            <Deverbal name="دِرَاسَة" transliteration="diraAsap" transname="دراسة" wn=""/>
+            <Active_participle name="دَارِس" transliteration="daAris" transname="دارس" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Attribute">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="V NP NP" secondary="Basic Transitive" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="فَحَصَ الطَبِيبُ المرِيضَ." transliteration="faHaSa AlTabiybu AlmriyDa."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="assess">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Attribute"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="2.13.2" primary="V NP NP.attribute" secondary="NPAttribute Object" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="فَحَصَ الطَبِيبُ صَدْرَ المرِيضِ." transliteration="faHaSa AlTabiybu Sadora AlmriyDi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="genitive"/>
+                    </SYNRESTRS>
+                </NP>
+                <NP value="Attribute">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="assess">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Attribute"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</VNCLASS>

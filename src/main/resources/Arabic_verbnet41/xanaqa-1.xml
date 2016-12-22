@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="xanaqa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="خَنَقَ" transliteration="xanaqa" transname="خنق" wn="">
+            <Root name="خنق" transliteration="xnq"/>
+            <Deverbal name="خَنْق" transliteration="xanoq" transname="خنق" wn=""/>
+            <Active_participle name="خَانِق" transliteration="xaAniq" transname="خانق" wn=""/>
+        </MEMBER>
+        <MEMBER name="خَنَّقَ" transliteration="xan~aqa" transname="خنق" wn="">
+            <Root name="خنق" transliteration="xnq"/>
+            <Deverbal name="تَخْنِيق" transliteration="taxoniyq" transname="تخنيق" wn=""/>
+            <Active_participle name="مُخَنِّق" transliteration="muxan~iq" transname="مخنق" wn=""/>
+        </MEMBER>
+        <MEMBER name="دَعَتَ" transliteration="daEata" transname="دعت" wn="">
+            <Root name="دعت" transliteration="dEt"/>
+            <Deverbal name="دَعْت" transliteration="daEot" transname="دعت" wn=""/>
+            <Active_participle name="دَاعِت" transliteration="daAEit" transname="داعت" wn=""/>
+        </MEMBER>
+        <MEMBER name="دَأَتَ" transliteration="daOata" transname="دأت" wn="">
+            <Root name="دأت" transliteration="dOt"/>
+            <Deverbal name="دَأْت" transliteration="daOot" transname="دأت" wn=""/>
+            <Active_participle name="دَائِت" transliteration="daA}it" transname="دائت" wn=""/>
+        </MEMBER>
+        <MEMBER name="دَأَطَ" transliteration="daOaTa" transname="دأط" wn="">
+            <Root name="دأط" transliteration="dOT"/>
+            <Deverbal name="دَأْط" transliteration="daOoT" transname="دأط" wn=""/>
+            <Active_participle name="دَائِط" transliteration="daA}iT" transname="دائط" wn=""/>
+        </MEMBER>
+        <MEMBER name="سَأَتَ" transliteration="saOata" transname="سأت" wn="">
+            <Root name="سأت" transliteration="sOt"/>
+            <Deverbal name="سَأْت" transliteration="saOot" transname="سأت" wn=""/>
+            <Active_participle name="سَائِت" transliteration="saA}it" transname="سائت" wn=""/>
+        </MEMBER>
+        <MEMBER name="ذَأَطَ" transliteration="*aOaTa" transname="ذأط" wn="">
+            <Root name="ذأط" transliteration="*OT"/>
+            <Deverbal name="ذَأْط" transliteration="*aOoT" transname="ذأط" wn=""/>
+            <Active_participle name="ذَائِط" transliteration="*aA}iT" transname="ذائط" wn=""/>
+        </MEMBER>
+        <MEMBER name="سَأَبَ" transliteration="saOaba" transname="سأب" wn="">
+            <Root name="سأب" transliteration="sOb"/>
+            <Deverbal name="سَأْب" transliteration="saOob" transname="سأب" wn=""/>
+            <Active_participle name="سَائِب" transliteration="saA}ib" transname="سائب" wn=""/>
+        </MEMBER>
+        <MEMBER name="أَغْرَقَ" transliteration="Oagoraqa" transname="أغرق" wn="">
+            <Root name="غرق" transliteration="grq"/>
+            <Deverbal name="إِغْرَاق" transliteration="IigoraAq" transname="إغراق" wn=""/>
+            <Active_participle name="مُغْرِق" transliteration="mugoriq" transname="مغرق" wn=""/>
+        </MEMBER>
+        <MEMBER name="غَرَّقَ" transliteration="gar~aqa" transname="غرق" wn="">
+            <Root name="غرق" transliteration="grq"/>
+            <Deverbal name="تَغْرِيق" transliteration="tagoriyq" transname="تغريق" wn=""/>
+            <Active_participle name="مُغَرِّق" transliteration="mugar~iq" transname="مغرق" wn=""/>
+        </MEMBER>
+        <MEMBER name="شَنَقَ" transliteration="$anaqa" transname="شنق" wn="">
+            <Root name="شنق" transliteration="$nq"/>
+            <Deverbal name="شَنْق" transliteration="$anoq" transname="شنق" wn=""/>
+            <Active_participle name="شَانِق" transliteration="$aAniq" transname="شانق" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="1.1.2.1" primary="Transitive" secondary="Causative variant" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="خَنَقَ اللِّصُ الضَّحِيَة." transliteration="xanaqa All~iSu AlD~aHiyap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="suffocate">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="خَنَقَ اللِّصُّ الضَّحِيَةَ حَتَّى المَوْت." transliteration="xanaqa All~iS~u AlD~aHiyapa Hat~aY Almawot."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="حَتَّى">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Oblique">
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="state"/>
+                    </SELRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="suffocate">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Pred">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="Iixotanaqa-1"/>
+    </SIBLINGCLASSES>
+</VNCLASS>

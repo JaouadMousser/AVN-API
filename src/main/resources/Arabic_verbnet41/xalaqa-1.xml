@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="xalaqa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="إِخْتَرَعَ" transliteration="IixotaraEa" transname="إخترع" wn="">
+            <Root name="خرع" transliteration="xrE"/>
+            <Deverbal name="إِخْتِرَاع" transliteration="IixotiraAE" transname="إختراع" wn=""/>
+            <Active_participle name="مُخْتَرِع" transliteration="muxotariE" transname="مخترع" wn=""/>
+        </MEMBER>
+        <MEMBER name="فَطَرَ" transliteration="faTara" transname="فطر" wn="">
+            <Root name="فطر" transliteration="fTr"/>
+            <Deverbal name="فَطْر" transliteration="faTor" transname="فطر" wn=""/>
+            <Active_participle name="فَاطِر" transliteration="faATir" transname="فاطر" wn=""/>
+        </MEMBER>
+        <MEMBER name="جَبَلَ" transliteration="jabala" transname="جبل" wn="">
+            <Root name="جبل" transliteration="jbl"/>
+            <Deverbal name="جَبْل" transliteration="jabol" transname="جبل" wn=""/>
+            <Active_participle name="جَابِل" transliteration="jaAbil" transname="جابل" wn=""/>
+        </MEMBER>
+        <MEMBER name="أَبْدَعَ" transliteration="OabodaEa" transname="أبدع" wn="">
+            <Root name="بدع" transliteration="bdE"/>
+            <Deverbal name="إِبْدَاع" transliteration="IibodaAE" transname="إبداع" wn=""/>
+            <Active_participle name="مُبْدِع" transliteration="mubodiE" transname="مبدع" wn=""/>
+        </MEMBER>
+        <MEMBER name="أَقَامَ" transliteration="OaqaAma" transname="أقام" wn="">
+            <Root name="قوم" transliteration="qwm"/>
+            <Deverbal name="إِقَامَة" transliteration="IiqaAmap" transname="إقامة" wn=""/>
+            <Active_participle name="مُقِيم" transliteration="muqiym" transname="مقيم" wn=""/>
+        </MEMBER>
+        <MEMBER name="شَادَ" transliteration="$aAda" transname="شاد" wn="">
+            <Root name="شيد" transliteration="$yd"/>
+            <Deverbal name="شَيْد" transliteration="$ayod" transname="شيد" wn=""/>
+            <Active_participle name="شَائِد" transliteration="$aA}id" transname="شائد" wn=""/>
+        </MEMBER>
+        <MEMBER name="هَنْدَسَ" transliteration="hanodasa" transname="هندس" wn="">
+            <Root name="هندس" transliteration="hnds"/>
+            <Deverbal name="هَنْدَسَة" transliteration="hanodasap" transname="هندسة" wn=""/>
+            <Active_participle name="مُهَنْدِس" transliteration="muhanodis" transname="مهندس" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِبْتَكَرَ" transliteration="Iibotakara" transname="إبتكر" wn="">
+            <Root name="بكر" transliteration="bkr"/>
+            <Deverbal name="إِبْتِكَار" transliteration="IibotikaAr" transname="إبتكار" wn=""/>
+            <Active_participle name="مُبْتَكِر" transliteration="mubotakir" transname="مبتكر" wn=""/>
+        </MEMBER>
+        <MEMBER name="صَوَّرَ" transliteration="Saw~ara" transname="صور" wn="">
+            <Root name="صور" transliteration="Swr"/>
+            <Deverbal name="تَصْوِير" transliteration="taSowiyr" transname="تصوير" wn=""/>
+            <Active_participle name="مُصَوِّر" transliteration="muSaw~ir" transname="مصور" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِسْتَحْدَثَ" transliteration="IisotaHodava" transname="إستحدث" wn="">
+            <Root name="حدث" transliteration="Hdv"/>
+            <Deverbal name="إِسْتِحْدَاث" transliteration="IisotiHodaAv" transname="إستحداث" wn=""/>
+            <Active_participle name="مُسْتَحْدِث" transliteration="musotaHodiv" transname="مستحدث" wn=""/>
+        </MEMBER>
+        <MEMBER name="أَسَّسَ" transliteration="Oas~asa" transname="أسس" wn="">
+            <Root name="أسس" transliteration="Oss"/>
+            <Deverbal name="تَأْسِيس" transliteration="taOosiys" transname="تأسيس" wn=""/>
+            <Active_participle name="مُؤَسِّس" transliteration="muWas~is" transname="مؤسس" wn=""/>
+        </MEMBER>
+        <MEMBER name="لَحَّنَ" transliteration="laH~ana" transname="لحن" wn="">
+            <Root name="لحن" transliteration="lHn"/>
+            <Deverbal name="تَلْحِين" transliteration="taloHiyn" transname="تلحين" wn=""/>
+            <Active_participle name="مُلَحِّن" transliteration="mulaH~in" transname="ملحن" wn=""/>
+        </MEMBER>
+        <MEMBER name="نَظَمَ" transliteration="naZama" transname="نظم" wn="">
+            <Root name="نظم" transliteration="nZm"/>
+            <Deverbal name="نَظْم" transliteration="naZom" transname="نظم" wn=""/>
+            <Active_participle name="نَاظِم" transliteration="naAZim" transname="ناظم" wn=""/>
+        </MEMBER>
+        <MEMBER name="حَفَرَ" transliteration="Hafara" transname="حفر" wn="">
+            <Root name="حفر" transliteration="Hfr"/>
+            <Deverbal name="حَفْر" transliteration="Hafor" transname="حفر" wn=""/>
+            <Active_participle name="حَافِر" transliteration="HaAfir" transname="حافر" wn=""/>
+        </MEMBER>
+        <MEMBER name="صَمَّمَ" transliteration="Sam~ama" transname="صمم" wn="">
+            <Root name="صمم" transliteration="Smm"/>
+            <Deverbal name="تَصْمِيم" transliteration="taSomiym" transname="تصميم" wn=""/>
+            <Active_participle name="مُصَمِّم" transliteration="muSam~im" transname="مصمم" wn=""/>
+        </MEMBER>
+        <MEMBER name="رَتَّبَ" transliteration="rat~aba" transname="رتب" wn="">
+            <Root name="رتب" transliteration="rtb"/>
+            <Deverbal name="تَرْتِيب" transliteration="tarotiyb" transname="ترتيب" wn=""/>
+            <Active_participle name="مُرَتِّب" transliteration="murat~ib" transname="مرتب" wn=""/>
+        </MEMBER>
+        <MEMBER name="جَدْوَلَ" transliteration="jadowala" transname="جدول" wn="">
+            <Root name="جدول" transliteration="jdwl"/>
+            <Deverbal name="جَدْوَلَة" transliteration="jadowalap" transname="جدولة" wn=""/>
+            <Active_participle name="مُجَدْوِل" transliteration="mujadowil" transname="مجدول" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="machine"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Product">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Material">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Beneficiary">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="V NP NP" secondary="Basic Transitive" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="خَلَقَ اللَهُ آدَمَ." transliteration="xalaqa Allahu |dama."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Product">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="V NP NP PP.oblique" secondary="NP PPka-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="صَمَّمَتِ الشَّرِكَة السَّيَّارَة كَنَوْع جَدِيد مِنَ البَرْمَائِيَات" transliteration="Sam~amati Al$~arikap Als~ay~aArap kanawoE jadiyd mina AlbaromaA}iyaAt"/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Product">
+                    <SYNRESTRS/>
+                </NP>
+                <LEX value="كَ"/>
+                <NP value="Oblique">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <VNSUBCLASS ID="xalaqa-1.1">
+            <MEMBERS>
+                <MEMBER name="أْنْشَأَ" transliteration="Oono$aOa" transname="أنشأ" wn="">
+                    <Root name="نشأ" transliteration="n$O"/>
+                    <Deverbal name="إِنْشَاء" transliteration="Iino$aA'" transname="إنشاء" wn=""/>
+                    <Active_participle name="مُنْشِئ" transliteration="muno$i}" transname="منشئ" wn=""/>
+                </MEMBER>
+                <MEMBER name="أْنْتَجَ" transliteration="Oonotaja" transname="أنتج" wn="">
+                    <Root name="نتج" transliteration="ntj"/>
+                    <Deverbal name="إِنْتَاج" transliteration="IinotaAj" transname="إنتاج" wn=""/>
+                    <Active_participle name="مُنْتِج" transliteration="munotij" transname="منتج" wn=""/>
+                </MEMBER>
+                <MEMBER name="كَوَّنَ" transliteration="kaw~ana" transname="كون" wn="">
+                    <Root name="كون" transliteration="kwn"/>
+                    <Deverbal name="تَكْوِين" transliteration="takowiyn" transname="تكوين" wn=""/>
+                    <Active_participle name="مُكَوِّن" transliteration="mukaw~in" transname="مكون" wn=""/>
+                </MEMBER>
+                <MEMBER name="إِبْتَدَعَ" transliteration="IibotadaEa" transname="إبتدع" wn="">
+                    <Root name="بدع" transliteration="bdE"/>
+                    <Deverbal name="إِبْتِدَاع" transliteration="IibotidaAE" transname="إبتداع" wn=""/>
+                    <Active_participle name="مُبْتَدِع" transliteration="mubotadiE" transname="مبتدع" wn=""/>
+                </MEMBER>
+                <MEMBER name="فَبْرَكَ" transliteration="faboraka" transname="فبرك" wn="">
+                    <Root name="فبرك" transliteration="fbrk"/>
+                    <Deverbal name="فَبْرَكَة" transliteration="faborakap" transname="فبركة" wn=""/>
+                    <Active_participle name="مُفَبْرِك" transliteration="mufaborik" transname="مفبرك" wn=""/>
+                </MEMBER>
+                <MEMBER name="خَلَقَ" transliteration="xalaqa" transname="خلق" wn="">
+                    <Root name="خلق" transliteration="xlq"/>
+                    <Deverbal name="خَلْق" transliteration="xaloq" transname="خلق" wn=""/>
+                    <Active_participle name="خَالِق" transliteration="xaAliq" transname="خالق" wn=""/>
+                </MEMBER>
+                <MEMBER name="سَكَّ" transliteration="sak~a" transname="سك" wn="">
+                    <Root name="سكك" transliteration="skk"/>
+                    <Deverbal name="سَكّ" transliteration="sak~" transname="سك" wn=""/>
+                    <Active_participle name="سَاك" transliteration="saAk" transname="ساك" wn=""/>
+                </MEMBER>
+                <MEMBER name="شَيَّدَ" transliteration="$ay~ada" transname="شيد" wn="">
+                    <Root name="شيد" transliteration="$yd"/>
+                    <Deverbal name="تَشْيِيد" transliteration="ta$oyiyd" transname="تشييد" wn=""/>
+                    <Active_participle name="مُشَيِّد" transliteration="mu$ay~id" transname="مشيد" wn=""/>
+                </MEMBER>
+                <MEMBER name="عَدَّلَ" transliteration="Ead~ala" transname="عدل" wn="">
+                    <Root name="عدل" transliteration="Edl"/>
+                    <Deverbal name="تَعْدِيل" transliteration="taEodiyl" transname="تعديل" wn=""/>
+                    <Active_participle name="مُعَدِّل" transliteration="muEad~il" transname="معدل" wn=""/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="0.2" primary="V NP NP PP.material" secondary="NP PPmino-PP" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="خَلَقَ اللَّهُ آَدَمَ مِنْ طِين." transliteration="xalaqa All~ahu |adama mino Tiyn."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Product">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="مِنْ">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Material">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED bool="!" value="exist">
+                            <ARGS>
+                                <ARG type="Event" value="start(E)"/>
+                                <ARG type="ThemRole" value="Product"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="exist">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="ThemRole" value="Product"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="made_of">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="ThemRole" value="Product"/>
+                                <ARG type="ThemRole" value="Material"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="2.2" primary="V NP PP.beneficiary NP" secondary="PPbeneficiay-PP NP" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="خَلَقَ اللَّهُ لِآدَمَ زَوْجاً." transliteration="xalaqa All~ahu li|dama zawojAF."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Product">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="لِ">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Beneficiary">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED bool="!" value="exist">
+                            <ARGS>
+                                <ARG type="Event" value="start(E)"/>
+                                <ARG type="ThemRole" value="Product"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="exist">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="ThemRole" value="Product"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="benefit">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Beneficiary"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </VNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES/>
+</VNCLASS>

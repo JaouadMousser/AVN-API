@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="OamoTara-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="أَرْعَدَ" transliteration="OaroEada" transname="أرعد" wn="">
+            <Root name="رعد" transliteration="rEd"/>
+            <Deverbal name="إِرْعَاد" transliteration="IiroEaAd" transname="إرعاد" wn=""/>
+            <Active_participle name="مُرْعِد" transliteration="muroEid" transname="مرعد" wn=""/>
+        </MEMBER>
+        <MEMBER name="هَطَفَ" transliteration="haTafa" transname="هطف" wn="">
+            <Root name="هطف" transliteration="hTf"/>
+            <Deverbal name="هَطْف" transliteration="haTof" transname="هطف" wn=""/>
+            <Active_participle name="هَاطِف" transliteration="haATif" transname="هاطف" wn=""/>
+        </MEMBER>
+        <MEMBER name="أَرْهَمَ" transliteration="Oarohama" transname="أرهم" wn="">
+            <Root name="رهم" transliteration="rhm"/>
+            <Deverbal name="إِرْهَام" transliteration="IirohaAm" transname="إرهام" wn=""/>
+            <Active_participle name="مُرْهِم" transliteration="murohim" transname="مرهم" wn=""/>
+        </MEMBER>
+        <MEMBER name="أَسْبَلَ" transliteration="Oasobala" transname="أسبل" wn="">
+            <Root name="سبل" transliteration="sbl"/>
+            <Deverbal name="إِسْبَال" transliteration="IisobaAl" transname="إسبال" wn=""/>
+            <Active_participle name="مُسْبِل" transliteration="musobil" transname="مسبل" wn=""/>
+        </MEMBER>
+        <MEMBER name="أَبْرَقَ" transliteration="Oaboraqa" transname="أبرق" wn="">
+            <Root name="برق" transliteration="brq"/>
+            <Deverbal name="إِبْرَاق" transliteration="IiboraAq" transname="إبراق" wn=""/>
+            <Active_participle name="مُبْرِق" transliteration="muboriq" transname="مبرق" wn=""/>
+        </MEMBER>
+        <MEMBER name="هَبَّ" transliteration="hab~a" transname="هب" wn="">
+            <Root name="هبب" transliteration="hbb"/>
+            <Deverbal name="هُبُوب" transliteration="hubuwb" transname="هبوب" wn=""/>
+            <Active_participle name="هَاب" transliteration="haAb" transname="هاب" wn=""/>
+        </MEMBER>
+        <MEMBER name="أَبْرَدَ" transliteration="Oaborada" transname="أبرد" wn="">
+            <Root name="برد" transliteration="brd"/>
+            <Deverbal name="إِبْرَاد" transliteration="IiboraAd" transname="إبراد" wn=""/>
+            <Active_participle name="مُبْرِد" transliteration="muborid" transname="مبرد" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِكْفَهَرَّ" transliteration="Iikofahar~a" transname="إكفهر" wn="">
+            <Root name="كفهر" transliteration="kfhr"/>
+            <Deverbal name="إِكْفِهْرَار" transliteration="IikofihoraAr" transname="إكفهرار" wn=""/>
+            <Active_participle name="مُكْفَهِر" transliteration="mukofahir" transname="مكفهر" wn=""/>
+        </MEMBER>
+        <MEMBER name="أَثْلَجَ" transliteration="Oavolaja" transname="أثلج" wn="">
+            <Root name="ثلج" transliteration="vlj"/>
+            <Deverbal name="إِثْلَاج" transliteration="IivolaAj" transname="إثلاج" wn=""/>
+            <Active_participle name="مُثْلِج" transliteration="muvolij" transname="مثلج" wn=""/>
+        </MEMBER>
+        <MEMBER name="هَطَلَ" transliteration="haTala" transname="هطل" wn="">
+            <Root name="هطل" transliteration="hTl"/>
+            <Deverbal name="هُطُول" transliteration="huTuwl" transname="هطول" wn=""/>
+            <Active_participle name="هَاطِل" transliteration="haATil" transname="هاطل" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Source">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="concrete"/>
+                <SELRESTR Value="+" type="force"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.7" primary="Intransitive" secondary="" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَمْطَرَت السَّمَاء." transliteration="OamoTarat Als~amaA'."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Source">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="weather">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="VerbSpecific" value="Weather_type"/>
+                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.7" primary="Intransitive" secondary="Null_Subject" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أمطرت." transliteration="OmTrt."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Source">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="null_subject"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="weather">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="VerbSpecific" value="Weather_type"/>
+                        <ARG type="ThemRole" value="?Source"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.7" primary="V NP NP.theme" secondary="Theme Object" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَمْطَرَتِ السَّمَاءُ جَرَاداً وَ ضَفَادِعَ." transliteration="OamoTarati Als~amaA'u jaraAdAF wa DafaAdiEa."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Source">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="weather">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="VerbSpecific" value="Weather_type"/>
+                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.7" primary="NP" secondary="Null_Subject, Theme Object" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَمْطَرَت جَرَاداً وَ ضَفَادِعَ." transliteration="OamoTarat jaraAdAF wa DafaAdiEa."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Source">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="null_subject"/>
+                    </SYNRESTRS>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="weather">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="VerbSpecific" value="Weather_type"/>
+                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <VNSUBCLASS ID="OamoTara-1.1">
+            <MEMBERS>
+                <MEMBER name="أَمْطَرَ" transliteration="OamoTara" transname="أمطر" wn="">
+                    <Root name="مطر" transliteration="mTr"/>
+                    <Deverbal name="إِمْطَار" transliteration="IimoTaAr" transname="إمطار" wn=""/>
+                    <Active_participle name="مُمْطِر" transliteration="mumoTir" transname="ممطر" wn=""/>
+                </MEMBER>
+                <MEMBER name="مَطَرَ" transliteration="maTara" transname="مطر" wn="">
+                    <Root name="مطر" transliteration="mTr"/>
+                    <Deverbal name="مَطْر" transliteration="maTor" transname="مطر" wn=""/>
+                    <Active_participle name="مَاطِر" transliteration="maATir" transname="ماطر" wn=""/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES>
+                <THEMROLE type="Recipient">
+                    <SELRESTRS/>
+                </THEMROLE>
+            </THEMROLES>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="0.7" primary="V NP NP.recipient" secondary="NP Recipient" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="أَمْطَرَتْهُم السَّمَاءُ." transliteration="OamoTaratohum Als~amaA'u."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Source">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Recipient">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="weather">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="VerbSpecific" value="Weather_type"/>
+                                <ARG type="ThemRole" value="Recipient"/>
+                                <ARG type="ThemRole" value="Source"/>
+                                <ARG type="ThemRole" value="?Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="0.7" primary="V NP NP.recipient NP.theme" secondary="" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="أَمْطَرَتْهُم السَّمَاءُ جَرَاداً وَ ضَفَادِعَ." transliteration="OamoTaratohum Als~amaA'u jaraAdAF wa DafaAdiEa."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Source">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Recipient">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="weather">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="VerbSpecific" value="Weather_type"/>
+                                <ARG type="ThemRole" value="Recipient"/>
+                                <ARG type="ThemRole" value="Source"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+	    <SUBCLASSES/>
+        </VNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES/>
+</VNCLASS>

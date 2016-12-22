@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="tagad~aY-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="أَفَطَرَ" transliteration="OafaTara" transname="أفطر" wn="">
+            <Root name="فطر" transliteration="fTr"/>
+            <Deverbal name="أِفْطَار" transliteration="OifoTaAr" transname="أفطار" wn=""/>
+            <Active_participle name="مُفْطِر" transliteration="mufoTir" transname="مفطر" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِقْتَاتَ" transliteration="IiqotaAta" transname="إقتات" wn="">
+            <Root name="قوت" transliteration="qwt"/>
+            <Deverbal name="إِقْتِيَات" transliteration="IiqotiyaAt" transname="إقتيات" wn=""/>
+            <Active_participle name="مُقْتَات" transliteration="muqotaAt" transname="مقتات" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَقَوَّتَ" transliteration="taqaw~ata" transname="تقوت" wn="">
+            <Root name="قوت" transliteration="qwt"/>
+            <Deverbal name="تَقَوُّت" transliteration="taqaw~ut" transname="تقوت" wn=""/>
+            <Active_participle name="مُتَقَوِّت" transliteration="mutaqaw~it" transname="متقوت" wn=""/>
+        </MEMBER>
+        <MEMBER name="فَطَرَ" transliteration="faTara" transname="فطر" wn="">
+            <Root name="فطر" transliteration="fTr"/>
+            <Deverbal name="فُطُور" transliteration="fuTuwr" transname="فطور" wn=""/>
+            <Active_participle name="فَاطِر" transliteration="faATir" transname="فاطر" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَغَدَّى" transliteration="tagad~aY" transname="تغدى" wn="">
+            <Root name="غدى" transliteration="gdY"/>
+            <Deverbal name="تَغَدِّي" transliteration="tagad~iy" transname="تغدي" wn=""/>
+            <Deverbal name="غَدَاء" transliteration="gadaA'" transname="غداء" wn=""/>
+            <Active_participle name="مُتَغَدِّي" transliteration="mutagad~iy" transname="متغدي" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَضَحَّى" transliteration="taDaH~aY" transname="تضحى" wn="">
+            <Root name="ضحي" transliteration="DHy"/>
+            <Deverbal name="تَضَحِّي" transliteration="taDaH~iy" transname="تضحي" wn=""/>
+            <Deverbal name="ضَحَاء" transliteration="DaHaA'" transname="ضحاء" wn=""/>
+            <Active_participle name="مُتَضَحِّي" transliteration="mutaDaH~iy" transname="متضحي" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَعَشَّى" transliteration="taEa$~aY" transname="تعشى" wn="">
+            <Root name="عشى" transliteration="E$Y"/>
+            <Deverbal name="تَعَشِّي" transliteration="taEa$~iy" transname="تعشي" wn=""/>
+            <Deverbal name="عَشَاء" transliteration="Ea$aA'" transname="عشاء" wn=""/>
+            <Active_participle name="مُتَعَشِّي" transliteration="mutaEa$~iy" transname="متعشي" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَسَحَّرَ" transliteration="tasaH~ara" transname="تسحر" wn="">
+            <Root name="سحر" transliteration="sHr"/>
+            <Deverbal name="تَسَحَّرَ" transliteration="tasaH~ara" transname="تسحر" wn=""/>
+            <Deverbal name="سُحُور" transliteration="suHuwr" transname="سحور" wn=""/>
+            <Active_participle name="مُتَسَحِّر" transliteration="mutasaH~ir" transname="متسحر" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Patient">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="comestible"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="V NP" secondary="Basic Intransitive" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَغَدَّى الضُّيُوفُ." transliteration="tagad~aY AlD~uyuwfu."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="take_in">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Patient"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="V NP PP.patient" secondary="PPPatient-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَغَدََّى الضُّيُوفُ بِلَحْمِ الخَرُوفِ." transliteration="tagada~aY AlD~uyuwfu bilaHomi Alxaruwfi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="بِ عَلَى">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="take_in">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="gad~aY-1"/>
+    </SIBLINGCLASSES>
+</VNCLASS>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="IinobaEava-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="إِنْفَرَزَ" transliteration="Iinofaraza" transname="إنفرز" wn="">
+            <Root name="فرز" transliteration="frz"/>
+            <Deverbal name="إِنْفِرَاز" transliteration="IinofiraAz" transname="إنفراز" wn=""/>
+            <Active_participle name="مُنْفَرِز" transliteration="munofariz" transname="منفرز" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِنْبَعَثَ" transliteration="IinobaEava" transname="إنبعث" wn="">
+            <Root name="بعث" transliteration="bEv"/>
+            <Deverbal name="إِنْبِعَاث" transliteration="IinobiEaAv" transname="إنبعاث" wn=""/>
+            <Active_participle name="مُنْبَعِث" transliteration="munobaEiv" transname="منبعث" wn=""/>
+        </MEMBER>
+        <MEMBER name="خَرَجَ" transliteration="xaraja" transname="خرج" wn="">
+            <Root name="خرج" transliteration="xrj"/>
+            <Deverbal name="خُرُوج" transliteration="xuruwj" transname="خروج" wn=""/>
+            <Active_participle name="خَارِج" transliteration="xaArij" transname="خارج" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِنْسَجَمَ" transliteration="Iinosajama" transname="إنسجم" wn="">
+            <Root name="سجم" transliteration="sjm"/>
+            <Deverbal name="إِنْسِجَام" transliteration="IinosijaAm" transname="إنسجام" wn=""/>
+            <Active_participle name="مُنْسَجِم" transliteration="munosajim" transname="منسجم" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِنْتَفَثَ" transliteration="Iinotafava" transname="إنتفث" wn="">
+            <Root name="بفث" transliteration="bfv"/>
+            <Deverbal name="إِنْتِفَاث" transliteration="IinotifaAv" transname="إنتفاث" wn=""/>
+            <Active_participle name="مُنْتَفِث" transliteration="munotafiv" transname="منتفث" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِنْفَعَ" transliteration="IinofaEa" transname="إنفع" wn="">
+            <Root name="دفع" transliteration="dfE"/>
+            <Deverbal name="إِنْدِفَاع" transliteration="IinodifaAE" transname="إندفاع" wn=""/>
+            <Active_participle name="مُنْدَفِع" transliteration="munodafiE" transname="مندفع" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Source">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="-" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="1.1.3" primary="V NP" secondary="Basic Intranstive" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِنْبَعَثَتِ الإِشْعَاعَات." transliteration="IinobaEavati AlIi$oEaAEaAt."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="emit">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="?Source"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="1.1.3" primary="V NP.theme PP.source" secondary="PPSubstance Subject, Source-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِنْفَرَزَت الهُرمُونَات مِن الغُدَدِ." transliteration="Iinofarazat AlhurmuwnaAt min Algudadi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="مِنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Source">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="emit">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="Oaforaza-1"/>
+    </SIBLINGCLASSES>
+</VNCLASS>

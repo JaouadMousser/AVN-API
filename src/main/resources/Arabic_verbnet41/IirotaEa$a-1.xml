@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="IirotaEa$a-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="تَشَنَّجَ" transliteration="ta$an~aja" transname="تشنج" wn="">
+            <Root name="شنج" transliteration="$nj"/>
+            <Deverbal name="تَشَنُّج" transliteration="ta$an~uj" transname="تشنج" wn=""/>
+            <Active_participle name="مُتَشَِّج" transliteration="muta$a~ij" transname="متشج" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِرْتَجَّ" transliteration="Iirotaj~a" transname="إرتج" wn="">
+            <Root name="رجج" transliteration="rjj"/>
+            <Deverbal name="إِرْتِجَاج" transliteration="IirotijaAj" transname="إرتجاج" wn=""/>
+            <Active_participle name="مُرْتَج" transliteration="murotaj" transname="مرتج" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِنْقَبَضَ" transliteration="IinoqabaDa" transname="إنقبض" wn="">
+            <Root name="قبض" transliteration="qbD"/>
+            <Deverbal name="إِنْقِبَاض" transliteration="IinoqibaAD" transname="إنقباض" wn=""/>
+            <Active_participle name="مُنْقَبِض" transliteration="munoqabiD" transname="منقبض" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِنقَبَضَ" transliteration="IinqabaDa" transname="إنقبض" wn="">
+            <Root name="قبض" transliteration="qbD"/>
+            <Deverbal name="إِنقِبَاض" transliteration="IinqibaAD" transname="إنقباض" wn=""/>
+            <Active_participle name="مُنْقَبِض" transliteration="munoqabiD" transname="منقبض" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِضْطَرَبَ" transliteration="IiDoTaraba" transname="إضطرب" wn="">
+            <Root name="درب" transliteration="drb"/>
+            <Deverbal name="إِضْطِرَاب" transliteration="IiDoTiraAb" transname="إضطراب" wn=""/>
+            <Active_participle name="مُضْطَرِب" transliteration="muDoTarib" transname="مضطرب" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِرْتَجَفَ" transliteration="Iirotajafa" transname="إرتجف" wn="">
+            <Root name="رجف" transliteration="rjf"/>
+            <Deverbal name="إِرْتِجَاف" transliteration="IirotijaAf" transname="إرتجاف" wn=""/>
+            <Active_participle name="مُرْتَجِف" transliteration="murotajif" transname="مرتجف" wn=""/>
+        </MEMBER>
+        <MEMBER name="رَجَفَ" transliteration="rajafa" transname="رجف" wn="">
+            <Root name="رجف" transliteration="rjf"/>
+            <Deverbal name="رَجْف" transliteration="rajof" transname="رجف" wn=""/>
+            <Active_participle name="رَاجِف" transliteration="raAjif" transname="راجف" wn=""/>
+        </MEMBER>
+        <MEMBER name="رَعَشَ" transliteration="raEa$a" transname="رعش" wn="">
+            <Root name="رعش" transliteration="rE$"/>
+            <Deverbal name="رَعْش" transliteration="raEo$" transname="رعش" wn=""/>
+            <Active_participle name="رَاعِش" transliteration="raAEi$" transname="راعش" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِرْتَعَشَ" transliteration="IirotaEa$a" transname="إرتعش" wn="">
+            <Root name="رعش" transliteration="rE$"/>
+            <Deverbal name="إِرْتِعَاش" transliteration="IirotiEaA$" transname="إرتعاش" wn=""/>
+            <Active_participle name="مُرْتَعِش" transliteration="murotaEi$" transname="مرتعش" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِنْتَفَضَ" transliteration="IinotafaDa" transname="إنتفض" wn="">
+            <Root name="نفض" transliteration="nfD"/>
+            <Deverbal name="إِنْتِفَاض" transliteration="IinotifaAD" transname="إنتفاض" wn=""/>
+            <Active_participle name="مُنْتَفِض" transliteration="munotafiD" transname="منتفض" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِرْتَجَفَ" transliteration="Iirotajafa" transname="إرتجف" wn="">
+            <Root name="" transliteration=""/>
+            <Deverbal name="" transliteration="" transname="" wn=""/>
+            <Active_participle name="" transliteration="" transname="" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِرْتَعَدَ" transliteration="IirotaEada" transname="إرتعد" wn="">
+            <Root name="رعد" transliteration="rEd"/>
+            <Deverbal name="إِرْتِعَاد" transliteration="IirotiEaAd" transname="إرتعاد" wn=""/>
+            <Active_participle name="مُرْتَعِد" transliteration="murotaEid" transname="مرتعد" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِرْتَجَّ" transliteration="Iirotaj~a" transname="إرتج" wn="">
+            <Root name="رجج" transliteration="rjj"/>
+            <Deverbal name="إِرْتِجَاج" transliteration="IirotijaAj" transname="إرتجاج" wn=""/>
+            <Active_participle name="مُرْتَج" transliteration="murotaj" transname="مرتج" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِعْتَصَرَ" transliteration="IiEotaSara" transname="إعتصر" wn="">
+            <Root name="عصر" transliteration="ESr"/>
+            <Deverbal name="إِعْتِصَار" transliteration="IiEotiSaAr" transname="إعتصار" wn=""/>
+            <Active_participle name="مُعْتَصِر" transliteration="muEotaSir" transname="معتصر" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِهْتَزَّ" transliteration="Iihotaz~a" transname="إهتز" wn="">
+            <Root name="هزز" transliteration="hzz"/>
+            <Deverbal name="إِهْتِزَاز" transliteration="IihotizaAz" transname="إهتزاز" wn=""/>
+            <Active_participle name="مُهْتَز" transliteration="muhotaz" transname="مهتز" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَخَلَّجَ" transliteration="taxal~aja" transname="تخلج" wn="">
+            <Root name="خلج" transliteration="xlj"/>
+            <Deverbal name="تَخَلُّج" transliteration="taxal~uj" transname="تخلج" wn=""/>
+            <Active_participle name="مُتَخَلِّج" transliteration="mutaxal~ij" transname="متخلج" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَضَوّعَ" transliteration="taDaw~Ea" transname="تضوع" wn="">
+            <Root name="ضوع" transliteration="DwE"/>
+            <Deverbal name="تَضَوُّع" transliteration="taDaw~uE" transname="تضوع" wn=""/>
+            <Active_participle name="مُتَضَوِّع" transliteration="mutaDaw~iE" transname="متضوع" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَضَوّرَ" transliteration="taDaw~ra" transname="تضور" wn="">
+            <Root name="ضور" transliteration="Dwr"/>
+            <Deverbal name="تَضَوُّر" transliteration="taDaw~ur" transname="تضور" wn=""/>
+            <Active_participle name="مُتَضَوِّر" transliteration="mutaDaw~ir" transname="متضور" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Experiencer">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Cause">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="V NP" secondary="Basic Intransitive" xtag="0.1"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِرْتَعَدَت سَلمَى." transliteration="IirotaEadat salmaY."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="body_reflex">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="involuntary">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="V NP PP.cause" secondary="PPCause-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِرْتَعَشَت سَلْمَى مِنَ الخَوْف." transliteration="IirotaEa$at salomaY mina Alxawof."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="مِنْ لِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Cause">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="body_reflex">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="involuntary">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="in_reaction_to">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Cause"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="V NP NP.cause" secondary="Cause-NP_AF" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِرْتَعَشَت سَلْمَى خَوْفَاً." transliteration="IirotaEa$at salomaY xawofaAF."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Cause">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="tanowiyn_AF"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="body_reflex">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="involuntary">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="in_reaction_to">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Cause"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="V NP PP.deverbal" secondary="PPli-PP.deverbal" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِرْتَعَشَت سَلْمَى لِرُؤْيَتةِ الأَسَدِ." transliteration="IirotaEa$at salomaY liruWoyatpi AlOasadi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="لِ">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Cause">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="body_reflex">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="involuntary">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="in_reaction_to">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Cause"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+</VNCLASS>

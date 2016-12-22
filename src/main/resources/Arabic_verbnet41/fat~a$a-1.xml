@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="fat~a$a-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="بَحَثَ" transliteration="baHava" transname="بحث" wn="">
+            <Root name="بحث" transliteration="bHv"/>
+            <Deverbal name="بَحْث" transliteration="baHov" transname="بحث" wn=""/>
+            <Active_participle name="بَاحِث" transliteration="baAHiv" transname="باحث" wn=""/>
+        </MEMBER>
+        <MEMBER name="شَمْشَمَ" transliteration="$amo$ama" transname="شمشم" wn="">
+            <Root name="شمم" transliteration="$mm"/>
+            <Deverbal name="شَمْشَمَة" transliteration="$amo$amap" transname="شمشمة" wn=""/>
+            <Active_participle name="مُشَمْشِم" transliteration="mu$amo$im" transname="مشمشم" wn=""/>
+        </MEMBER>
+        <MEMBER name="دَوَّرَ" transliteration="daw~ara" transname="دور" wn="">
+            <Root name="دور" transliteration="dwr"/>
+            <Deverbal name="تَدْوِير" transliteration="tadowiyr" transname="تدوير" wn=""/>
+            <Active_participle name="مُدَوِّر" transliteration="mudaw~ir" transname="مدور" wn=""/>
+        </MEMBER>
+        <MEMBER name="نَقَّبَ" transliteration="naq~aba" transname="نقب" wn="">
+            <Root name="نقب" transliteration="nqb"/>
+            <Deverbal name="تَنْقِيب" transliteration="tanoqiyb" transname="تنقيب" wn=""/>
+            <Active_participle name="مُنَقِّب" transliteration="munaq~ib" transname="منقب" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Location">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="V NP PP.theme NP.location" secondary="PP-PPTheme-PP Location-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="فَتَّشَ الضَابِطُ عَنْ المُسْتَنَدَات فِي الخِزَانَة." transliteration="fat~a$a AlDaAbiTu Eano AlmusotanadaAt fiy AlxizaAnap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="عَنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="loc"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="search">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Location"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="V NP PP.location PP.theme" secondary="PP-PPLocation-PP Theme-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="فَتَّشَ الضَابِطُ فِي الخِزَانَة عَنْ المُستَنَدَات." transliteration="fat~a$a AlDaAbiTu fiy AlxizaAnap Eano AlmustanadaAt."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="loc"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="عَنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="search">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Location"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="NP V PP.location" secondary="PPLocation-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="فَتَّشَ الضَابِط فِي كُلِ مَكَان." transliteration="fat~a$a AlDaAbiT fiy kuli makaAn."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="loc"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="search">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Location"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="V NP PP.theme" secondary="PPTheme-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="فَتَّشَ الضَابِط عَنْ المُسْتَنَدَات." transliteration="fat~a$a AlDaAbiT Eano AlmusotanadaAt."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="loc"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="search">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Location"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <VNSUBCLASS ID="fat~a$a-1.1">
+            <MEMBERS>
+                <MEMBER name="فَتَّشَ" transliteration="fat~a$a" transname="فتش" wn="">
+                    <Root name="فتش" transliteration="ft$"/>
+                    <Deverbal name="تَفْتِيش" transliteration="tafotiy$" transname="تفتيش" wn=""/>
+                    <Active_participle name="مُفَتِّش" transliteration="mufat~i$" transname="مفتش" wn=""/>
+                </MEMBER>
+                <MEMBER name="قَلَّبَ" transliteration="qal~aba" transname="قلب" wn="">
+                    <Root name="قلب" transliteration="qlb"/>
+                    <Deverbal name="تَقْلِيب" transliteration="taqoliyb" transname="تقليب" wn=""/>
+                    <Active_participle name="مُقَلِّب" transliteration="muqal~ib" transname="مقلب" wn=""/>
+                </MEMBER>
+            </MEMBERS>
+	   <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="0.2" primary="V NP NP PP.theme" secondary="NP-PPTheme-PP" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="فَتَّشَ الضَابِطُ الخِزَانَة." transliteration="fat~a$a AlDaAbiTu AlxizaAnap."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Location">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="search">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Location"/>
+                                <ARG type="ThemRole" value="?Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="0.2" primary="V NP NP PP.theme" secondary="NP-PPTheme-PP" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="فَتَّشَ الضَابِطُ الخِزَانَة عَنْ المُسْتَنَدَات." transliteration="fat~a$a AlDaAbiTu AlxizaAnap Eano AlmusotanadaAt."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Location">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="عَنْ">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="search">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Location"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES> 
+          <SUBCLASSES/>
+        </VNSUBCLASS>
+    </SUBCLASSES>
+</VNCLASS>

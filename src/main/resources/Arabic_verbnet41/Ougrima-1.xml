@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="Ougrima-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="أُغْرِمَ" transliteration="Ougorima" transname="أغرم" wn="">
+            <Root name="غرم" transliteration="grm"/>
+            <Deverbal name="غَرَام" transliteration="garaAm" transname="غرام" wn=""/>
+            <Active_participle name="مُغْرَم" transliteration="mugoram" transname="مغرم" wn=""/>
+        </MEMBER>
+        <MEMBER name="أُولِعَ" transliteration="OuwliEa" transname="أولع" wn="">
+            <Root name="ولع" transliteration="wlE"/>
+            <Deverbal name="وَلَع" transliteration="walaE" transname="ولع" wn=""/>
+            <Active_participle name="مُولَع" transliteration="muwlaE" transname="مولع" wn=""/>
+        </MEMBER>
+        <MEMBER name="وُلِعَ" transliteration="wuliEa" transname="ولع" wn="">
+            <Root name="ولع" transliteration="wlE"/>
+            <Deverbal name="وَلَع" transliteration="walaE" transname="ولع" wn=""/>
+            <Active_participle name="مَوْلُوع" transliteration="mawoluwE" transname="مولوع" wn=""/>
+        </MEMBER>
+        <MEMBER name="كَلِفَ" transliteration="kalifa" transname="كلف" wn="">
+            <Root name="كلف" transliteration="klf"/>
+            <Deverbal name="كَلَف" transliteration="kalaf" transname="كلف" wn=""/>
+            <Active_participle name="كَالِف" transliteration="kaAlif" transname="كالف" wn=""/>
+        </MEMBER>
+        <MEMBER name="لَهِجَ" transliteration="lahija" transname="لهج" wn="">
+            <Root name="لهج" transliteration="lhj"/>
+            <Deverbal name="لَهَج" transliteration="lahaj" transname="لهج" wn=""/>
+            <Active_participle name="لَاهِج" transliteration="laAhij" transname="لاهج" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Experiencer">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="5.1" primary="V NP PP" secondary="Passive" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="كَلِفَ المُحِبُّ بِحَبِيبَتِهِ." transliteration="kalifa AlmuHib~u biHabiybatihi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="بِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="emotional_state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="VerbSpecific" value="Emotion"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="in_reaction_to">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</VNCLASS>

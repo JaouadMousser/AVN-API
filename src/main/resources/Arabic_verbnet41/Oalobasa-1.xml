@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="Oalobasa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="" transliteratio="Oalobasa" transname="" wn="">
+            <Root name="لبس" transliteration="lbs"/>
+            <Deverbal name="إِلْبَاس" transliteration="IilobaAs" transname="إلباس" wn=""/>
+            <Active_participle name="مُلْبِس" transliteration="mulobis" transname="ملبس" wn=""/>
+        </MEMBER>
+        <MEMBER name="" transliteratio="lab~asa" transname="" wn="">
+            <Root name="لبس" transliteration="lbs"/>
+            <Deverbal name="تَلْبِيس" transliteration="talobiys" transname="تلبيس" wn=""/>
+            <Active_participle name="مُلَبِّس" transliteration="mulab~is" transname="ملبس" wn=""/>
+        </MEMBER>
+        <MEMBER name="" transliteratio="OaxolaEa" transname="" wn="">
+            <Root name="خلع" transliteration="xlE"/>
+            <Deverbal name="إِخْلَاع" transliteration="IixolaAE" transname="إخلاع" wn=""/>
+            <Active_participle name="مُخْلِع" transliteration="muxoliE" transname="مخلع" wn=""/>
+        </MEMBER>
+        <MEMBER name="" transliteratio="xal~aEa" transname="" wn="">
+            <Root name="خلع" transliteration="xlE"/>
+            <Deverbal name="إِخْلَاع" transliteration="IixolaAE" transname="إخلاع" wn=""/>
+            <Active_participle name="مُخْلِع" transliteration="muxoliE" transname="مخلع" wn=""/>
+        </MEMBER>
+        <MEMBER name="" transliteratio="OanozaEa" transname="" wn="">
+            <Root name="نزع" transliteration="nzE"/>
+            <Deverbal name="إِنْزَاع" transliteration="IinozaAE" transname="إنزاع" wn=""/>
+            <Active_participle name="مُبْزِع" transliteration="muboziE" transname="مبزع" wn=""/>
+        </MEMBER>
+        <MEMBER name="" transliteratio="naz~aEa" transname="" wn="">
+            <Root name="نزع" transliteration="nzE"/>
+            <Deverbal name="تَنْزِيع" transliteration="tanoziyE" transname="تنزيع" wn=""/>
+            <Active_participle name="مُنْزِع" transliteration="munoziE" transname="منزع" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Patient">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="garment"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="V NP NP" secondary="Indirect Causative" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَلْبَسَت الأُمُّ طِفْلَهَا." transliteration="Oalobasat AlOum~u TifolahaA."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="wear">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="V NP NP NP" secondary="NP-Indirect Causative" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَلْبَسَت الأُمُّ طِفْلَهَا جَوَارِبَ صُوفِيَة." transliteration="Oalobasat AlOum~u TifolahaA jawaAriba Suwfiyap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="wear">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="labisa-1"/>
+    </SIBLINGCLASSES>
+</VNCLASS>

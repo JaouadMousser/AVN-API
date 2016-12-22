@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="Ead~ada-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="جَمَعَ" transliteration="jamaEa" transname="جمع" wn="">
+            <Root name="جمع" transliteration="jmE"/>
+            <Deverbal name="جَمْع" transliteration="jamoE" transname="جمع" wn=""/>
+            <Active_participle name="جَامِع" transliteration="jaAmiE" transname="جامع" wn=""/>
+        </MEMBER>
+        <MEMBER name="عَدَّ" transliteration="Ead~a" transname="عد" wn="">
+            <Root name="عدد" transliteration="Edd"/>
+            <Deverbal name="عَد" transliteration="Ead" transname="عد" wn=""/>
+            <Active_participle name="عَاد" transliteration="EaAd" transname="عاد" wn=""/>
+        </MEMBER>
+        <MEMBER name="حَسَبَ" transliteration="Hasaba" transname="حسب" wn="">
+            <Root name="حسب" transliteration="Hsb"/>
+            <Deverbal name="حِسَاب" transliteration="HisaAb" transname="حساب" wn=""/>
+            <Active_participle name="حَاسِب" transliteration="HaAsib" transname="حاسب" wn=""/>
+        </MEMBER>
+        <MEMBER name="أَحْصَى" transliteration="OaHoSaY" transname="أحصى" wn="">
+            <Root name="حصا" transliteration="HSA"/>
+            <Deverbal name="إِحْصَاء" transliteration="IiHoSaA'" transname="إحصاء" wn=""/>
+            <Active_participle name="مُحْصِي" transliteration="muHoSiy" transname="محصي" wn=""/>
+        </MEMBER>
+        <MEMBER name="عَدَّ" transliteration="Ead~a" transname="عد" wn="">
+            <Root name="عدد" transliteration="Edd"/>
+            <Deverbal name="عَدّ" transliteration="Ead~" transname="عد" wn=""/>
+            <Active_participle name="عَاد" transliteration="EaAd" transname="عاد" wn=""/>
+        </MEMBER>
+        <MEMBER name="عَدَّدَ" transliteration="Ead~ada" transname="عدد" wn="">
+            <Root name="عدد" transliteration="Edd"/>
+            <Deverbal name="تِعْدَاد" transliteration="tiEodaAd" transname="تعداد" wn=""/>
+            <Active_participle name="مُعَدِّد" transliteration="muEad~id" transname="معدد" wn=""/>
+        </MEMBER>
+        <MEMBER name="عَمَّلَ" transliteration="Eam~ala" transname="عمل" wn="">
+            <Root name="عمل" transliteration="Eml"/>
+            <Deverbal name="تَعْمِيل" transliteration="taEomiyl" transname="تعميل" wn=""/>
+            <Active_participle name="مُعَمِّل" transliteration="muEam~il" transname="معمل" wn=""/>
+        </MEMBER>
+        <MEMBER name="نَشَرَ" transliteration="na$ara" transname="نشر" wn="">
+            <Root name="نشر" transliteration="n$r"/>
+            <Deverbal name="نَشْر" transliteration="na$or" transname="نشر" wn=""/>
+            <Active_participle name="نَاشِر" transliteration="naA$ir" transname="ناشر" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Theme1">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Theme2">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="V NP NP" secondary="NPPlural object" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَحْصَتِ الحُكُومَةُ السُّكَان." transliteration="OaHoSati AlHukuwmapu Als~ukaAn."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="plural"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="calculate">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <VNSUBCLASS ID="Ead~ada-1.1">
+            <MEMBERS>
+                <MEMBER name="ضَرَبَ" transliteration="Daraba" transname="ضرب" wn="">
+                    <Root name="ضرب" transliteration="Drb"/>
+                    <Deverbal name="ضَرْب" transliteration="Darob" transname="ضرب" wn=""/>
+                    <Active_participle name="ضَارِب" transliteration="DaArib" transname="ضارب" wn=""/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="0.1" primary="V NP NP PP.theme2" secondary="NP-PPfiy-PP" xtag="0.1"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="ضَرَبَ الثِّلمِيد 5 فِي تِسعَة." transliteration="Daraba Alv~ilmiyd 5 fiy tisEap."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Theme1">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="فِي">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Theme2">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="calculate">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme1"/>
+                                <ARG type="ThemRole" value="Theme2"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </VNSUBCLASS>
+        <VNSUBCLASS ID="Ead~ada-1.2">
+            <MEMBERS>
+                <MEMBER name="طَرَحَ" transliteration="TaraHa" transname="طرح" wn="">
+                    <Root name="طرح" transliteration="TrH"/>
+                    <Deverbal name="طَرْح" transliteration="TaroH" transname="طرح" wn=""/>
+                    <Active_participle name="طَارِح" transliteration="TaAriH" transname="طارح" wn=""/>
+                </MEMBER>
+                <MEMBER name="خَصَمَ" transliteration="xaSama" transname="خصم" wn="">
+                    <Root name="خصم" transliteration="xSm"/>
+                    <Deverbal name="خَصْم" transliteration="xaSom" transname="خصم" wn=""/>
+                    <Active_participle name="خَاصِم" transliteration="xaASim" transname="خاصم" wn=""/>
+                </MEMBER>
+                <MEMBER name="إِسْتَوْفَى" transliteration="IisotawofaY" transname="إستوفى" wn="">
+                    <Root name="وفا" transliteration="wfA"/>
+                    <Deverbal name="إِسْتِيفَاء" transliteration="IisotiyfaA'" transname="إستيفاء" wn=""/>
+                    <Active_participle name="مُسْتَفِي" transliteration="musotafiy" transname="مستفي" wn=""/>
+                </MEMBER>
+                <MEMBER name="إِسْتَكْمَلَ" transliteration="Iisotakomala" transname="إستكمل" wn="">
+                    <Root name="كمل" transliteration="kml"/>
+                    <Deverbal name="إِسْتِكْمَال" transliteration="IisotikomaAl" transname="إستكمال" wn=""/>
+                    <Active_participle name="مُسْتَكْمِل" transliteration="musotakomil" transname="مستكمل" wn=""/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="0.1" primary="V NP NP PP.theme2" secondary="NP-PPmino-PP" xtag="0.1"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="طَرَحَ الثِّلْمِيدُ 2 مِنْ 6." transliteration="TaraHa Alv~ilomiydu 2 mino 6."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Theme1">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="مِنْ">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Theme2">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="calculate">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme1"/>
+                                <ARG type="ThemRole" value="Theme2"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </VNSUBCLASS>
+        <VNSUBCLASS ID="Ead~ada-1.3">
+            <MEMBERS>
+                <MEMBER name="قَسَمَ" transliteration="qasama" transname="قسم" wn="">
+                    <Root name="قسم" transliteration="qsm"/>
+                    <Deverbal name="قِسْمَة" transliteration="qisomap" transname="قسمة" wn=""/>
+                    <Active_participle name="قَاسِم" transliteration="qaAsim" transname="قاسم" wn=""/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="0.1" primary="V NP NP PP.theme2" secondary="NP-PPEalaY-PP" xtag="0.1"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="قَسَمَ الثِّلمِيدُ 10 عَلَى 5." transliteration="qasama Alv~ilmiydu 10 EalaY 5."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Theme1">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="عَلَى">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Theme2">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="calculate">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme1"/>
+                                <ARG type="ThemRole" value="Theme2"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </VNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES/>
+</VNCLASS>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="Oabiha-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS/>
+    <THEMROLES>
+        <THEMROLE type="Experiencer">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Cause">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES/>
+    <SUBCLASSES>
+        <VNSUBCLASS ID="Oabiha-1.1">
+            <MEMBERS>
+                <MEMBER name="إِلْتَفَتَ" transliteration="Iilotafata" transname="إلتفت" wn="">
+                    <Root name="لفت" transliteration="lft"/>
+                    <Deverbal name="إِلْتِفَالت" transliteration="IilotifaAlt" transname="إلتفالت" wn=""/>
+                    <Active_participle name="مُلْتَفِت" transliteration="mulotafit" transname="ملتفت" wn=""/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="8.1" primary="V NP PP.experiencer" secondary="PPIilaY/li-PP" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="لَمْ تَلْتَفِت سَلمَى إِلَى إِشَارَاتِهِ." transliteration="lamo talotafit salmaY IilaY Ii$aAraAtihi."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Experiencer">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="إِلَى لِ">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Cause">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="emotional_state">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="VerbSpecific" value="Emotion"/>
+                                <ARG type="ThemRole" value="Experiencer"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="in_reaction_to">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Cause"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="8.1" primary="V NP PP.cause maA S" secondary="P-maA-SIilaY-PP" xtag="0.1"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="لَمْ تَلْتَفِت إِلَى مَا يَصْنَع." transliteration="lamo talotafit IilaY maA yaSonaE."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Experiencer">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="إِلَى لِ">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Cause">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="maA_extract"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="emotional_state">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="VerbSpecific" value="Emotion"/>
+                                <ARG type="ThemRole" value="Experiencer"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="in_reaction_to">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Cause"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </VNSUBCLASS>
+        <VNSUBCLASS ID="Oabiha-1.2">
+            <MEMBERS>
+                <MEMBER name="عَبِأَ" transliteration="EabiOa" transname="عبأ" wn="">
+                    <Root name="عبأ" transliteration="EbO"/>
+                    <Deverbal name="عَبْأ" transliteration="EaboO" transname="عبأ" wn=""/>
+                    <Active_participle name="عَابِئ" transliteration="EaAbi}" transname="عابئ" wn=""/>
+                </MEMBER>
+                <MEMBER name="عَنِيَ" transliteration="Eaniya" transname="عني" wn="">
+                    <Root name="عنا" transliteration="EnA"/>
+                    <Deverbal name="عَنَاء" transliteration="EanaA'" transname="عناء" wn=""/>
+                    <Active_participle name="عَانِي" transliteration="EaAniy" transname="عاني" wn=""/>
+                </MEMBER>
+                <MEMBER name="عُنِيَ" transliteration="Euniya" transname="عني" wn="">
+                    <Root name="عنا" transliteration="EnA"/>
+                    <Deverbal name="عَنَاء" transliteration="EanaA'" transname="عناء" wn=""/>
+                    <Active_participle name="عَانِي" transliteration="EaAniy" transname="عاني" wn=""/>
+                </MEMBER>
+                <MEMBER name="أَبِهَ" transliteration="Oabiha" transname="أبه" wn="">
+                    <Root name="أبه" transliteration="Obh"/>
+                    <Deverbal name="أَبْه" transliteration="Oaboh" transname="أبه" wn=""/>
+                    <Active_participle name="آبِه" transliteration="|bih" transname="آبه" wn=""/>
+                </MEMBER>
+                <MEMBER name="أَبَهَ" transliteration="Oabaha" transname="أبه" wn="">
+                    <Root name="أبه" transliteration="Obh"/>
+                    <Deverbal name="أَبْه" transliteration="Oaboh" transname="أبه" wn=""/>
+                    <Active_participle name="آبِه" transliteration="|bih" transname="آبه" wn=""/>
+                </MEMBER>
+                <MEMBER name="إِهْتَمَّ" transliteration="Iihotam~a" transname="إهتم" wn="">
+                    <Root name="همم" transliteration="hmm"/>
+                    <Deverbal name="إِهْتِمَام" transliteration="IihotimaAm" transname="إهتمام" wn=""/>
+                    <Active_participle name="مُهْتَم" transliteration="muhotam" transname="مهتم" wn=""/>
+                </MEMBER>
+                <MEMBER name="بَالَى" transliteration="baAlaY" transname="بالى" wn="">
+                    <Root name="بال" transliteration="bAl"/>
+                    <Deverbal name="مُبَالَات" transliteration="mubaAlaAt" transname="مبالات" wn=""/>
+                    <Active_participle name="مُبَالِي" transliteration="mubaAliy" transname="مبالي" wn=""/>
+                </MEMBER>
+                <MEMBER name="إِنْتَبَهَ" transliteration="Iinotabaha" transname="إنتبه" wn="">
+                    <Root name="نبه" transliteration="nbh"/>
+                    <Deverbal name="إِنْتِبَاه" transliteration="IinotibaAh" transname="إنتباه" wn=""/>
+                    <Active_participle name="مُنْتَبِه" transliteration="munotabih" transname="منتبه" wn=""/>
+                </MEMBER>
+                <MEMBER name="عَجِبَ" transliteration="Eajiba" transname="عجب" wn="">
+                    <Root name="عجب" transliteration="Ejb"/>
+                    <Deverbal name="عَجَب" transliteration="Eajab" transname="عجب" wn=""/>
+                    <Active_participle name="عَاجِب" transliteration="EaAjib" transname="عاجب" wn=""/>
+                </MEMBER>
+                <MEMBER name="دَهِشَ" transliteration="dahi$a" transname="دهش" wn="">
+                    <Root name="دهش" transliteration="dh$"/>
+                    <Deverbal name="دَهْشَة" transliteration="daho$ap" transname="دهشة" wn=""/>
+                    <Active_participle name="دَاهْش" transliteration="daAho$" transname="داهش" wn=""/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="0.1" primary="V NP" secondary="Basic Intransitive" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="سَلمَى لَا تَعْبَأ." transliteration="salmaY laA taEobaO."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Experiencer">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="emotional_state">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="VerbSpecific" value="Emotion"/>
+                                <ARG type="ThemRole" value="Experiencer"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="8.1" primary="V NP PP.cause maA_Ii*aY S" secondary="WH-S" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="لَا تَعْبَأُ سَلْمَى بِمَا إِذَا كَانَ زَيْد يُحِبُّهَا." transliteration="laA taEobaOu salomaY bimaA Ii*aA kaAna zayod yuHib~uhaA."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Experiencer">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="بِ لِ">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Cause">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="wh_comp"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="emotional_state">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="VerbSpecific" value="Emotion"/>
+                                <ARG type="ThemRole" value="Experiencer"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="in_reaction_to">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Cause"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="8.1" primary="V NP PP.cause maA S" secondary="P-maA-Sli/bi-PP" xtag="0.1"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="لَا تَعْبَأُ سَلْمَى لِمَا يَصْنَع." transliteration="laA taEobaOu salomaY limaA yaSonaE."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Experiencer">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="بِ لِ">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Cause">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="maA_extract"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="emotional_state">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="VerbSpecific" value="Emotion"/>
+                                <ARG type="ThemRole" value="Experiencer"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="in_reaction_to">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Cause"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="8.1" primary="V NP PP.cause" secondary="PPli/bi-PP" xtag="0.1"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="لَا تَعْبَأُ سَلْمَى لِمُغَازِلِهَا." transliteration="laA taEobaOu salomaY limugaAzilihaA."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Experiencer">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="بِ لِ">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Cause">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="emotional_state">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="VerbSpecific" value="Emotion"/>
+                                <ARG type="ThemRole" value="Experiencer"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="in_reaction_to">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Cause"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </VNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES/>
+</VNCLASS>

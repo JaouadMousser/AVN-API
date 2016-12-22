@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="gafala-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS/>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="V NP" secondary="Basic Intransitive" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="قَصَّرَ الثِّلْمِيدُ." transliteration="qaS~ara Alv~ilomiydu."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="neglect">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <VNSUBCLASS ID="gafala-1.1">
+            <MEMBERS>
+                <MEMBER name="تَخَاذَلَ" transliteration="taxaA*ala" transname="تخاذل" wn="">
+                    <Root name="خذل" transliteration="x*l"/>
+                    <Deverbal name="تَخَاذُل" transliteration="taxaA*ul" transname="تخاذل" wn=""/>
+                    <Active_participle name="مُتَخَاذِل" transliteration="mutaxaA*il" transname="متخاذل" wn=""/>
+                </MEMBER>
+                <MEMBER name="إِنْصَرَفَ" transliteration="IinoSarafa" transname="إنصرف" wn="">
+                    <Root name="صرف" transliteration="Srf"/>
+                    <Deverbal name="إِنْصِرَاف" transliteration="IinoSiraAf" transname="إنصراف" wn=""/>
+                    <Active_participle name="مُنْصَرِف" transliteration="munoSarif" transname="منصرف" wn=""/>
+                </MEMBER>
+                <MEMBER name="تَكَاسَلَ" transliteration="takaAsala" transname="تكاسل" wn="">
+                    <Root name="كسل" transliteration="ksl"/>
+                    <Deverbal name="تَكَاسُل" transliteration="takaAsul" transname="تكاسل" wn=""/>
+                    <Active_participle name="مُتَكَاسِل" transliteration="mutakaAsil" transname="متكاسل" wn=""/>
+                </MEMBER>
+                <MEMBER name="تَغَافَلَ" transliteration="tagaAfala" transname="تغافل" wn="">
+                    <Root name="غفل" transliteration="gfl"/>
+                    <Deverbal name="تَغَافُول" transliteration="tagaAfuwl" transname="تغافول" wn=""/>
+                    <Active_participle name="مُتَغَافِل" transliteration="mutagaAfil" transname="متغافل" wn=""/>
+                </MEMBER>
+                <MEMBER name="غَفَلَ" transliteration="gafala" transname="غفل" wn="">
+                    <Root name="غفل" transliteration="gfl"/>
+                    <Deverbal name="غُفُول" transliteration="gufuwl" transname="غفول" wn=""/>
+                    <Active_participle name="غَافِل" transliteration="gaAfil" transname="غافل" wn=""/>
+                </MEMBER>
+                <MEMBER name="سَهَى" transliteration="sahaY" transname="سهى" wn="">
+                    <Root name="سها" transliteration="shA"/>
+                    <Deverbal name="سَهْو" transliteration="sahow" transname="سهو" wn=""/>
+                    <Active_participle name="سَاهِي" transliteration="saAhiy" transname="ساهي" wn=""/>
+                </MEMBER>
+                <MEMBER name="نَامَ" transliteration="naAma" transname="نام" wn="">
+                    <Root name="نوم" transliteration="nwm"/>
+                    <Deverbal name="نَوْم" transliteration="nawom" transname="نوم" wn=""/>
+                    <Active_participle name="نَائِم" transliteration="naA}im" transname="نائم" wn=""/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="0.2" primary="V NP PP" secondary="PPEano-PP" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="غَفِلَ المُوَظَّفُ عَنْ عَمَلِهِ." transliteration="gafila AlmuwaZ~afu Eano Eamalihi."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="عَنْ">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="neglect">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="8.1" primary="V NP Eano DEVERBAL" secondary="PPEano-DEVERBAL-SC" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="غَفِلَ عَلِيُ عَنْ القِيَامِ بِوَاجِبَاتِه." transliteration="gafila Ealiyu Eano AlqiyaAmi biwaAjibaAtih."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="عَنْ">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="sc_deverbal"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="neglect">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </VNSUBCLASS>
+        <VNSUBCLASS ID="gafala-1.2">
+            <MEMBERS>
+                <MEMBER name="تَوَانَى" transliteration="tawaAnaY" transname="توانى" wn="">
+                    <Root name="وني" transliteration="wny"/>
+                    <Deverbal name="تَوَانِي" transliteration="tawaAniy" transname="تواني" wn=""/>
+                    <Active_participle name="مُتَوَانِي" transliteration="mutawaAniy" transname="متواني" wn=""/>
+                </MEMBER>
+                <MEMBER name="قَصَّرَ" transliteration="qaS~ara" transname="قصر" wn="">
+                    <Root name="قصر" transliteration="qSr"/>
+                    <Deverbal name="تَقْصِير" transliteration="taqoSiyr" transname="تقصير" wn=""/>
+                    <Active_participle name="مُقَصِّر" transliteration="muqaS~ir" transname="مقصر" wn=""/>
+                </MEMBER>
+                <MEMBER name="تَهَاوَنَ" transliteration="tahaAwana" transname="تهاون" wn="">
+                    <Root name="هون" transliteration="hwn"/>
+                    <Deverbal name="تَهَاوُن" transliteration="tahaAwun" transname="تهاون" wn=""/>
+                    <Active_participle name="مُتَهَاوِن" transliteration="mutahaAwin" transname="متهاون" wn=""/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="0.2" primary="V NP PP" secondary="PPfiy-PP" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="قَصَّرَ المُوَظَّفُ فِي عَمَلِهِ." transliteration="qaS~ara AlmuwaZ~afu fiy Eamalihi."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="فِي">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="neglect">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="8.1" primary="V NP fiy DEVERBAL" secondary="PPfiy-DEVERBAL-SC" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="قَصَّرَ عَلِيُ فِي القِيَامِ بِوَاجِبَاتِه." transliteration="qaS~ara Ealiyu fiy AlqiyaAmi biwaAjibaAtih."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="فِي">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="sc_deverbal"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="neglect">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </VNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES/>
+</VNCLASS>

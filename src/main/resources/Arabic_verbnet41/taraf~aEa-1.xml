@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="taraf~aEa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="تَرَفّعَ" transliteration="taraf~Ea" transname="ترفع" wn="">
+            <Root name="رفع" transliteration="rfE"/>
+            <Deverbal name="تَرَفُّع" transliteration="taraf~uE" transname="ترفع" wn=""/>
+            <Active_participle name="مُتَرَفِّع" transliteration="mutaraf~iE" transname="مترفع" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَنَزَّهَ" transliteration="tanaz~aha" transname="تنزه" wn="">
+            <Root name="نزه" transliteration="nzh"/>
+            <Deverbal name="تَنَزُّه" transliteration="tanaz~uh" transname="تنزه" wn=""/>
+            <Active_participle name="مُتَنَزِّه" transliteration="mutanaz~ih" transname="متنزه" wn=""/>
+        </MEMBER>
+        <MEMBER name="أَحْجَمَ" transliteration="OaHojama" transname="أحجم" wn="">
+            <Root name="حجم" transliteration="Hjm"/>
+            <Deverbal name="إِحْجَام" transliteration="IiHojaAm" transname="إحجام" wn=""/>
+            <Active_participle name="مُحْجِم" transliteration="muHojim" transname="محجم" wn=""/>
+        </MEMBER>
+        <MEMBER name="عَدَلَ" transliteration="Eadala" transname="عدل" wn="">
+            <Root name="عدل" transliteration="Edl"/>
+            <Deverbal name="عُدُول" transliteration="Euduwl" transname="عدول" wn=""/>
+            <Active_participle name="عَادِل" transliteration="EaAdil" transname="عادل" wn=""/>
+        </MEMBER>
+        <MEMBER name="أَحْجَمَ" transliteration="OaHojama" transname="أحجم" wn="">
+            <Root name="حجم" transliteration="Hjm"/>
+            <Deverbal name="إِحْجَام" transliteration="IiHojaAm" transname="إحجام" wn=""/>
+            <Active_participle name="مُحْجِم" transliteration="muHojim" transname="محجم" wn=""/>
+        </MEMBER>
+        <MEMBER name="كَفَّ" transliteration="kaf~a" transname="كف" wn="">
+            <Root name="كفف" transliteration="kff"/>
+            <Deverbal name="كَفّ" transliteration="kaf~" transname="كف" wn=""/>
+            <Active_participle name="كَاف" transliteration="kaAf" transname="كاف" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَعَفَّفَ" transliteration="taEaf~afa" transname="تعفف" wn="">
+            <Root name="عفف" transliteration="Eff"/>
+            <Deverbal name="تَعَفُّف" transliteration="taEaf~uf" transname="تعفف" wn=""/>
+            <Active_participle name="مُتَعَفِّف" transliteration="mutaEaf~if" transname="متعفف" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَعَالَى" transliteration="taEaAlaY" transname="تعالى" wn="">
+            <Root name="علي" transliteration="Ely"/>
+            <Deverbal name="تَعَالَى" transliteration="taEaAlaY" transname="تعالى" wn=""/>
+            <Active_participle name="تَعَالِي" transliteration="taEaAliy" transname="تعالي" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَسَامَى" transliteration="tasaAmaY" transname="تسامى" wn="">
+            <Root name="سمو" transliteration="smw"/>
+            <Deverbal name="تَسَامِي" transliteration="tasaAmiy" transname="تسامي" wn=""/>
+            <Active_participle name="مُتَسَامِي" transliteration="mutasaAmiy" transname="متسامي" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِنْتَهَى" transliteration="IinotahaY" transname="إنتهى" wn="">
+            <Root name="نهي" transliteration="nhy"/>
+            <Deverbal name="إِنْتِهَاء" transliteration="IinotihaA'" transname="إنتهاء" wn=""/>
+            <Active_participle name="مُنْتَهِي" transliteration="munotahiy" transname="منتهي" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَمَنَّعَ" transliteration="taman~aEa" transname="تمنع" wn="">
+            <Root name="منع" transliteration="mnE"/>
+            <Deverbal name="تَمَنُّع" transliteration="taman~uE" transname="تمنع" wn=""/>
+            <Active_participle name="مُتَمَنِّع" transliteration="mutaman~iE" transname="متمنع" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِمْتَنَعَ" transliteration="IimotanaEa" transname="إمتنع" wn="">
+            <Root name="منع" transliteration="mnE"/>
+            <Deverbal name="إِمْتِنَاع" transliteration="IimotinaAE" transname="إمتناع" wn=""/>
+            <Active_participle name="مُمْتَنِع" transliteration="mumotaniE" transname="ممتنع" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَمَسَّفَ" transliteration="tamas~afa" transname="تمسف" wn="">
+            <Root name="مسف" transliteration="msf"/>
+            <Deverbal name="تَمَسُّف" transliteration="tamas~uf" transname="تمسف" wn=""/>
+            <Active_participle name="مُتَمَسِّف" transliteration="mutamas~if" transname="متمسف" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِنْقَطَعَ" transliteration="IinoqaTaEa" transname="إنقطع" wn="">
+            <Root name="قطع" transliteration="qTE"/>
+            <Deverbal name="إِنْقِطَاع" transliteration="IinoqiTaAE" transname="إنقطاع" wn=""/>
+            <Active_participle name="مُنْقَطِع" transliteration="munoqaTiE" transname="منقطع" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَوَرَّعَ" transliteration="tawar~aEa" transname="تورع" wn="">
+            <Root name="ورع" transliteration="wrE"/>
+            <Deverbal name="تَوَرُّر" transliteration="tawar~ur" transname="تورر" wn=""/>
+            <Active_participle name="مُتَوَرِّع" transliteration="mutawar~iE" transname="متورع" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَحَرَّجَ" transliteration="taHar~aja" transname="تحرج" wn="">
+            <Root name="حرج" transliteration="Hrj"/>
+            <Deverbal name="تَحَرُّج" transliteration="taHar~uj" transname="تحرج" wn=""/>
+            <Active_participle name="مُتَحَرِّج" transliteration="mutaHar~ij" transname="متحرج" wn=""/>
+        </MEMBER>
+        <MEMBER name="أَمْسَكَ" transliteration="Oamosaka" transname="أمسك" wn="">
+            <Root name="مسك" transliteration="msk"/>
+            <Deverbal name="إِمْسَاك" transliteration="IimosaAk" transname="إمساك" wn=""/>
+            <Active_participle name="مُمْسِك" transliteration="mumosik" transname="ممسك" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَقَاعَدَ" transliteration="taqaAEada" transname="تقاعد" wn="">
+            <Root name="قعد" transliteration="qEd"/>
+            <Deverbal name="تَقَاعُد" transliteration="taqaAEud" transname="تقاعد" wn=""/>
+            <Active_participle name="مُتَقَاعُد" transliteration="mutaqaAEud" transname="متقاعد" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِنْصَرَفَ" transliteration="IinoSarafa" transname="إنصرف" wn="">
+            <Root name="صرف" transliteration="Srf"/>
+            <Deverbal name="إِنْصِرَاف" transliteration="IinoSiraAf" transname="إنصراف" wn=""/>
+            <Active_participle name="مُنْصَرِف" transliteration="munoSarif" transname="منصرف" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="8.1" primary="V NP PP.theme" secondary="PPEano-PP" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَرَفَّعَ عَنْ التَّفَاهَاة." transliteration="taraf~aEa Eano Alt~afaAhaAp."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="عَنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="abstain">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="8.1" primary="V NP PP.theme S_DEVERBAL" secondary="P-DEVERBAL-SCEano-PP" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَرَفَّعَ عَنْ القِيَّام بِأَعمَال السُّخرَة." transliteration="taraf~aEa Eano Alqiy~aAm biOaEmaAl Als~uxrap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="عَنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="sc_deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="abstain">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <VNSUBCLASS ID="taraf~aEa-1.1">
+            <MEMBERS>
+                <MEMBER name="تَوَقَّفَ" transliteration="tawaq~afa" transname="توقف" wn="">
+                    <Root name="وقف" transliteration="wqf"/>
+                    <Deverbal name="تَوَقُّف" transliteration="tawaq~uf" transname="توقف" wn=""/>
+                    <Active_participle name="مُتَوَقِّف" transliteration="mutawaq~if" transname="متوقف" wn=""/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="8.1" primary="V NP" secondary="Unspecified Object" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="تَوَقّفَ المُدِيرُ." transliteration="tawaq~fa Almudiyru."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="abstain">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="?Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </VNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES/>
+</VNCLASS>

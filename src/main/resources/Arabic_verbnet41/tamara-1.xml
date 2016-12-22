@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="tamara-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="لَحَمَ" transliteration="laHama" transname="لحم" wn="">
+            <Root name="لحم" transliteration="lHm"/>
+            <Deverbal name="لَحْم" transliteration="laHom" transname="لحم" wn=""/>
+            <Active_participle name="لَاحِم" transliteration="laAHim" transname="لاحم" wn=""/>
+        </MEMBER>
+        <MEMBER name="شَحَمَ" transliteration="$aHama" transname="شحم" wn="">
+            <Root name="شحم" transliteration="$Hm"/>
+            <Deverbal name="شَحْم" transliteration="$aHom" transname="شحم" wn=""/>
+            <Active_participle name="شَاحِم" transliteration="$aAHim" transname="شاحم" wn=""/>
+        </MEMBER>
+        <MEMBER name="أْسْمَنَ" transliteration="Oosomana" transname="أسمن" wn="">
+            <Root name="سمن" transliteration="smn"/>
+            <Deverbal name="إِسْمَان" transliteration="IisomaAn" transname="إسمان" wn=""/>
+            <Active_participle name="مُسْمِن" transliteration="musomin" transname="مسمن" wn=""/>
+        </MEMBER>
+        <MEMBER name="سَمَّنَ" transliteration="sam~ana" transname="سمن" wn="">
+            <Root name="سمن" transliteration="smn"/>
+            <Deverbal name="تَسْمِين" transliteration="tasomiyn" transname="تسمين" wn=""/>
+            <Active_participle name="مُسَمِّن" transliteration="musam~in" transname="مسمن" wn=""/>
+        </MEMBER>
+        <MEMBER name="أَزْبَدَ" transliteration="Oazobada" transname="أزبد" wn="">
+            <Root name="زبد" transliteration="zbd"/>
+            <Deverbal name="إِزْبَاد" transliteration="IizobaAd" transname="إزباد" wn=""/>
+            <Active_participle name="مُزْبِد" transliteration="muzobid" transname="مزبد" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَمَرَ" transliteration="tamara" transname="تمر" wn="">
+            <Root name="تمر" transliteration="tmr"/>
+            <Deverbal name="تَمْر" transliteration="tamor" transname="تمر" wn=""/>
+            <Active_participle name="تَامِر" transliteration="taAmir" transname="تامر" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَمَّرَ" transliteration="tam~ara" transname="تمر" wn="">
+            <Root name="تمر" transliteration="tmr"/>
+            <Deverbal name="تَتمِير" transliteration="tatmiyr" transname="تتمير" wn=""/>
+            <Active_participle name="مُتَمِّر" transliteration="mutam~ir" transname="متمر" wn=""/>
+        </MEMBER>
+        <MEMBER name="أَتمَرَ" transliteration="Oatmara" transname="أتمر" wn="">
+            <Root name="تمر" transliteration="tmr"/>
+            <Deverbal name="إِتْمَار" transliteration="IitomaAr" transname="إتمار" wn=""/>
+            <Active_participle name="مُتْمِر" transliteration="mutomir" transname="متمر" wn=""/>
+        </MEMBER>
+        <MEMBER name="خَبَزَ" transliteration="xabaza" transname="خبز" wn="">
+            <Root name="خبز" transliteration="xbz"/>
+            <Deverbal name="خَبْز" transliteration="xaboz" transname="خبز" wn=""/>
+            <Active_participle name="خَابِز" transliteration="xaAbiz" transname="خابز" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Recipient">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="V NP NP" secondary="Basic Transitive" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="لَحَمَ عَلِي ضُيُوفَهُ." transliteration="laHama Ealiy Duyuwfahu."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Recipient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="take_in">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="VerbSpecific" value="Role"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</VNCLASS>

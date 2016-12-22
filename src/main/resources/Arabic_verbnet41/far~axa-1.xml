@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="far~axa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="فَرَّخَ" transliteration="far~axa" transname="فرخ" wn="">
+            <Root name="فرخ" transliteration="frx"/>
+            <Deverbal name="تَفْرِيخ" transliteration="taforiyx" transname="تفريخ" wn=""/>
+            <Active_participle name="مُفَرِّخ" transliteration="mufar~ix" transname="مفرخ" wn=""/>
+        </MEMBER>
+        <MEMBER name="أَفْرَخَ" transliteration="Oaforaxa" transname="أفرخ" wn="">
+            <Root name="فرخ" transliteration="frx"/>
+            <Deverbal name="إِفْرَاخ" transliteration="IiforaAx" transname="إفراخ" wn=""/>
+            <Active_participle name="مُفْرِخ" transliteration="muforix" transname="مفرخ" wn=""/>
+        </MEMBER>
+        <MEMBER name="بَيَّضَ" transliteration="bay~aDa" transname="بيض" wn="">
+            <Root name="بيض" transliteration="byD"/>
+            <Deverbal name="تَبيِيض" transliteration="tabyiyD" transname="تبييض" wn=""/>
+            <Active_participle name="مُبَيِّض" transliteration="mubay~iD" transname="مبيض" wn=""/>
+        </MEMBER>
+        <MEMBER name="بَاضَ" transliteration="baADa" transname="باض" wn="">
+            <Root name="بيض" transliteration="byD"/>
+            <Deverbal name="إِبَاضَة" transliteration="IibaADap" transname="إباضة" wn=""/>
+            <Active_participle name="مُبِيض" transliteration="mubiyD" transname="مبيض" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَأَمَ" transliteration="taOama" transname="تأم" wn="">
+            <Root name="تأم" transliteration="tOm"/>
+            <Deverbal name="تَأم" transliteration="taOm" transname="تأم" wn=""/>
+            <Active_participle name="تَائِم" transliteration="taA}im" transname="تائم" wn=""/>
+        </MEMBER>
+        <MEMBER name="أَتْأَمَ" transliteration="OatoOama" transname="أتأم" wn="">
+            <Root name="تأم" transliteration="tOm"/>
+            <Deverbal name="إِتْأَام" transliteration="IitoOaAm" transname="إتأام" wn=""/>
+            <Active_participle name="مُتْئِم" transliteration="muto}im" transname="متئم" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Patient">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="V NP" secondary="Basic Intransitive" xtag="0.1"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="فَرَّخَت الدَّجَاجَةُ." transliteration="far~axat Ald~ajaAjapu."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="give_birth">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</VNCLASS>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="tabay~ana-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="تَكَشَّفَ" transliteration="taka$~afa" transname="تكشف" wn="">
+            <Root name="كشف" transliteration="k$f"/>
+            <Deverbal name="تَكَشُّف" transliteration="taka$~uf" transname="تكشف" wn=""/>
+            <Active_participle name="مُتَكَشِّف" transliteration="mutaka$~if" transname="متكشف" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِنْكَشَفَ" transliteration="Iinoka$afa" transname="إنكشف" wn="">
+            <Root name="كشف" transliteration="k$f"/>
+            <Deverbal name="إِنْكِشَاف" transliteration="Iinoki$aAf" transname="إنكشاف" wn=""/>
+            <Active_participle name="مُنْكَشِف" transliteration="munoka$if" transname="منكشف" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَمَثَّلَ" transliteration="tamav~ala" transname="تمثل" wn="">
+            <Root name="مثل" transliteration="mvl"/>
+            <Deverbal name="تَمَثُّل" transliteration="tamav~ul" transname="تمثل" wn=""/>
+            <Active_participle name="مُتَمَثِّل" transliteration="mutamav~il" transname="متمثل" wn=""/>
+        </MEMBER>
+        <MEMBER name="عَرَضَ" transliteration="EaraDa" transname="عرض" wn="">
+            <Root name="عرض" transliteration="ErD"/>
+            <Deverbal name="عُرُوض" transliteration="EuruwD" transname="عروض" wn=""/>
+            <Active_participle name="عَارِض" transliteration="EaAriD" transname="عارض" wn=""/>
+        </MEMBER>
+        <MEMBER name="بَانَ" transliteration="baAna" transname="بان" wn="">
+            <Root name="بون" transliteration="bwn"/>
+            <Deverbal name="بَيَان" transliteration="bayaAn" transname="بيان" wn=""/>
+            <Active_participle name="بَائِن" transliteration="baA}in" transname="بائن" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِتَّضَحَ" transliteration="Iit~aDaHa" transname="إتضح" wn="">
+            <Root name="وضح" transliteration="wDH"/>
+            <Deverbal name="إِتِّضَاح" transliteration="Iit~iDaAH" transname="إتضاح" wn=""/>
+            <Active_participle name="مُتَّضِح" transliteration="mut~aDiH" transname="متضح" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَبَدَّى" transliteration="tabad~aY" transname="تبدى" wn="">
+            <Root name="بضَ" transliteration="bDa"/>
+            <Deverbal name="تَبَدِّي" transliteration="tabad~iy" transname="تبدي" wn=""/>
+            <Active_participle name="مُتَبَدِّي" transliteration="mutabad~iy" transname="متبدي" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَبَيَّنَ" transliteration="tabay~ana" transname="تبين" wn="">
+            <Root name="تَبَيُّن" transliteration="tabay~un"/>
+            <Deverbal name="تَبَيُّن" transliteration="tabay~un" transname="تبين" wn=""/>
+            <Active_participle name="مُتَبَِّن" transliteration="mutaba~in" transname="متبن" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَجَسَّدَ" transliteration="tajas~ada" transname="تجسد" wn="">
+            <Root name="جسد" transliteration="jsd"/>
+            <Deverbal name="تَجَسُّد" transliteration="tajas~ud" transname="تجسد" wn=""/>
+            <Active_participle name="مُتَجَسِّد" transliteration="mutajas~id" transname="متجسد" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَجَلَّى" transliteration="tajal~aY" transname="تجلى" wn="">
+            <Root name="جلى" transliteration="jlY"/>
+            <Deverbal name="تَجَلِّي" transliteration="tajal~iy" transname="تجلي" wn=""/>
+            <Active_participle name="مُتَجَلِّي" transliteration="mutajal~iy" transname="متجلي" wn=""/>
+        </MEMBER>
+        <MEMBER name="خَطَرَ" transliteration="xaTara" transname="خطر" wn="">
+            <Root name="خطر" transliteration="xTr"/>
+            <Deverbal name="خُطْرَان" transliteration="xuToraAn" transname="خطران" wn=""/>
+            <Active_participle name="خَاطِر" transliteration="xaATir" transname="خاطر" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَرَاءى" transliteration="taraA'Y" transname="تراءى" wn="">
+            <Root name="رأى" transliteration="rOY"/>
+            <Deverbal name="تَرَائِي" transliteration="taraA}iy" transname="ترائي" wn=""/>
+            <Active_participle name="مُتَرَائِي" transliteration="mutaraA}iy" transname="مترائي" wn=""/>
+        </MEMBER>
+        <MEMBER name="ظَهَرَ" transliteration="Zahara" transname="ظهر" wn="">
+            <Root name="ظهر" transliteration="Zhr"/>
+            <Deverbal name="طُهُور" transliteration="Tuhuwr" transname="طهور" wn=""/>
+            <Active_participle name="طَاهِر" transliteration="TaAhir" transname="طاهر" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَظَاهَرَ" transliteration="taZaAhara" transname="تظاهر" wn="">
+            <Root name="ظهر" transliteration="Zhr"/>
+            <Deverbal name="تَظَاهُر" transliteration="taZaAhur" transname="تظاهر" wn=""/>
+            <Active_participle name="مُتَظَاهِر" transliteration="mutaZaAhir" transname="متظاهر" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَمَظْهَرَ" transliteration="tamaZohara" transname="تمظهر" wn="">
+            <Root name="ظهر" transliteration="Zhr"/>
+            <Deverbal name="تَمَظْهُر" transliteration="tamaZohur" transname="تمظهر" wn=""/>
+            <Active_participle name="مُتَمَظْهِر" transliteration="mutamaZohir" transname="متمظهر" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Recipient">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="V NP" secondary="Basic Intransitive" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَجَلَّى القَمَرُ." transliteration="tajal~aY Alqamaru."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="appear">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="V NP PP.recipient" secondary="PPRecipient-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَجَلَتِ الحَقيِقَة لِلبَاحِث." transliteration="tajalati AlHaqyiqap lilbaAHiv."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="لِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Recipient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="appear">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP-PP" secondary="PP-Recipient NP Location-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَجَلَّت لَهُ الحَقِيقَة فِي دَوَاخِلِهِ." transliteration="tajal~at lahu AlHaqiyqap fiy dawaAxilihi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <PREP value="لِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Recipient">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="loc"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="appear">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="bay~ana-1"/>
+    </SIBLINGCLASSES>
+</VNCLASS>

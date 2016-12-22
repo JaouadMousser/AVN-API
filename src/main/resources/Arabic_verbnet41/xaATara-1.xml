@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="xaATara-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="خَاطَرَ" transliteration="xaATara" transname="خاطر" wn="">
+            <Root name="خطر" transliteration="xTr"/>
+            <Deverbal name="مُخَاطَرَة" transliteration="muxaATarap" transname="مخاطرة" wn=""/>
+            <Active_participle name="مُخَاطِر" transliteration="muxaATir" transname="مخاطر" wn=""/>
+        </MEMBER>
+        <MEMBER name="قَامَرَ" transliteration="qaAmara" transname="قامر" wn="">
+            <Root name="قمر" transliteration="qmr"/>
+            <Deverbal name="مُقَامَرَة" transliteration="muqaAmarap" transname="مقامرة" wn=""/>
+            <Active_participle name="مُقَامِر" transliteration="muqaAmir" transname="مقامر" wn=""/>
+        </MEMBER>
+        <MEMBER name="غَامَرَ" transliteration="gaAmara" transname="غامر" wn="">
+            <Root name="غمر" transliteration="gmr"/>
+            <Deverbal name="مُغَامَرَة" transliteration="mugaAmarap" transname="مغامرة" wn=""/>
+            <Active_participle name="مُغَامِر" transliteration="mugaAmir" transname="مغامر" wn=""/>
+        </MEMBER>
+        <MEMBER name="جَازَفَ" transliteration="jaAzafa" transname="جازف" wn="">
+            <Root name="جزف" transliteration="jzf"/>
+            <Deverbal name="مُجَازَفَة" transliteration="mujaAzafap" transname="مجازفة" wn=""/>
+            <Active_participle name="مُجَازِف" transliteration="mujaAzif" transname="مجازف" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="V NP" secondary="Intransitive" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="غَامرَ المُتَسَلِّقُ." transliteration="gaAmra Almutasal~iqu."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="risk">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="V NP PP.theme" secondary="PPbi-PP" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="غَامرَ الشُّرْطِيُ بِحَيَاتِهِ." transliteration="gaAmra Al$~uroTiyu biHayaAtihi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="بِ">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="risk">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="8.1" primary="V NP bi DEVERBAL" secondary="bi DEVERBAL-SC" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="خَاطَرَ المُوَظَّفُ بِفُقدَانِ عَمَلِهِ." transliteration="xaATara AlmuwaZ~afu bifuqdaAni Eamalihi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="بِ">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="deverbal_sc"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="risk">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</VNCLASS>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="$axara-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="شَخَرَ" transliteration="$axara" transname="شخر" wn="">
+            <Root name="شخر" transliteration="$xr"/>
+            <Deverbal name="شَخِير" transliteration="$axiyr" transname="شخير" wn=""/>
+            <Active_participle name="شَاخِر" transliteration="$aAxir" transname="شاخر" wn=""/>
+        </MEMBER>
+        <MEMBER name="ضَرَطَ" transliteration="DaraTa" transname="ضرط" wn="">
+            <Root name="ضرط" transliteration="DrT"/>
+            <Deverbal name="ضَرْط" transliteration="DaroT" transname="ضرط" wn=""/>
+            <Active_participle name="ضَارِط" transliteration="DaAriT" transname="ضارط" wn=""/>
+        </MEMBER>
+        <MEMBER name="خَدَفَ" transliteration="xadafa" transname="خدف" wn="">
+            <Root name="خدف" transliteration="xdf"/>
+            <Deverbal name="خَدْف" transliteration="xadof" transname="خدف" wn=""/>
+            <Active_participle name="خَادِف" transliteration="xaAdif" transname="خادف" wn=""/>
+        </MEMBER>
+        <MEMBER name="عَفَطَ" transliteration="EafaTa" transname="عفط" wn="">
+            <Root name="عفط" transliteration="EfT"/>
+            <Deverbal name="عَفَط" transliteration="EafaT" transname="عفط" wn=""/>
+            <Active_participle name="عَافِط" transliteration="EaAfiT" transname="عافط" wn=""/>
+        </MEMBER>
+        <MEMBER name="خَبَجَ" transliteration="xabaja" transname="خبج" wn="">
+            <Root name="خبج" transliteration="xbj"/>
+            <Deverbal name="خَبْج" transliteration="xaboj" transname="خبج" wn=""/>
+            <Active_participle name="خَابِج" transliteration="xaAbij" transname="خابج" wn=""/>
+        </MEMBER>
+        <MEMBER name="عَفَقَ" transliteration="Eafaqa" transname="عفق" wn="">
+            <Root name="عفق" transliteration="Efq"/>
+            <Deverbal name="عَفْق" transliteration="Eafoq" transname="عفق" wn=""/>
+            <Active_participle name="عَافِق" transliteration="EaAfiq" transname="عافق" wn=""/>
+        </MEMBER>
+        <MEMBER name="عَطَسَ" transliteration="EaTasa" transname="عطس" wn="">
+            <Root name="عطس" transliteration="ETs"/>
+            <Deverbal name="عَطْس" transliteration="EaTos" transname="عطس" wn=""/>
+            <Active_participle name="عَاطِس" transliteration="EaATis" transname="عاطس" wn=""/>
+        </MEMBER>
+        <MEMBER name="فَخَّ" transliteration="fax~a" transname="فخ" wn="">
+            <Root name="فخخ" transliteration="fxx"/>
+            <Deverbal name="فَخِيخ" transliteration="faxiyx" transname="فخيخ" wn=""/>
+            <Active_participle name="فَاخّ" transliteration="faAx~" transname="فاخ" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَجَشَّأَ" transliteration="taja$~aOa" transname="تجشأ" wn="">
+            <Root name="جشأ" transliteration="j$O"/>
+            <Deverbal name="تَجَشُّؤ" transliteration="taja$~uW" transname="تجشؤ" wn=""/>
+            <Active_participle name="مُتَجَشِّئ" transliteration="mutaja$~i}" transname="متجشئ" wn=""/>
+        </MEMBER>
+        <MEMBER name="فَسَا" transliteration="fasaA" transname="فسا" wn="">
+            <Root name="فسو" transliteration="fsw"/>
+            <Deverbal name="فَسْو" transliteration="fasow" transname="فسو" wn=""/>
+            <Active_participle name="فَاسِي" transliteration="faAsiy" transname="فاسي" wn=""/>
+        </MEMBER>
+        <MEMBER name="لَهَثَ" transliteration="lahava" transname="لهث" wn="">
+            <Root name="لهث" transliteration="lhv"/>
+            <Deverbal name="لُهَاث" transliteration="luhaAv" transname="لهاث" wn=""/>
+            <Active_participle name="لَاهِث" transliteration="laAhiv" transname="لاهث" wn=""/>
+        </MEMBER>
+        <MEMBER name="شَهَقَ" transliteration="$ahaqa" transname="شهق" wn="">
+            <Root name="شهق" transliteration="$hq"/>
+            <Deverbal name="شَهِيق" transliteration="$ahiyq" transname="شهيق" wn=""/>
+            <Active_participle name="شَاهِق" transliteration="$aAhiq" transname="شاهق" wn=""/>
+        </MEMBER>
+        <MEMBER name="أَزَّ" transliteration="Oaz~a" transname="أز" wn="">
+            <Root name="أزز" transliteration="Ozz"/>
+            <Deverbal name="أَزِيز" transliteration="Oaziyz" transname="أزيز" wn=""/>
+            <Active_participle name="آزّ" transliteration="|z~" transname="آز" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="Cognate Object" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="شَخَرَ المَرِيضُ." transliteration="$axara AlmariyDu."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="body_process">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="involuntary">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="V NP NP" secondary="" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="شَخَرَ المَرِيضُ شَخِيراً عَالِياً." transliteration="$axara AlmariyDu $axiyrAF EaAliyAF."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="body_process">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="involuntary">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</VNCLASS>

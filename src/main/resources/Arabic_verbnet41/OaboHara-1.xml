@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="OaboHara-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="طَارَ" transliteration="TaAra" transname="طار" wn="">
+            <Root name="طير" transliteration="Tyr"/>
+            <Deverbal name="طَيَرَان" transliteration="TayaraAn" transname="طيران" wn=""/>
+            <Active_participle name="طَائِر" transliteration="TaA}ir" transname="طائر" wn=""/>
+        </MEMBER>
+        <MEMBER name="أْبْحَرَ" transliteration="OoboHara" transname="أبحر" wn="">
+            <Root name="نحر" transliteration="nHr"/>
+            <Deverbal name="إِبْحَار" transliteration="IiboHaAr" transname="إبحار" wn=""/>
+            <Active_participle name="مُبْحِر" transliteration="muboHir" transname="مبحر" wn=""/>
+        </MEMBER>
+        <MEMBER name="حَلَّقَ" transliteration="Hal~aqa" transname="حلق" wn="">
+            <Root name="حلق" transliteration="Hlq"/>
+            <Deverbal name="تَحْلِيق" transliteration="taHoliyq" transname="تحليق" wn=""/>
+            <Active_participle name="مُحَلِّق" transliteration="muHal~iq" transname="محلق" wn=""/>
+        </MEMBER>
+        <MEMBER name="جَدَّفَ" transliteration="jad~afa" transname="جدف" wn="">
+            <Root name="جدف" transliteration="jdf"/>
+            <Deverbal name="تَجْدِيف" transliteration="tajodiyf" transname="تجديف" wn=""/>
+            <Active_participle name="مُجَدِّف" transliteration="mujad~if" transname="مجدف" wn=""/>
+        </MEMBER>
+        <MEMBER name="جَدَفَ" transliteration="jadafa" transname="جدف" wn="">
+            <Root name="جدف" transliteration="jdf"/>
+            <Deverbal name="جَدْف" transliteration="jadof" transname="جدف" wn=""/>
+            <Active_participle name="جَادِف" transliteration="jaAdif" transname="جادف" wn=""/>
+        </MEMBER>
+        <MEMBER name="قَدَّفَ" transliteration="qad~afa" transname="قدف" wn="">
+            <Root name="قدف" transliteration="qdf"/>
+            <Deverbal name="تَقْدِيف" transliteration="taqodiyf" transname="تقديف" wn=""/>
+            <Active_participle name="مُقَدِّف" transliteration="muqad~if" transname="مقدف" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Location">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="V NP.agent " secondary="Basic Intransitiveinchoative" xtag="0.1"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَبْحَرَ المُسَافِرُونَ." transliteration="OaboHara AlmusaAfiruwna."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="V NP V PP.location" secondary="PPlocative-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَبْحَرَ المُسَافِرُونَ عَبْرَ قَنَاةِ السَّوِيس." transliteration="OaboHara AlmusaAfiruwna Eabora qanaApi Als~awiys."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Location">
+                    <SELRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</VNCLASS>

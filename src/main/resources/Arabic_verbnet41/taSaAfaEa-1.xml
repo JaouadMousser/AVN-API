@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="taSaAfaEa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="تَوَاطَسَ" transliteration="tawaATasa" transname="تواطس" wn="">
+            <Root name="وطس" transliteration="wTs"/>
+            <Deverbal name="تَوَاطُس" transliteration="tawaATus" transname="تواطس" wn=""/>
+            <Active_participle name="مُتَوَاطِس" transliteration="mutawaATis" transname="متواطس" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَوَاجَأَ" transliteration="tawaAjaOa" transname="تواجأ" wn="">
+            <Root name="وجأ" transliteration="wjO"/>
+            <Deverbal name="تَوَاجُؤ" transliteration="tawaAjuW" transname="تواجؤ" wn=""/>
+            <Active_participle name="مُتَوَاجِئ" transliteration="mutawaAji}" transname="متواجئ" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَلَاطَعَ" transliteration="talaATaEa" transname="تلاطع" wn="">
+            <Root name="لطع" transliteration="lTE"/>
+            <Deverbal name="تَلَاطُع" transliteration="talaATuE" transname="تلاطع" wn=""/>
+            <Active_participle name="مُتَلَاطِع" transliteration="mutalaATiE" transname="متلاطع" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَوَاقَطَ" transliteration="tawaAqaTa" transname="تواقط" wn="">
+            <Root name="وقط" transliteration="wqT"/>
+            <Deverbal name="تَوَاقُط" transliteration="tawaAquT" transname="تواقط" wn=""/>
+            <Active_participle name="مُتَوَاقِط" transliteration="mutawaAqiT" transname="متواقط" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَصَاكَّ" transliteration="taSaAk~a" transname="تصاك" wn="">
+            <Root name="صكك" transliteration="Skk"/>
+            <Deverbal name="تَصَاك" transliteration="taSaAk" transname="تصاك" wn=""/>
+            <Active_participle name="مُتَصَاك" transliteration="mutaSaAk" transname="متصاك" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَلَاكَّ" transliteration="talaAk~a" transname="تلاك" wn="">
+            <Root name="لكك" transliteration="lkk"/>
+            <Deverbal name="تَلَاك" transliteration="talaAk" transname="تلاك" wn=""/>
+            <Active_participle name="مُتَلَاك" transliteration="mutalaAk" transname="متلاك" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَصَافَقَ" transliteration="taSaAfaqa" transname="تصافق" wn="">
+            <Root name="سفق" transliteration="sfq"/>
+            <Deverbal name="تَصَافُق" transliteration="taSaAfuq" transname="تصافق" wn=""/>
+            <Active_participle name="مُتَصَافِق" transliteration="mutaSaAfiq" transname="متصافق" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَلَاكَأَ" transliteration="talaAkaOa" transname="تلاكأ" wn="">
+            <Root name="لكأ" transliteration="lkO"/>
+            <Deverbal name="تَلَاكُؤ" transliteration="talaAkuW" transname="تلاكؤ" wn=""/>
+            <Active_participle name="مُتَلَاكِئ" transliteration="mutalaAki}" transname="متلاكئ" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَلَاكَزَ" transliteration="talaAkaza" transname="تلاكز" wn="">
+            <Root name="لكز" transliteration="lkz"/>
+            <Deverbal name="تَلَاكُز" transliteration="talaAkuz" transname="تلاكز" wn=""/>
+            <Active_participle name="مُتَلَاكِز" transliteration="mutalaAkiz" transname="متلاكز" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَفَالَقَ" transliteration="tafaAlaqa" transname="تفالق" wn="">
+            <Root name="فلق" transliteration="flq"/>
+            <Deverbal name="تَفَالُق" transliteration="tafaAluq" transname="تفالق" wn=""/>
+            <Active_participle name="مُتَفَالِق" transliteration="mutafaAliq" transname="متفالق" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَوَاكَزَ" transliteration="tawaAkaza" transname="تواكز" wn="">
+            <Root name="وكز" transliteration="wkz"/>
+            <Deverbal name="تَوَاكُز" transliteration="tawaAkuz" transname="تواكز" wn=""/>
+            <Active_participle name="مُتَوَاكِز" transliteration="mutawaAkiz" transname="متواكز" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَعَازَرَ" transliteration="taEaAzara" transname="تعازر" wn="">
+            <Root name="عزر" transliteration="Ezr"/>
+            <Deverbal name="تَعَازُر" transliteration="taEaAzur" transname="تعازر" wn=""/>
+            <Active_participle name="مُتَعَازِر" transliteration="mutaEaAzir" transname="متعازر" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَرَاطَمَ" transliteration="taraATama" transname="تراطم" wn="">
+            <Root name="رطم" transliteration="rTm"/>
+            <Deverbal name="تَرَاطُم" transliteration="taraATum" transname="تراطم" wn=""/>
+            <Active_participle name="مُتَرَاطِم" transliteration="mutaraATim" transname="متراطم" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَنَاطَحَ" transliteration="tanaATaHa" transname="تناطح" wn="">
+            <Root name="نطح" transliteration="nTH"/>
+            <Deverbal name="تَنَاطُح" transliteration="tanaATuH" transname="تناطح" wn=""/>
+            <Active_participle name="مُتَنَاطِح" transliteration="mutanaATiH" transname="متناطح" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَفَاشَخَ" transliteration="tafaA$axa" transname="تفاشخ" wn="">
+            <Root name="فشخ" transliteration="f$x"/>
+            <Deverbal name="تَفَاشُخ" transliteration="tafaA$ux" transname="تفاشخ" wn=""/>
+            <Active_participle name="مُتَفَاشِخ" transliteration="mutafaA$ix" transname="متفاشخ" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَعَاضَّ" transliteration="taEaAD~a" transname="تعاض" wn="">
+            <Root name="عضض" transliteration="EDD"/>
+            <Deverbal name="تَعَاض" transliteration="taEaAD" transname="تعاض" wn=""/>
+            <Active_participle name="مُتَعَاض" transliteration="mutaEaAD" transname="متعاض" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَطَارَقَ" transliteration="taTaAraqa" transname="تطارق" wn="">
+            <Root name="طرق" transliteration="Trq"/>
+            <Deverbal name="تَطَارق" transliteration="taTaArq" transname="تطارق" wn=""/>
+            <Active_participle name="مُتَطَارِق" transliteration="mutaTaAriq" transname="متطارق" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَلَاسَعَ" transliteration="talaAsaEa" transname="تلاسع" wn="">
+            <Root name="لسع" transliteration="lsE"/>
+            <Deverbal name="تَلَاسُع" transliteration="talaAsuE" transname="تلاسع" wn=""/>
+            <Active_participle name="مُتَلَاسِع" transliteration="mutalaAsiE" transname="متلاسع" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَقَارَصَ" transliteration="taqaAraSa" transname="تقارص" wn="">
+            <Root name="قرص" transliteration="qrS"/>
+            <Deverbal name="تَقَارُص" transliteration="taqaAruS" transname="تقارص" wn=""/>
+            <Active_participle name="مُتَقَارِص" transliteration="mutaqaAriS" transname="متقارص" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَرَاكَلَ" transliteration="taraAkala" transname="تراكل" wn="">
+            <Root name="ركل" transliteration="rkl"/>
+            <Deverbal name="تَرَاكُل" transliteration="taraAkul" transname="تراكل" wn=""/>
+            <Active_participle name="مُتَرَالكِل" transliteration="mutaraAlkil" transname="مترالكل" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَرَافَسَ" transliteration="taraAfasa" transname="ترافس" wn="">
+            <Root name="رفس" transliteration="rfs"/>
+            <Deverbal name="تَرَافُس" transliteration="taraAfus" transname="ترافس" wn=""/>
+            <Active_participle name="مُتَرَافِس" transliteration="mutaraAfis" transname="مترافس" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَصَافَعَ" transliteration="taSaAfaEa" transname="تصافع" wn="">
+            <Root name="صفع" transliteration="SfE"/>
+            <Deverbal name="تَصَافُع" transliteration="taSaAfuE" transname="تصافع" wn=""/>
+            <Active_participle name="مُتَصَافِع" transliteration="mutaSaAfiE" transname="متصافع" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَنَاقَرَ" transliteration="tanaAqara" transname="تناقر" wn="">
+            <Root name="نقر" transliteration="nqr"/>
+            <Deverbal name="تَنَاقُر" transliteration="tanaAqur" transname="تناقر" wn=""/>
+            <Active_participle name="مُتَنَاقِر" transliteration="mutanaAqir" transname="متناقر" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَدَاقَّ" transliteration="tadaAq~a" transname="تداق" wn="">
+            <Root name="دقق" transliteration="dqq"/>
+            <Deverbal name="تَدَاق" transliteration="tadaAq" transname="تداق" wn=""/>
+            <Active_participle name="مُتَدَاق" transliteration="mutadaAq" transname="متداق" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَلَاكَمَ" transliteration="talaAkama" transname="تلاكم" wn="">
+            <Root name="لكم" transliteration="lkm"/>
+            <Deverbal name="تَلَاكُم" transliteration="talaAkum" transname="تلاكم" wn=""/>
+            <Active_participle name="مُتَلَاكِم" transliteration="mutalaAkim" transname="متلاكم" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَطَاعَنَ" transliteration="taTaAEana" transname="تطاعن" wn="">
+            <Root name="طعن" transliteration="TEn"/>
+            <Deverbal name="تَطَاعُن" transliteration="taTaAeun" transname="تطاعن" wn=""/>
+            <Active_participle name="مُتَطَاعِن" transliteration="mutaTaAEin" transname="متطاعن" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَخَابَطَ" transliteration="taxaAbaTa" transname="تخابط" wn="">
+            <Root name="خبط" transliteration="xbT"/>
+            <Deverbal name="تَخَابُط" transliteration="taxaAbuT" transname="تخابط" wn=""/>
+            <Active_participle name="مُتَخَابِط" transliteration="mutaxaAbiT" transname="متخابط" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَلَاطَمَ" transliteration="talaATama" transname="تلاطم" wn="">
+            <Root name="لطم" transliteration="lTm"/>
+            <Deverbal name="تَلَاطُم" transliteration="talaATum" transname="تلاطم" wn=""/>
+            <Active_participle name="مُتَلاطِم" transliteration="mutalATim" transname="متلاطم" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَصَادَمَ" transliteration="taSaAdama" transname="تصادم" wn="">
+            <Root name="صدم" transliteration="Sdm"/>
+            <Deverbal name="تَصَادُم" transliteration="taSaAdum" transname="تصادم" wn=""/>
+            <Active_participle name="مُتَصَادِم" transliteration="mutaSaAdim" transname="متصادم" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَضَارَبَ" transliteration="taDaAraba" transname="تضارب" wn="">
+            <Root name="ضرب" transliteration="Drb"/>
+            <Deverbal name="تَضَارُب" transliteration="taDaArub" transname="تضارب" wn=""/>
+            <Active_participle name="مُتَضَارِب" transliteration="mutaDaArib" transname="متضارب" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Actor">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Actor1">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Actor2">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Instrument">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="solid"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="V NP" secondary="Basic Intransitive" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَصَافَعَ زَيد وَ عَلِي." transliteration="taSaAfaEa zayd wa Ealiy."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Actor">
+                    <SYNRESTRS logic="or">
+                        <SYNRESTR Value="+" type="plural"/>
+                        <SYNRESTR Value="+" type="dual"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Actor"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="manner">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="Constant" value="directedmotion"/>
+                        <ARG type="ThemRole" value="Actor_i"/>
+                        <ARG type="ThemRole" value="Actor_j"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Actor_i"/>
+                        <ARG type="ThemRole" value="Actor_j"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="manner">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="Constant" value="forceful"/>
+                        <ARG type="ThemRole" value="Actor_i"/>
+                        <ARG type="ThemRole" value="Actor_j"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Actor_i"/>
+                        <ARG type="ThemRole" value="Actor_j"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="V NP NP" secondary="Cognate Object" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَصَافَعَ المُتَخَاصِمَان صَفْعاً/تَصَافُعاً مُؤْلِماً." transliteration="taSaAfaEa AlmutaxaASimaAn SafoEAF/taSaAfuEAF muWolimAF."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Actor">
+                    <SYNRESTRS logic="or">
+                        <SYNRESTR Value="+" type="plural"/>
+                        <SYNRESTR Value="+" type="dual"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Actor"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="manner">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="Constant" value="directedmotion"/>
+                        <ARG type="ThemRole" value="Actor_i"/>
+                        <ARG type="ThemRole" value="Actor_j"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Actor_i"/>
+                        <ARG type="ThemRole" value="Actor_j"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="manner">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="Constant" value="forceful"/>
+                        <ARG type="ThemRole" value="Actor_i"/>
+                        <ARG type="ThemRole" value="Actor_j"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Actor_i"/>
+                        <ARG type="ThemRole" value="Actor_j"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="V NP PP.instrument NP" secondary="PPInstrument-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَصَافَعَ المُتَخَاصِمُون بِأَحْدِيَتِهِم." transliteration="taSaAfaEa AlmutaxaASimuwn biOaHodiyatihim."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Actor">
+                    <SYNRESTRS logic="or">
+                        <SYNRESTR Value="+" type="plural"/>
+                        <SYNRESTR Value="+" type="dual"/>
+                    </SYNRESTRS>
+                </NP>
+                <PREP value="بِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Instrument">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Actor"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="manner">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="Constant" value="directedmotion"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                        <ARG type="ThemRole" value="Actor_i"/>
+                        <ARG type="ThemRole" value="Actor_j"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="manner">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="Constant" value="forceful"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                        <ARG type="ThemRole" value="Actor_i"/>
+                        <ARG type="ThemRole" value="Actor_j"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="use">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Actor_i"/>
+                        <ARG type="ThemRole" value="Actor_j"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.4" primary="V NP PP.oblique" secondary="PPResult-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَصَافَعَ المُتَخَاصِمَان حَتَّى الإِغْمَاءِ." transliteration="taSaAfaEa AlmutaxaASimaAn Hat~aY AlIigomaA'i."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Actor">
+                    <SYNRESTRS logic="or">
+                        <SYNRESTR Value="+" type="plural"/>
+                        <SYNRESTR Value="+" type="dual"/>
+                    </SYNRESTRS>
+                </NP>
+                <PREP value="حَتَّى">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Oblique">
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="state"/>
+                    </SELRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Actor"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="manner">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="Constant" value="directedmotion"/>
+                        <ARG type="ThemRole" value="Actor_i"/>
+                        <ARG type="ThemRole" value="Actor_j"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Actor_i"/>
+                        <ARG type="ThemRole" value="Actor_j"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="manner">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="Constant" value="forceful"/>
+                        <ARG type="ThemRole" value="Actor_i"/>
+                        <ARG type="ThemRole" value="Actor_j"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Actor_i"/>
+                        <ARG type="ThemRole" value="Actor_j"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Pred">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Actor_i"/>
+                        <ARG type="ThemRole" value="Actor_j"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.4" primary="V NP PP.instrument PP.oblique" secondary="PPInstrument-PP, Result-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَصَافَعَ المُتَخَاصِمَانِ بِالأَحْدِيَةِ حَتَّى الإِغْمَاء." transliteration="taSaAfaEa AlmutaxaASimaAni biAlOaHodiyapi Hat~aY AlIigomaA'."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Actor">
+                    <SYNRESTRS logic="or">
+                        <SYNRESTR Value="+" type="plural"/>
+                        <SYNRESTR Value="+" type="dual"/>
+                    </SYNRESTRS>
+                </NP>
+                <PREP value="بِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Instrument">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="حَتَّى">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Oblique">
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="state"/>
+                    </SELRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Actor"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="manner">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="Constant" value="directedmotion"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                        <ARG type="ThemRole" value="Actor_i"/>
+                        <ARG type="ThemRole" value="Actor_j"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="manner">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="Constant" value="forceful"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                        <ARG type="ThemRole" value="Actor_i"/>
+                        <ARG type="ThemRole" value="Actor_j"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Pred">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Actor_i"/>
+                        <ARG type="ThemRole" value="Actor_j"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="use">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Actor_i"/>
+                        <ARG type="ThemRole" value="Actor_j"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="V NP PP.oblique" secondary="PPBody-part-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَصَافَعَ المُتَخَاصِمُون  عَلَى خُدُودِهِم." transliteration="taSaAfaEa AlmutaxaASimuwn  EalaY xuduwdihim."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Actor">
+                    <SYNRESTRS logic="or">
+                        <SYNRESTR Value="+" type="plural"/>
+                        <SYNRESTR Value="+" type="dual"/>
+                    </SYNRESTRS>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="loc"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Oblique">
+                    <SELRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Actor"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="manner">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="Constant" value="directedmotion"/>
+                        <ARG type="ThemRole" value="Actor_i"/>
+                        <ARG type="ThemRole" value="Actor_j"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Actor_i"/>
+                        <ARG type="ThemRole" value="Actor_j"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="manner">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="Constant" value="forceful"/>
+                        <ARG type="ThemRole" value="Actor_i"/>
+                        <ARG type="ThemRole" value="Actor_j"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Actor_i"/>
+                        <ARG type="ThemRole" value="Actor_j"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="SafaEa-1"/>
+    </SIBLINGCLASSES>
+</VNCLASS>
