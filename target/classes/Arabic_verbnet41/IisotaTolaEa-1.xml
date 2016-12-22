@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="IisotaTolaEa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="إِسْتَجْلَى" transliteration="IisotajolaY" transname="إستجلى" wn="">
+            <Root name="جلى" transliteration="jlY"/>
+            <Deverbal name="إِسْتِجْلَاء" transliteration="IisotijolaA'" transname="إستجلاء" wn=""/>
+            <Active_participle name="مُسْتَجْلِي" transliteration="musotajoliy" transname="مستجلي" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِسْتَكْشَفَ" transliteration="Iisotako$afa" transname="إستكشف" wn="">
+            <Root name="كشف" transliteration="k$f"/>
+            <Deverbal name="إِسْتِكْشَاف" transliteration="Iisotiko$aAf" transname="إستكشاف" wn=""/>
+            <Active_participle name="مُسْتَكْشِف" transliteration="musotako$if" transname="مستكشف" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِسْتَطْلَعَ" transliteration="IisotaTolaEa" transname="إستطلع" wn="">
+            <Root name="طلع" transliteration="TlE"/>
+            <Deverbal name="إِسْطْلعَ" transliteration="IisoTolEa" transname="إسطلع" wn=""/>
+            <Active_participle name="طلع" transliteration="TlE" transname="طلع" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِسْتَغْوَرَ" transliteration="Iisotagowara" transname="إستغور" wn="">
+            <Root name="غور" transliteration="gwr"/>
+            <Deverbal name="إِسْتِغْوَار" transliteration="IisotigowaAr" transname="إستغوار" wn=""/>
+            <Active_participle name="مُسْتَغْوِر" transliteration="musotagowir" transname="مستغور" wn=""/>
+        </MEMBER>
+        <MEMBER name="فَحَصَ" transliteration="faHaSa" transname="فحص" wn="">
+            <Root name="فحص" transliteration="fHS"/>
+            <Deverbal name="فَحْص" transliteration="faHoS" transname="فحص" wn=""/>
+            <Active_participle name="فَاحِص" transliteration="faAHiS" transname="فاحص" wn=""/>
+        </MEMBER>
+        <MEMBER name="رَاقَبَ" transliteration="raAqaba" transname="راقب" wn="">
+            <Root name="رقب" transliteration="rqb"/>
+            <Deverbal name="مُرَاقَبَة" transliteration="muraAqabap" transname="مراقبة" wn=""/>
+            <Active_participle name="مُرَاقِب" transliteration="muraAqib" transname="مراقب" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَفَقَّدَ" transliteration="tafaq~ada" transname="تفقد" wn="">
+            <Root name="فقد" transliteration="fqd"/>
+            <Deverbal name="تَفَقُّد" transliteration="tafaq~ud" transname="تفقد" wn=""/>
+            <Active_participle name="مُتَفَقِّد" transliteration="mutafaq~id" transname="متفقد" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَصَفّحَ" transliteration="taSaf~Ha" transname="تصفح" wn="">
+            <Root name="صفح" transliteration="SfH"/>
+            <Deverbal name="تَصَفُّح" transliteration="taSaf~uH" transname="تصفح" wn=""/>
+            <Active_participle name="مُتَصَفِّح" transliteration="mutaSaf~iH" transname="متصفح" wn=""/>
+        </MEMBER>
+        <MEMBER name="مَسَحَ" transliteration="masaHa" transname="مسح" wn="">
+            <Root name="مسح" transliteration="msH"/>
+            <Deverbal name="مَسْح" transliteration="masoH" transname="مسح" wn=""/>
+            <Active_participle name="مَاسِح" transliteration="maAsiH" transname="ماسح" wn=""/>
+        </MEMBER>
+        <MEMBER name="مَشَّطَ" transliteration="ma$~aTa" transname="مشط" wn="">
+            <Root name="مشط" transliteration="m$T"/>
+            <Deverbal name="تَمْشِيط" transliteration="tamo$iyT" transname="تمشيط" wn=""/>
+            <Active_participle name="مُمَشِّط" transliteration="muma$~iT" transname="ممشط" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Location">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="Location Object" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِسْتَجْلَت الطَّلَائِع سَاحَة المَعْرَكَة." transliteration="Iisotajolat AlT~alaA}iE saAHap AlmaEorakap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="search">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</VNCLASS>

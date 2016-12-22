@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="SaAra-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="صَارَ" transliteration="SaAra" transname="صار" wn="">
+            <Root name="صير" transliteration="Syr"/>
+            <Deverbal name="صَيْر" transliteration="Sayor" transname="صير" wn=""/>
+            <Deverbal name="صَيْرُورَة" transliteration="Sayoruwrap" transname="صيرورة" wn=""/>
+            <Deverbal name="مَصِير" transliteration="maSiyr" transname="مصير" wn=""/>
+            <Active_participle name="صَائِر" transliteration="SaA}ir" transname="صائر" wn=""/>
+        </MEMBER>
+        <MEMBER name="أَصْبَحَ" transliteration="OaSobaHa" transname="أصبح" wn="">
+            <Root name="صبح" transliteration="SbH"/>
+            <Deverbal name="إِصْبَاح" transliteration="IiSobaAH" transname="إصباح" wn=""/>
+            <Active_participle name="مُصْبِح" transliteration="muSobiH" transname="مصبح" wn=""/>
+        </MEMBER>
+        <MEMBER name="أَضْحَى" transliteration="OaDoHaY" transname="أضحى" wn="">
+            <Root name="ضحى" transliteration="DHY"/>
+            <Deverbal name="إِضْحَاء" transliteration="IiDoHaA'" transname="إضحاء" wn=""/>
+            <Active_participle name="مُضْحِي" transliteration="muDoHiy" transname="مضحي" wn=""/>
+        </MEMBER>
+        <MEMBER name="ضَحَى" transliteration="DaHaY" transname="ضحى" wn="">
+            <Root name="ضحى" transliteration="DHY"/>
+            <Deverbal name="ضَحْو" transliteration="DaHow" transname="ضحو" wn=""/>
+            <Active_participle name="ضَاحِي" transliteration="DaAHiy" transname="ضاحي" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Patient">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Product">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="2.4.4" primary="V NP NP" secondary="Basic Transitive" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَصْبَحَ الرَّجُلُ عَالِمَاً." transliteration="OaSobaHa Alr~ajulu EaAlimaAF."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Product">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="state">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</VNCLASS>

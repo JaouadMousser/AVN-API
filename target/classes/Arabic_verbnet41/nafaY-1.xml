@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="nafaY-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="طَرَدَ" transliteration="Tarada" transname="طرد" wn="">
+            <Root name="طرد" transliteration="Trd"/>
+            <Deverbal name="طَرْد" transliteration="Tarod" transname="طرد" wn=""/>
+            <Active_participle name="طَارِد" transliteration="TaArid" transname="طارد" wn=""/>
+        </MEMBER>
+        <MEMBER name="رَحَّلَ" transliteration="raH~ala" transname="رحل" wn="">
+            <Root name="رحل" transliteration="rHl"/>
+            <Deverbal name="تَرْحِيل" transliteration="taroHiyl" transname="ترحيل" wn=""/>
+            <Active_participle name="مُرَحِّل" transliteration="muraH~il" transname="مرحل" wn=""/>
+        </MEMBER>
+        <MEMBER name="ذَحَا" transliteration="*aHaA" transname="ذحا" wn="">
+            <Root name="ذحو" transliteration="*Hw"/>
+            <Deverbal name="ذَحْو" transliteration="*aHow" transname="ذحو" wn=""/>
+            <Active_participle name="ذَاحِي" transliteration="*aAHiy" transname="ذاحي" wn=""/>
+        </MEMBER>
+        <MEMBER name="أَنْزَحَ" transliteration="OanozaHa" transname="أنزح" wn="">
+            <Root name="نزح" transliteration="nzH"/>
+            <Deverbal name="إِنْزَاح" transliteration="IinozaAH" transname="إنزاح" wn=""/>
+            <Active_participle name="مُنْزِح" transliteration="munoziH" transname="منزح" wn=""/>
+        </MEMBER>
+        <MEMBER name="وَسَقَ" transliteration="wasaqa" transname="وسق" wn="">
+            <Root name="وسق" transliteration="wsq"/>
+            <Deverbal name="وَسْق" transliteration="wasoq" transname="وسق" wn=""/>
+            <Active_participle name="وَاسِق" transliteration="waAsiq" transname="واسق" wn=""/>
+        </MEMBER>
+        <MEMBER name="غَرَّبَ" transliteration="gar~aba" transname="غرب" wn="">
+            <Root name="غرب" transliteration="grb"/>
+            <Deverbal name="تَغْرِيب" transliteration="tagoriyb" transname="تغريب" wn=""/>
+            <Active_participle name="مُغَرِّب" transliteration="mugar~ib" transname="مغرب" wn=""/>
+        </MEMBER>
+        <MEMBER name="أَبْعدَ" transliteration="OaboEda" transname="أبعد" wn="">
+            <Root name="بعد" transliteration="bEd"/>
+            <Deverbal name="إِبْعَاد" transliteration="IiboEaAd" transname="إبعاد" wn=""/>
+            <Active_participle name="مُبْعِد" transliteration="muboEid" transname="مبعد" wn=""/>
+        </MEMBER>
+        <MEMBER name="أَخْرَجَ" transliteration="Oaxoraja" transname="أخرج" wn="">
+            <Root name="خرج" transliteration="xrj"/>
+            <Deverbal name="إِخْرَاج" transliteration="IixoraAj" transname="إخراج" wn=""/>
+            <Active_participle name="مُخْرِج" transliteration="muxorij" transname="مخرج" wn=""/>
+        </MEMBER>
+        <MEMBER name="نَفَى" transliteration="nafaY" transname="نفى" wn="">
+            <Root name="نفي" transliteration="nfy"/>
+            <Deverbal name="نَفْي" transliteration="nafoy" transname="نفي" wn=""/>
+            <Active_participle name="نَافِي" transliteration="naAfiy" transname="نافي" wn=""/>
+        </MEMBER>
+        <MEMBER name="هَجَّرَ" transliteration="haj~ara" transname="هجر" wn="">
+            <Root name="هجر" transliteration="hjr"/>
+            <Deverbal name="تَهْجِير" transliteration="tahojiyr" transname="تهجير" wn=""/>
+            <Active_participle name="مُهَجِّر" transliteration="muhaj~ir" transname="مهجر" wn=""/>
+        </MEMBER>
+        <MEMBER name="دَحَرَ" transliteration="daHara" transname="دحر" wn="">
+            <Root name="دحر" transliteration="dHr"/>
+            <Deverbal name="دَحْر" transliteration="daHor" transname="دحر" wn=""/>
+            <Active_participle name="دَاحِر" transliteration="daAHir" transname="داحر" wn=""/>
+        </MEMBER>
+        <MEMBER name="بَعَّدَ" transliteration="baE~ada" transname="بعد" wn="">
+            <Root name="بعد" transliteration="bEd"/>
+            <Deverbal name="تَبْعِيد" transliteration="taboEiyd" transname="تبعيد" wn=""/>
+            <Active_participle name="مُبَعِّد" transliteration="mubaE~id" transname="مبعد" wn=""/>
+        </MEMBER>
+        <MEMBER name="نَزَّحَ" transliteration="naz~aHa" transname="نزح" wn="">
+            <Root name="نيح" transliteration="nyH"/>
+            <Deverbal name="تَنْزِيح" transliteration="tanoziyH" transname="تنزيح" wn=""/>
+            <Active_participle name="مُنَزِّح" transliteration="munaz~iH" transname="منزح" wn=""/>
+        </MEMBER>
+        <MEMBER name="خَسَأَ" transliteration="xasaOa" transname="خسأ" wn="">
+            <Root name="خسأ" transliteration="xsO"/>
+            <Deverbal name="خَسْأ" transliteration="xasoO" transname="خسأ" wn=""/>
+            <Active_participle name="خَاسِئ" transliteration="xaAsi}" transname="خاسئ" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Source">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="location"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Destination">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="location"/>
+                <SELRESTR Value="-" type="region"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="V NP NP" secondary="Basic Transitive" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="نَفَى العَسْكَرُ كُلَّ المُعَارِضِين." transliteration="nafaY AlEasokaru kul~a AlmuEaAriDiyn."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="location">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Source"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="location">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Destination"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="V NP NP PP.source" secondary="NP-PPSource-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="نَفَى العَسْكَر المُعَارِضِينَ مِنَ الَبَلَدِ." transliteration="nafaY AlEasokar AlmuEaAriDiyna mina Alabaladi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="src"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Source">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="location">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Source"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="location">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Source"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="V NP NP PP.destination" secondary="NP-PPDestination-PP" xtag=""/>
+            
+            <EXAMPLES>
+                <EXAMPLE sentence="نَفَتْ سُلُطَات الحِمَايَة المَلِكَ إِلَى مَدَغَشْقَر." transliteration="nafato suluTaAt AlHimaAyap Almalika IilaY madaga$oqar."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="إِلَى">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Destination">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="location">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Source"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="location">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</VNCLASS>

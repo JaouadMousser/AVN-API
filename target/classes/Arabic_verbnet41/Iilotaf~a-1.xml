@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="Iilotaf~a-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="إِلْتَفَّ" transliteration="Iilotaf~a" transname="إلتف" wn="">
+            <Root name="لفف" transliteration="lff"/>
+            <Deverbal name="إِلْتِفَاف" transliteration="IilotifaAf" transname="إلتفاف" wn=""/>
+            <Active_participle name="مُلْتَف" transliteration="mulotaf" transname="ملتف" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِلْتَوَى" transliteration="IilotawaY" transname="إلتوى" wn="">
+            <Root name="لوي" transliteration="lwy"/>
+            <Deverbal name="إِلْتِوَاء" transliteration="IilotiwaA'" transname="إلتواء" wn=""/>
+            <Active_participle name="مُلْتَوِي" transliteration="mulotawiy" transname="ملتوي" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَلَوَّى" transliteration="talaw~aY" transname="تلوى" wn="">
+            <Root name="لوي" transliteration="lwy"/>
+            <Deverbal name="تَلَوِّي" transliteration="talaw~iy" transname="تلوي" wn=""/>
+            <Active_participle name="مُتَلَوِّي" transliteration="mutalaw~iy" transname="متلوي" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَدَوَّمَ" transliteration="tadaw~ama" transname="تدوم" wn="">
+            <Root name="دوم" transliteration="dwm"/>
+            <Deverbal name="تَدَوَّمَ" transliteration="tadaw~ama" transname="تدوم" wn=""/>
+            <Active_participle name="مُتَدَوِّم" transliteration="mutadaw~im" transname="متدوم" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِسْتَدَارَ" transliteration="IisotadaAra" transname="إستدار" wn="">
+            <Root name="دور" transliteration="dwr"/>
+            <Deverbal name="إِسْتِدَارَة" transliteration="IisotidaArap" transname="إستدارة" wn=""/>
+            <Active_participle name="مُسْتَدِير" transliteration="musotadiyr" transname="مستدير" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَدَوَّرَ" transliteration="tadaw~ara" transname="تدور" wn="">
+            <Root name="دور" transliteration="dwr"/>
+            <Deverbal name="تَدَوُّر" transliteration="tadaw~ur" transname="تدور" wn=""/>
+            <Active_participle name="مُتَدَوِّر" transliteration="mutadaw~ir" transname="متدور" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES/>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="V NP PP.location" secondary="PPpath-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِلْتَفَّ حَبْلُ المَشْنَقَْ حَوْلَ عُنُقِ المُدَان." transliteration="Iilotaf~a Habolu Alma$onaqao Hawola Eunuqi AlmudaAn."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="path"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="rotational_motion">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="laf~a"/>
+    </SIBLINGCLASSES>
+</VNCLASS>

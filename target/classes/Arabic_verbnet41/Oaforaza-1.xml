@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="Oaforaza-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="أَفْرَزَ" transliteration="Oaforaza" transname="أفرز" wn="">
+            <Root name="فرز" transliteration="frz"/>
+            <Deverbal name="إِفْرَاز" transliteration="IiforaAz" transname="إفراز" wn=""/>
+            <Active_participle name="مُفْرِز" transliteration="muforiz" transname="مفرز" wn=""/>
+        </MEMBER>
+        <MEMBER name="ذَرَفَ" transliteration="*arafa" transname="ذرف" wn="">
+            <Root name="ذرف" transliteration="*rf"/>
+            <Deverbal name="ذَرْف" transliteration="*arof" transname="ذرف" wn=""/>
+            <Active_participle name="ذَارِف" transliteration="*aArif" transname="ذارف" wn=""/>
+        </MEMBER>
+        <MEMBER name="بَعَثَ" transliteration="baEava" transname="بعث" wn="">
+            <Root name="بعث" transliteration="bEv"/>
+            <Deverbal name="بَعْث" transliteration="baEov" transname="بعث" wn=""/>
+            <Active_participle name="بَاعِث" transliteration="baAEiv" transname="باعث" wn=""/>
+        </MEMBER>
+        <MEMBER name="أَخْرَجَ" transliteration="Oaxoraja" transname="أخرج" wn="">
+            <Root name="خرج" transliteration="xrj"/>
+            <Deverbal name="إِخْرَاج" transliteration="IixoraAj" transname="إخراج" wn=""/>
+            <Active_participle name="مُخْرِج" transliteration="muxorij" transname="مخرج" wn=""/>
+        </MEMBER>
+        <MEMBER name="أَرْسَلَ" transliteration="Oarosala" transname="أرسل" wn="">
+            <Root name="رسل" transliteration="rsl"/>
+            <Deverbal name="إِرْسَال" transliteration="IirosaAl" transname="إرسال" wn=""/>
+            <Active_participle name="مُرْسِل" transliteration="murosil" transname="مرسل" wn=""/>
+        </MEMBER>
+        <MEMBER name="نَفَثَ" transliteration="nafava" transname="نفث" wn="">
+            <Root name="نفث" transliteration="nfv"/>
+            <Deverbal name="نُفُوث" transliteration="nufuwv" transname="نفوث" wn=""/>
+            <Active_participle name="نَافِث" transliteration="naAfiv" transname="نافث" wn=""/>
+        </MEMBER>
+        <MEMBER name="دَفَعَ" transliteration="dafaEa" transname="دفع" wn="">
+            <Root name="دفع" transliteration="dfE"/>
+            <Deverbal name="دَفْع" transliteration="dafoE" transname="دفع" wn=""/>
+            <Active_participle name="دَافِع" transliteration="daAfiE" transname="دافع" wn=""/>
+        </MEMBER>
+        <MEMBER name="سَجَمَ" transliteration="sajama" transname="سجم" wn="">
+            <Root name="سجم" transliteration="sjm"/>
+            <Deverbal name="سَجْم" transliteration="sajom" transname="سجم" wn=""/>
+            <Active_participle name="سَاجِم" transliteration="saAjim" transname="ساجم" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="-" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Source">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="1.1.3" primary="V NP.source NP" secondary="Source Subject" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تُفْرِزُ الغُدَدُ هُرمُونَات." transliteration="tuforizu Algudadu hurmuwnaAt."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Source">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="emit">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="IinobaEava-1"/>
+    </SIBLINGCLASSES>
+</VNCLASS>

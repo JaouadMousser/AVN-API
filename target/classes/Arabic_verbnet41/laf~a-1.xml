@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="laf~a-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="لَفَّ" transliteration="laf~a" transname="لف" wn="">
+            <Root name="لفف" transliteration="lff"/>
+            <Deverbal name="لَفّ" transliteration="laf~" transname="لف" wn=""/>
+            <Active_participle name="لَاف" transliteration="laAf" transname="لاف" wn=""/>
+        </MEMBER>
+        <MEMBER name="لَوَى" transliteration="lawaY" transname="لوى" wn="">
+            <Root name="لوي" transliteration="lwy"/>
+            <Deverbal name="لَي" transliteration="lay" transname="لي" wn=""/>
+            <Active_participle name="لَاوِي" transliteration="laAwiy" transname="لاوي" wn=""/>
+        </MEMBER>
+        <MEMBER name="لَوَّى" transliteration="law~aY" transname="لوى" wn="">
+            <Root name="لوي" transliteration="lwy"/>
+            <Deverbal name="تَلْوِيَة" transliteration="talowiyap" transname="تلوية" wn=""/>
+            <Active_participle name="مُلَوِّي" transliteration="mulaw~iy" transname="ملوي" wn=""/>
+        </MEMBER>
+        <MEMBER name="دَوَّمَ" transliteration="daw~ama" transname="دوم" wn="">
+            <Root name="دوم" transliteration="dwm"/>
+            <Deverbal name="تَدْوِيم" transliteration="tadowiym" transname="تدويم" wn=""/>
+            <Active_participle name="مُدَوِّم" transliteration="mudaw~im" transname="مدوم" wn=""/>
+        </MEMBER>
+        <MEMBER name="أَدَارَ" transliteration="OadaAra" transname="أدار" wn="">
+            <Root name="دور" transliteration="dwr"/>
+            <Deverbal name="إِدَارَة" transliteration="IidaArap" transname="إدارة" wn=""/>
+            <Active_participle name="مُدِير" transliteration="mudiyr" transname="مدير" wn=""/>
+        </MEMBER>
+        <MEMBER name="دَوَّرَ" transliteration="daw~ara" transname="دور" wn="">
+            <Root name="دور" transliteration="dwr"/>
+            <Deverbal name="تَدْوِير" transliteration="tadowiyr" transname="تدوير" wn=""/>
+            <Active_participle name="مُدَوِّر" transliteration="mudaw~ir" transname="مدور" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="int_control"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="nonrigid"/>
+                <SELRESTR Value="+" type="elongated"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Location">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="V NP NP PP.location" secondary="NP-PPpath-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="لَفَّ الشَّيْخُ العَمَامَة حَوْلَ رَأْسِهِ." transliteration="laf~a Al$~ayoxu AlEamaAmap Hawola raOosihi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="path"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="rotational_motion">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="Iilotaf~a-1"/>
+    </SIBLINGCLASSES>
+</VNCLASS>

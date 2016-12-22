@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="IiEotaA$a-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="إِعْتَاشَ" transliteration="IiEotaA$a" transname="إعتاش" wn="">
+            <Root name="عيش" transliteration="Ey$"/>
+            <Deverbal name="إِعْتَاشَ" transliteration="IiEotaA$a" transname="إعتاش" wn=""/>
+            <Active_participle name="إِعْتِياش" transliteration="IiEotiyA$" transname="إعتياش" wn=""/>
+        </MEMBER>
+        <MEMBER name="عَاشَ" transliteration="EaA$a" transname="عاش" wn="">
+            <Root name="عيش" transliteration="Ey$"/>
+            <Deverbal name="عَيْش" transliteration="Eayo$" transname="عيش" wn=""/>
+            <Active_participle name="عَائِش" transliteration="EaA}i$" transname="عائش" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَعَيّشَ" transliteration="taEay~$a" transname="تعيش" wn="">
+            <Root name="عيش" transliteration="Ey$"/>
+            <Deverbal name="تَعَيُّش" transliteration="taEay~u$" transname="تعيش" wn=""/>
+            <Active_participle name="مُتَعَيِش" transliteration="mutaEayi$" transname="متعيش" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِقْتَات" transliteration="IiqotaAt" transname="إقتات" wn="">
+            <Root name="قوت" transliteration="qwt"/>
+            <Deverbal name="إِقْتِيَات" transliteration="IiqotiyaAt" transname="إقتيات" wn=""/>
+            <Active_participle name="مُقْتَات" transliteration="muqotaAt" transname="مقتات" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَغَدَّى" transliteration="tagad~aY" transname="تغدى" wn="">
+            <Root name="غدى" transliteration="gdY"/>
+            <Deverbal name="تَغَدِّي" transliteration="tagad~iy" transname="تغدي" wn=""/>
+            <Active_participle name="مُتَغَدِّي" transliteration="mutagad~iy" transname="متغدي" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Patient">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="comestible"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="V NP PP.patient" secondary="" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="عَاشَ المنكُوبُون عَلَى جُدُور النَّبَاتَات." transliteration="EaA$a Almnkuwbuwn EalaY juduwr Aln~abaAtaAt."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="مِن عَلَى بِ">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="take_in">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</VNCLASS>

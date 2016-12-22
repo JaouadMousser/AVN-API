@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="taraAsala-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="تَغَازَلَ" transliteration="tagaAzala" transname="تغازل" wn="">
+            <Root name="غزل" transliteration="gzl"/>
+            <Deverbal name="تَغَازُل" transliteration="tagaAzul" transname="تغازل" wn=""/>
+            <Active_participle name="مُتَغَازِل" transliteration="mutagaAzil" transname="متغازل" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Actor">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Actor1">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Actor2">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="V NP" secondary="IntransitivePlural Subject" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَرَاسَلَ السَّفِيرَان." transliteration="taraAsala Als~afiyraAn."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Actor">
+                    <SYNRESTRS bool="or">
+                        <SYNRESTR Value="+" type="plural"/>
+                        <SYNRESTR Value="+" type="dual"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="social_interaction">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Actor_i"/>
+                        <ARG type="ThemRole" value="Actor_j"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="V NP" secondary="IntransitivePlural Subject" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَرَاسَلَ السَّفِيرُ وَالوَزِير." transliteration="taraAsala Als~afiyru waAlwaziyr."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Actor1">
+                    <SYNRESTRS/>
+                </NP>
+                <LEX value="وَ"/>
+                <NP value="Actor2">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="social_interaction">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Actor1"/>
+                        <ARG type="ThemRole" value="Actor2"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="V NP PP.actor2" secondary="PPmaEa-PP" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَرَاسَلَ السَّفِيرُ مَعَ الوَزِيزِ." transliteration="taraAsala Als~afiyru maEa Alwaziyzi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Actor1">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="مَعَ">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Actor2">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="social_interaction">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Actor1"/>
+                        <ARG type="ThemRole" value="Actor2"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <VNSUBCLASS ID="taraAsala-1.1">
+            <MEMBERS>
+                <MEMBER name="تَمَازَحَ" transliteration="tamaAzaHa" transname="تمازح" wn="">
+                    <Root name="مزح" transliteration="mzH"/>
+                    <Deverbal name="تَمَازُح" transliteration="tamaAzuH" transname="تمازح" wn=""/>
+                    <Active_participle name="مُتَمَازِح" transliteration="mutamaAziH" transname="متمازح" wn=""/>
+                </MEMBER>
+                <MEMBER name="تَبَاسَطَ" transliteration="tabaAsaTa" transname="تباسط" wn="">
+                    <Root name="بسط" transliteration="bsT"/>
+                    <Deverbal name="تَبَاسُط" transliteration="tabaAsuT" transname="تباسط" wn=""/>
+                    <Active_participle name="مُتَبَاسِط" transliteration="mutabaAsiT" transname="متباسط" wn=""/>
+                </MEMBER>
+                <MEMBER name="تَخَالَفَ" transliteration="taxaAlafa" transname="تخالف" wn="">
+                    <Root name="خلف" transliteration="xlf"/>
+                    <Deverbal name="تَخَالُف" transliteration="taxaAluf" transname="تخالف" wn=""/>
+                    <Active_participle name="مُتَخَالِف" transliteration="mutaxaAlif" transname="متخالف" wn=""/>
+                </MEMBER>
+                <MEMBER name="إِخْتَلَفَ" transliteration="Iixotalafa" transname="إختلف" wn="">
+                    <Root name="خلف" transliteration="xlf"/>
+                    <Deverbal name="إِخْتِلَاف" transliteration="IixotilaAf" transname="إختلاف" wn=""/>
+                    <Active_participle name="مُخْتَلِف" transliteration="muxotalif" transname="مختلف" wn=""/>
+                </MEMBER>
+                <MEMBER name="تَرَاوَدَ" transliteration="taraAwada" transname="تراود" wn="">
+                    <Root name="رود" transliteration="rwd"/>
+                    <Deverbal name="تَرَاوُد" transliteration="taraAwud" transname="تراود" wn=""/>
+                    <Active_participle name="مُتَرَاوِد" transliteration="mutaraAwid" transname="متراود" wn=""/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="0.1" primary="V NP PP.theme" secondary="PPHawola/fiy-PP" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="تَرَاسَلَ السَّفِيرَان حَوْل الثَوْرَة التُونُسِيَة." transliteration="taraAsala Als~afiyraAn Hawol Alvaworap Altuwnusiyap."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Actor">
+                            <SYNRESTRS bool="or">
+                                <SYNRESTR Value="+" type="plural"/>
+                                <SYNRESTR Value="+" type="dual"/>
+                            </SYNRESTRS>
+                        </NP>
+                        <PREP value="حَوْلَ فِي">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="social_interaction">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Actor1"/>
+                                <ARG type="ThemRole" value="Actor2"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="about">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="0.1" primary="V NP P deverbal" secondary="Hawola deverbal" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="تَفَاوَضَتِ المُعَارَضُونَ حَوْلَ حَلّ مَجْلِس الشَّعْب." transliteration="tafaAwaDati AlmuEaAraDuwna Hawola Hal~ majolis Al$~aEob."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Actor">
+                            <SYNRESTRS bool="or">
+                                <SYNRESTR Value="+" type="plural"/>
+                                <SYNRESTR Value="+" type="dual"/>
+                            </SYNRESTRS>
+                        </NP>
+                        <PREP value="حَوْلَ فِي">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="deverbal"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="social_interaction">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Actor_i"/>
+                                <ARG type="ThemRole" value="Actor_j"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="about">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="0.1" primary="V NP P deverbal" secondary="Hawola deverbal" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="تَفَاوَضَتِ المُعَارَضَة وَالحُكُومَة حَوْلَ حَلّ مَجْلِس الشَّعْب." transliteration="tafaAwaDati AlmuEaAraDap waAlHukuwmap Hawola Hal~ majolis Al$~aEob."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Actor1">
+                            <SYNRESTRS/>
+                        </NP>
+                        <LEX value="وَ"/>
+                        <NP value="Actor2">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="حَوْلَ فِي">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="deverbal"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="social_interaction">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Actor_i"/>
+                                <ARG type="ThemRole" value="Actor_j"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="about">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="0.1" primary="V NP PP.actor2 PP.theme " secondary="PPmaEa-PP Hawola/fiy-PP" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="تَرَاسَلَ السَّفِيرُ مَعَ الرَّئِيسِ حَوْل الثَوْرَة التُونُسِيَة." transliteration="taraAsala Als~afiyru maEa Alr~a}iysi Hawol Alvaworap Altuwnusiyap."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Actor1">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="مَعَ">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Actor2">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="حَوْلَ فِي">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="social_interaction">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Actor1"/>
+                                <ARG type="ThemRole" value="Actor2"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="about">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="0.1" primary="V NP PP.actor P deverbal" secondary="PPmaEa-PP Hawola deverbal" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="تَفَاوَضَتِ المُعَارَضَة مَعَ الحُكُومَة حَوْلَ حَلّ مَجْلِس الشَّعْب." transliteration="tafaAwaDati AlmuEaAraDap maEa AlHukuwmap Hawola Hal~ majolis Al$~aEob."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Actor1">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="مَعَ">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Actor2">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="حَوْلَ فِي">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="deverbal"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="social_interaction">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Actor_i"/>
+                                <ARG type="ThemRole" value="Actor_j"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="about">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES>
+                <VNSUBCLASS ID="taraAsala-1.1.1">
+                    <MEMBERS>
+                        <MEMBER name="تَدَاوَلَ" transliteration="tadaAwala" transname="تداول" wn="">
+                            <Root name="دقل" transliteration="dql"/>
+                            <Deverbal name="تَدَاوُل" transliteration="tadaAwul" transname="تداول" wn=""/>
+                            <Active_participle name="مُتَدَاوِل" transliteration="mutadaAwil" transname="متداول" wn=""/>
+                        </MEMBER>
+                        <MEMBER name="تَحَاوَرَ" transliteration="taHaAwara" transname="تحاور" wn="">
+                            <Root name="حور" transliteration="Hwr"/>
+                            <Deverbal name="مُتَحَاوِر" transliteration="mutaHaAwir" transname="متحاور" wn=""/>
+                            <Active_participle name="مُتَحَاوِر" transliteration="mutaHaAwir" transname="متحاور" wn=""/>
+                        </MEMBER>
+                        <MEMBER name="تَعَارَضَ" transliteration="taEaAraDa" transname="تعارض" wn="">
+                            <Root name="عرض" transliteration="ErD"/>
+                            <Deverbal name="تَعَارُض" transliteration="taEaAruD" transname="تعارض" wn=""/>
+                            <Active_participle name="مُتَعَارِض" transliteration="mutaEaAriD" transname="متعارض" wn=""/>
+                        </MEMBER>
+                        <MEMBER name="تَبَاحَثَ" transliteration="tabaAHava" transname="تباحث" wn="">
+                            <Root name="بحث" transliteration="bHv"/>
+                            <Deverbal name="تَبَاحُث" transliteration="tabaAHuv" transname="تباحث" wn=""/>
+                            <Active_participle name="مُتَبَاحِث" transliteration="mutabaAHiv" transname="متباحث" wn=""/>
+                        </MEMBER>
+                        <MEMBER name="تَدَارَسَ" transliteration="tadaArasa" transname="تدارس" wn="">
+                            <Root name="درس" transliteration="drs"/>
+                            <Deverbal name="تَدَارَسَة" transliteration="tadaArasap" transname="تدارسة" wn=""/>
+                            <Active_participle name="مُتَدَارِس" transliteration="mutadaAris" transname="متدارس" wn=""/>
+                        </MEMBER>
+                        <MEMBER name="تَذَاكَرَ" transliteration="ta*aAkara" transname="تذاكر" wn="">
+                            <Root name="ذرك" transliteration="*rk"/>
+                            <Deverbal name="تَذَاكَرُر" transliteration="ta*aAkarur" transname="تذاكرر" wn=""/>
+                            <Active_participle name="مُتَذَاكِر" transliteration="muta*aAkir" transname="متذاكر" wn=""/>
+                        </MEMBER>
+                        <MEMBER name="تَشَاوَرَ" transliteration="ta$aAwara" transname="تشاور" wn="">
+                            <Root name="شور" transliteration="$wr"/>
+                            <Deverbal name="تَشَاوُر" transliteration="ta$aAwur" transname="تشاور" wn=""/>
+                            <Active_participle name="مُتَشَاوِر" transliteration="muta$aAwir" transname="متشاور" wn=""/>
+                        </MEMBER>
+                        <MEMBER name="تَرَاسَلَ" transliteration="taraAsala" transname="تراسل" wn="">
+                            <Root name="رسل" transliteration="rsl"/>
+                            <Deverbal name="تَرَاسَلَ" transliteration="taraAsala" transname="تراسل" wn=""/>
+                            <Active_participle name="تَرَاسُل" transliteration="taraAsul" transname="تراسل" wn=""/>
+                        </MEMBER>
+                        <MEMBER name="تَكَاتَبَ" transliteration="takaAtaba" transname="تكاتب" wn="">
+                            <Root name="كتب" transliteration="ktb"/>
+                            <Deverbal name="تَكَاتُب" transliteration="takaAtub" transname="تكاتب" wn=""/>
+                            <Active_participle name="مُتَكَاتِب" transliteration="mutakaAtib" transname="متكاتب" wn=""/>
+                        </MEMBER>
+                        <MEMBER name="تَخَاطَبَ" transliteration="taxaATaba" transname="تخاطب" wn="">
+                            <Root name="خطب" transliteration="xTb"/>
+                            <Deverbal name="تَخَاطُب" transliteration="taxaATub" transname="تخاطب" wn=""/>
+                            <Active_participle name="مُتَخَاطِب" transliteration="mutaxaATib" transname="متخاطب" wn=""/>
+                        </MEMBER>
+                        <MEMBER name="تَفَاتَحَ" transliteration="tafaAtaHa" transname="تفاتح" wn="">
+                            <Root name="فتح" transliteration="ftH"/>
+                            <Deverbal name="تَفَاتُح" transliteration="tafaAtuH" transname="تفاتح" wn=""/>
+                            <Active_participle name="مُتَفَاتِح" transliteration="mutafaAtiH" transname="متفاتح" wn=""/>
+                        </MEMBER>
+                        <MEMBER name="تَحَاوَرَ" transliteration="taHaAwara" transname="تحاور" wn="">
+                            <Root name="حور" transliteration="Hwr"/>
+                            <Deverbal name="تَحَوُر" transliteration="taHawur" transname="تحور" wn=""/>
+                            <Active_participle name="مُتَحَاوِر" transliteration="mutaHaAwir" transname="متحاور" wn=""/>
+                        </MEMBER>
+                        <MEMBER name="تَسَاوَمَ" transliteration="tasaAwama" transname="تساوم" wn="">
+                            <Root name="سوم" transliteration="swm"/>
+                            <Deverbal name="تَسَاوُم" transliteration="tasaAwum" transname="تساوم" wn=""/>
+                            <Active_participle name="مُتَسَاوِم" transliteration="mutasaAwim" transname="متساوم" wn=""/>
+                        </MEMBER>
+                        <MEMBER name="تَوَافَقَ" transliteration="tawaAfaqa" transname="توافق" wn="">
+                            <Root name="وفق" transliteration="wfq"/>
+                            <Deverbal name="تَوَافُق" transliteration="tawaAfuq" transname="توافق" wn=""/>
+                            <Active_participle name="مُتَوَافِق" transliteration="mutawaAfiq" transname="متوافق" wn=""/>
+                        </MEMBER>
+                        <MEMBER name="تَفَاوَضَ" transliteration="tafaAwaDa" transname="تفاوض" wn="">
+                            <Root name="فوض" transliteration="fwD"/>
+                            <Deverbal name="تَفَاوُض" transliteration="tafaAwuD" transname="تفاوض" wn=""/>
+                            <Active_participle name="تَفَاوُض" transliteration="tafaAwuD" transname="تفاوض" wn=""/>
+                        </MEMBER>
+                        <MEMBER name="تَقَايَضَ" transliteration="taqaAyaDa" transname="تقايض" wn="">
+                            <Root name="قيض" transliteration="qyD"/>
+                            <Deverbal name="تَقَاُض" transliteration="taqaAuD" transname="تقاض" wn=""/>
+                            <Active_participle name="مُتَقَايِض" transliteration="mutaqaAyiD" transname="متقايض" wn=""/>
+                        </MEMBER>
+                    </MEMBERS>
+                    <THEMROLES/>
+                    <FRAMES>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="V NP PP.theme maA_Ii*aA" secondary="WH-SHawola-PP" xtag="0.2"/>
+                            <EXAMPLES>
+                                <EXAMPLE sentence="تَفَاوَضَ المُشَارِكُونَ حَوْلَ مَا إِذَا كَانَت ثَوْرَة تُونُس تَستَحِقُ الدَّعَم." transliteration="tafaAwaDa Almu$aArikuwna Hawola maA Ii*aA kaAnat vaworap tuwnus tastaHiqu Ald~aEam."/>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <VERB/>
+                                <NP value="Actor">
+                                    <SYNRESTRS bool="or">
+                                        <SYNRESTR Value="+" type="plural"/>
+                                        <SYNRESTR Value="+" type="dual"/>
+                                    </SYNRESTRS>
+                                </NP>
+                                <PREP value="حَوْلَ فِي">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Theme">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="wh_comp"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="social_interaction">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E)"/>
+                                        <ARG type="ThemRole" value="Actor1"/>
+                                        <ARG type="ThemRole" value="Actor2"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="about">
+                                    <ARGS>
+                                        <ARG type="Event" value="E"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="V NP PP.theme maA_Ii*aA" secondary="WH-SHawola-PP" xtag="0.2"/>
+                            <EXAMPLES>
+                                <EXAMPLE sentence="تَفَاوَضَ المُشَارِكُون وَالحِزْب حَوْلَ مَا إِذَا كَانَت ثَوْرَة تُونُس تَستَحِقُ الدَّعَم." transliteration="tafaAwaDa Almu$aArikuwn waAlHizob Hawola maA Ii*aA kaAnat vaworap tuwnus tastaHiqu Ald~aEam."/>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <VERB/>
+                                <NP value="Actor1">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <LEX value="وَ"/>
+                                <NP value="Actor2">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <PREP value="حَوْلَ فِي">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Theme">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="wh_comp"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="social_interaction">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E)"/>
+                                        <ARG type="ThemRole" value="Actor1"/>
+                                        <ARG type="ThemRole" value="Actor2"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="about">
+                                    <ARGS>
+                                        <ARG type="Event" value="E"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="V NP PP.theme maA S" secondary="WH-SHawola-PP" xtag="0.2"/>
+                            <EXAMPLES>
+                                <EXAMPLE sentence="تَفَاوَضَ المُشَارِكُونَ حَوْلَ مَا سَيَفعَلُون." transliteration="tafaAwaDa Almu$aArikuwna Hawola maA sayafEaluwn."/>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <VERB/>
+                                <NP value="Actor">
+                                    <SYNRESTRS bool="or">
+                                        <SYNRESTR Value="+" type="plural"/>
+                                        <SYNRESTR Value="+" type="dual"/>
+                                    </SYNRESTRS>
+                                </NP>
+                                <PREP value="حَوْلَ فِي">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Theme">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="maA_extract"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="social_interaction">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E)"/>
+                                        <ARG type="ThemRole" value="Actor1"/>
+                                        <ARG type="ThemRole" value="Actor2"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="about">
+                                    <ARGS>
+                                        <ARG type="Event" value="E"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="V NP PP.theme maA S" secondary="P-maA-SHawola-PP" xtag="0.2"/>
+                            <EXAMPLES>
+                                <EXAMPLE sentence="تَفَاوَضَ المُشَارِكُون وَالحِزْب حَوْلَ مَا سَيَفعَلُونَ فِي مَوضُوع الثَوَرَات الشَعبِيَة." transliteration="tafaAwaDa Almu$aArikuwn waAlHizob Hawola maA sayafEaluwna fiy mawDuwE AlvawaraAt Al$aEbiyap."/>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <VERB/>
+                                <NP value="Actor1">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <LEX value="وَ"/>
+                                <NP value="Actor2">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <PREP value="حَوْلَ فِي">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Theme">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="maA_extract"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="social_interaction">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E)"/>
+                                        <ARG type="ThemRole" value="Actor1"/>
+                                        <ARG type="ThemRole" value="Actor2"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="about">
+                                    <ARGS>
+                                        <ARG type="Event" value="E"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="V NP PP.actor2 PP.theme maA_Ii*aA S" secondary="WH-SHawola-PP" xtag="0.2"/>
+                            <EXAMPLES>
+                                <EXAMPLE sentence="تَفَاوَضَ المُشَارِكُونَ مَعَ الوَزِيرِ حَوْلَ مَا إِذَا كَانَت زِيَادَة الأسْعَار مَعْقُولَة." transliteration="tafaAwaDa Almu$aArikuwna maEa Alwaziyri Hawola maA Ii*aA kaAnat ziyaAdap AlOsoEaAR maEoquwlap."/>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <VERB/>
+                                <NP value="Actor1">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <PREP value="مَعَ">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Actor2">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <PREP value="حَوْلَ فِي">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Theme">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="wh_comp"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="social_interaction">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E)"/>
+                                        <ARG type="ThemRole" value="Actor1"/>
+                                        <ARG type="ThemRole" value="Actor2"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="about">
+                                    <ARGS>
+                                        <ARG type="Event" value="E"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="V NP PP.actor2 PP.theme maA S" secondary="P-maA-SHawola-PP" xtag="0.2"/>
+                            <EXAMPLES>
+                                <EXAMPLE sentence="تَفَاوَضَ المُشَارِكُون مَعَ الحِزْبِ حَوْلَ مَا سَيَفعَلُونَ فِي مَوضُوع الثَوَرَات الشَعبِيَة." transliteration="tafaAwaDa Almu$aArikuwn maEa AlHizobi Hawola maA sayafEaluwna fiy mawDuwE AlvawaraAt Al$aEbiyap."/>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <VERB/>
+                                <NP value="Actor1">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <PREP value="مَعَ">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Actor2">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <PREP value="حَوْلَ فِي">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Theme">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="maA_extract"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="social_interaction">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E)"/>
+                                        <ARG type="ThemRole" value="Actor1"/>
+                                        <ARG type="ThemRole" value="Actor2"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="about">
+                                    <ARGS>
+                                        <ARG type="Event" value="E"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                    </FRAMES>
+                    <SUBCLASSES/>
+                </VNSUBCLASS>
+            </SUBCLASSES>
+        </VNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES>
+        <SIBLING ID="raAsala-1"/>
+    </SIBLINGCLASSES>
+</VNCLASS>

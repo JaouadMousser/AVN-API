@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="manaEa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="حَظَرَ" transliteration="HaZara" transname="حظر" wn="">
+            <Root name="حظر" transliteration="HZr"/>
+            <Deverbal name="حَظْر" transliteration="HaZor" transname="حظر" wn=""/>
+            <Active_participle name="حَاظِر" transliteration="HaAZir" transname="حاظر" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="8.1" primary="V NP S_DEVERBAL" secondary="DEVERBAL" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="مَنَعَ رَبُّ المَقْهَى تَدْخِينَنَا فِي الدَّاخِل." transliteration="manaEa rab~u AlmaqohaY tadoxiynanaA fiy Ald~aAxil."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="forbid">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <VNSUBCLASS ID="manaEa-1.1">
+            <MEMBERS>
+                <MEMBER name="نَهَى" transliteration="nahaY" transname="نهى" wn="">
+                    <Root name="نهي" transliteration="nhy"/>
+                    <Deverbal name="نَهْي" transliteration="nahoy" transname="نهي" wn=""/>
+                    <Active_participle name="نَاهِي" transliteration="naAhiy" transname="ناهي" wn=""/>
+                </MEMBER>
+                <MEMBER name="أَقْعَدَ" transliteration="OaqoEada" transname="أقعد" wn="">
+                    <Root name="قعد" transliteration="qEd"/>
+                    <Deverbal name="إِقْعَاد" transliteration="IiqoEaAd" transname="إقعاد" wn=""/>
+                    <Active_participle name="مُقْعِد" transliteration="muqoEid" transname="مقعد" wn=""/>
+                </MEMBER>
+                <MEMBER name="صَدَّ" transliteration="Sad~a" transname="صد" wn="">
+                    <Root name="صدد" transliteration="Sdd"/>
+                    <Deverbal name="صَدّ" transliteration="Sad~" transname="صد" wn=""/>
+                    <Active_participle name="صَاد" transliteration="SaAd" transname="صاد" wn=""/>
+                </MEMBER>
+                <MEMBER name="ثَبَّطَ" transliteration="vab~aTa" transname="ثبط" wn="">
+                    <Root name="ثبط" transliteration="vbT"/>
+                    <Deverbal name="تَثْبِيط" transliteration="tavobiyT" transname="تثبيط" wn=""/>
+                    <Active_participle name="مُثِّط" transliteration="muv~iT" transname="مثط" wn=""/>
+                </MEMBER>
+                <MEMBER name="صَرَفَ" transliteration="Sarafa" transname="صرف" wn="">
+                    <Root name="صرف" transliteration="Srf"/>
+                    <Deverbal name="صَرْف" transliteration="Sarof" transname="صرف" wn=""/>
+                    <Active_participle name="صَارِف" transliteration="SaArif" transname="صارف" wn=""/>
+                </MEMBER>
+                <MEMBER name="كَفَتَ" transliteration="kafata" transname="كفت" wn="">
+                    <Root name="كفت" transliteration="kft"/>
+                    <Deverbal name="كَفْت" transliteration="kafot" transname="كفت" wn=""/>
+                    <Active_participle name="كَافِت" transliteration="kaAfit" transname="كافت" wn=""/>
+                </MEMBER>
+                <MEMBER name="لَفَتَ" transliteration="lafata" transname="لفت" wn="">
+                    <Root name="لفت" transliteration="lft"/>
+                    <Deverbal name="لَفْت" transliteration="lafot" transname="لفت" wn=""/>
+                    <Active_participle name="لَافِت" transliteration="laAfit" transname="لافت" wn=""/>
+                </MEMBER>
+                <MEMBER name="حَوَّلَ" transliteration="Haw~ala" transname="حول" wn="">
+                    <Root name="حول" transliteration="Hwl"/>
+                    <Deverbal name="تَحْوِيل" transliteration="taHowiyl" transname="تحويل" wn=""/>
+                    <Active_participle name="مُحَوِّل" transliteration="muHaw~il" transname="محول" wn=""/>
+                </MEMBER>
+                <MEMBER name="أَوْقَفَ" transliteration="Oawoqafa" transname="أوقف" wn="">
+                    <Root name="وقف" transliteration="wqf"/>
+                    <Deverbal name="إِيقَاف" transliteration="IiyqaAf" transname="إيقاف" wn=""/>
+                    <Active_participle name="مُوقِف" transliteration="muwqif" transname="موقف" wn=""/>
+                </MEMBER>
+                <MEMBER name="أَعَاقَ" transliteration="OaEaAqa" transname="أعاق" wn="">
+                    <Root name="عوق" transliteration="Ewq"/>
+                    <Deverbal name="إِعَاقَة" transliteration="IiEaAqap" transname="إعاقة" wn=""/>
+                    <Active_participle name="عَائِق" transliteration="EaA}iq" transname="عائق" wn=""/>
+                </MEMBER>
+                <MEMBER name="عَاقَ" transliteration="EaAqa" transname="عاق" wn="">
+                    <Root name="عوق" transliteration="Ewq"/>
+                    <Deverbal name="تَعْوِيق" transliteration="taEowiyq" transname="تعويق" wn=""/>
+                    <Active_participle name="مُعَونِّق" transliteration="muEawn~iq" transname="معونق" wn=""/>
+                </MEMBER>
+                <MEMBER name="عَرْقَلَ" transliteration="Earoqala" transname="عرقل" wn="">
+                    <Root name="عرقل" transliteration="Erql"/>
+                    <Deverbal name="عَرْقَلَة" transliteration="Earoqalap" transname="عرقلة" wn=""/>
+                    <Active_participle name="مُعَرْقِل" transliteration="muEaroqil" transname="معرقل" wn=""/>
+                </MEMBER>
+                <MEMBER name="إِسْتَوْقَفَ" transliteration="Iisotawoqafa" transname="إستوقف" wn="">
+                    <Root name="وقف" transliteration="wqf"/>
+                    <Deverbal name="إِسْتِيقَاف" transliteration="IisotiyqaAf" transname="إستيقاف" wn=""/>
+                    <Active_participle name="مُسْتَوْقِف" transliteration="musotawoqif" transname="مستوقف" wn=""/>
+                </MEMBER>
+                <MEMBER name="وَقَّفَ" transliteration="waq~afa" transname="وقف" wn="">
+                    <Root name="وقف" transliteration="wqf"/>
+                    <Deverbal name="تَوْقِيف" transliteration="tawoqiyf" transname="توقيف" wn=""/>
+                    <Active_participle name="مُوَقِّف" transliteration="muwaq~if" transname="موقف" wn=""/>
+                </MEMBER>
+                <MEMBER name="كَبَحَ" transliteration="kabaHa" transname="كبح" wn="">
+                    <Root name="كبح" transliteration="kbH"/>
+                    <Deverbal name="كَبْح" transliteration="kaboH" transname="كبح" wn=""/>
+                    <Active_participle name="كَابِح" transliteration="kaAbiH" transname="كابح" wn=""/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="8.1" primary="V NP NP PP.theme S_DEVERBAL" secondary="NP-P-deverbalEan-PP" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="نَهَى الشَرْعُ المُسْلِمِينَ عَنْ شُربِ الخَمرِ." transliteration="nahaY Al$aroEu Almusolimiyna Eano $urbi Alxamri."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Theme">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="np_p_deverbal"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="forbid">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="8.1" primary="V NP NP PP.theme " secondary="" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="نَهَى الشَرْعُ المُسْلِمِينَ عَنِ الفَاحِشَة." transliteration="nahaY Al$aroEu Almusolimiyna Eani AlfaAHi$ap."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Theme">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="np_pp"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="forbid">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </VNSUBCLASS>
+        <VNSUBCLASS ID="manaEa-1.2">
+            <MEMBERS>
+                <MEMBER name="مَنَعَ" transliteration="manaEa" transname="منع" wn="">
+                    <Root name="منع" transliteration="mnE"/>
+                    <Deverbal name="مَنْع" transliteration="manoE" transname="منع" wn=""/>
+                    <Active_participle name="مَانِع" transliteration="maAniE" transname="مانع" wn=""/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="8.1" primary="V NP NP PP.theme S_DEVERBAL" secondary="NP-P-deverbalmino-PP" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="مَنَعا الشَرْعُ المُسْلِمِينَ مِنْ شُربِ الخَمرِ." transliteration="manaEA Al$aroEu Almusolimiyna mino $urbi Alxamri."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Theme">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="np_p_deverbal"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="forbid">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </VNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES/>
+</VNCLASS>

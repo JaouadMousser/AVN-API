@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="change_bodily_state-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="شَحُبَ" transliteration="$aHuba" transname="شحب" wn="">
+            <Root name="شحب" transliteration="$Hb"/>
+            <Deverbal name="شُحُوب" transliteration="$uHuwb" transname="شحوب" wn=""/>
+            <Active_participle name="شَاحِب" transliteration="$aAHib" transname="شاحب" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِزْرَقَّ" transliteration="Iizoraq~a" transname="إزرق" wn="">
+            <Root name="زرق" transliteration="zrq"/>
+            <Deverbal name="إِزْرِقَاق" transliteration="IizoriqaAq" transname="إزرقاق" wn=""/>
+            <Active_participle name="مُزْرَقّ" transliteration="muzoraq~" transname="مزرق" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِحْمَرَّ" transliteration="IiHomar~a" transname="إحمر" wn="">
+            <Root name="حمر" transliteration="Hmr"/>
+            <Deverbal name="إِحْمِرَار" transliteration="IiHomiraAr" transname="إحمرار" wn=""/>
+            <Active_participle name="مُحْمَرّ" transliteration="muHomar~" transname="محمر" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِصْفَرَّ" transliteration="IiSofar~a" transname="إصفر" wn="">
+            <Root name="صفر" transliteration="Sfr"/>
+            <Deverbal name="إِصْفِرَار" transliteration="IiSofiraAr" transname="إصفرار" wn=""/>
+            <Active_participle name="مُصْفَرّ" transliteration="muSofar~" transname="مصفر" wn=""/>
+        </MEMBER>
+        <MEMBER name="بَهَتَ" transliteration="bahata" transname="بهت" wn="">
+            <Root name="بهت" transliteration="bht"/>
+            <Deverbal name="بُهُوت" transliteration="buhuwt" transname="بهوت" wn=""/>
+            <Active_participle name="بَاهِت" transliteration="baAhit" transname="باهت" wn=""/>
+        </MEMBER>
+        <MEMBER name="سَهَمَ" transliteration="sahama" transname="سهم" wn="">
+            <Root name="سهم" transliteration="shm"/>
+            <Deverbal name="سُهُوم" transliteration="suhuwm" transname="سهوم" wn=""/>
+            <Active_participle name="سَاهِم" transliteration="saAhim" transname="ساهم" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِمْتَقَعَ" transliteration="IimotaqaEa" transname="إمتقع" wn="">
+            <Root name="مقع" transliteration="mqE"/>
+            <Deverbal name="إِمْتِقَاع" transliteration="IimotiqaAE" transname="إمتقاع" wn=""/>
+            <Active_participle name="مُمْتَقِع" transliteration="mumotaqiE" transname="ممتقع" wn=""/>
+        </MEMBER>
+        <MEMBER name="ذَبَّ" transliteration="*ab~a" transname="ذب" wn="">
+            <Root name="ذبب" transliteration="*bb"/>
+            <Deverbal name="ذَبّ" transliteration="*ab~" transname="ذب" wn=""/>
+            <Active_participle name="ذَاب" transliteration="*aAb" transname="ذاب" wn=""/>
+        </MEMBER>
+        
+        <MEMBER name="صَعِقَ" transliteration="SaEiqa" transname="صعق" wn="">
+            <Root name="صعق" transliteration="SEq"/>
+            <Deverbal name="صَعْق" transliteration="SaEoq" transname="صعق" wn=""/>
+            <Active_participle name="صَاعِق" transliteration="SaAEiq" transname="صاعق" wn=""/>
+        </MEMBER>
+        
+        <MEMBER name="أَسِنَ" transliteration="Oasina" transname="أسن" wn="">
+            <Root name="أسن" transliteration="Osn"/>
+            <Deverbal name="أَسْن" transliteration="Oason" transname="أسن" wn=""/>
+            <Active_participle name="آَسِن" transliteration="|asin" transname="آسن" wn=""/>
+        </MEMBER>
+        
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Experiencer">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Cause">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="V NP" secondary="Intransitive" xtag="0.1"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="شَحَبَت سَلمَى." transliteration="$aHabat salmaY."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="body_reflex">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="involuntary">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="V NP" secondary="NP.Body_part" xtag="0.1"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="شَحَبَ وَجْهُ سَلمَى." transliteration="$aHaba wajohu salmaY."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Experiencer">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="body_part"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="body_reflex">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="involuntary">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="V NP PP.cause" secondary="PPCause-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="شَحَبَت سَلْمَى مِنَ الخَوْف." transliteration="$aHabat salomaY mina Alxawof."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="مِنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Cause">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="body_reflex">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="involuntary">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="in_reaction_to">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Cause"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="V NP.Body_part PP.cause" secondary="PPCause-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="شَحَبَ وَجْهُ سَلْمَى مِنَ الخَوْف." transliteration="$aHaba wajohu salomaY mina Alxawof."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Experiencer">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="body_part"/>
+                    </SYNRESTRS>
+                </NP>
+                <PREP value="مِنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Cause">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="body_reflex">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="involuntary">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="in_reaction_to">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Cause"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</VNCLASS>

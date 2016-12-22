@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="natafa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="خَضَبَ" transliteration="xaDaba" transname="خضب" wn="">
+            <Root name="خضب" transliteration="xDb"/>
+            <Deverbal name="خَضْب" transliteration="xaDob" transname="خضب" wn=""/>
+            <Active_participle name="خَاضِب" transliteration="xaADib" transname="خاضب" wn=""/>
+        </MEMBER>
+        <MEMBER name="خَضَّبَ" transliteration="xaD~aba" transname="خضب" wn="">
+            <Root name="خضب" transliteration="xDb"/>
+            <Deverbal name="تَخْضِيب" transliteration="taxoDiyb" transname="تخضيب" wn=""/>
+            <Active_participle name="مُخَضِّب" transliteration="muxaD~ib" transname="مخضب" wn=""/>
+        </MEMBER>
+        <MEMBER name="دَهَنَ" transliteration="dahana" transname="دهن" wn="">
+            <Root name="دهن" transliteration="dhn"/>
+            <Deverbal name="دَهْن" transliteration="dahon" transname="دهن" wn=""/>
+            <Active_participle name="دَاهِن" transliteration="daAhin" transname="داهن" wn=""/>
+        </MEMBER>
+        <MEMBER name="زَيَّنَ" transliteration="zay~ana" transname="زين" wn="">
+            <Root name="زين" transliteration="zyn"/>
+            <Deverbal name="تَزْيِين" transliteration="tazoyiyn" transname="تزيين" wn=""/>
+            <Active_participle name="مُزَيِّن" transliteration="muzay~in" transname="مزين" wn=""/>
+        </MEMBER>
+        <MEMBER name="خَلَّلَ" transliteration="xal~ala" transname="خلل" wn="">
+            <Root name="خلل" transliteration="xll"/>
+            <Deverbal name="تَخْلِيل" transliteration="taxoliyl" transname="تخليل" wn=""/>
+            <Active_participle name="مُخَلِّل" transliteration="muxal~il" transname="مخلل" wn=""/>
+        </MEMBER>
+        <MEMBER name="حَكَّ" transliteration="Hak~a" transname="حك" wn="">
+            <Root name="حكك" transliteration="Hkk"/>
+            <Deverbal name="حَكّ" transliteration="Hak~" transname="حك" wn=""/>
+            <Active_participle name="حَاك" transliteration="HaAk" transname="حاك" wn=""/>
+        </MEMBER>
+        <MEMBER name="نَتَفَ" transliteration="natafa" transname="نتف" wn="">
+            <Root name="نتف" transliteration="ntf"/>
+            <Deverbal name="نتف" transliteration="ntf" transname="نتف" wn=""/>
+            <Active_participle name="نَاتِف" transliteration="naAtif" transname="ناتف" wn=""/>
+        </MEMBER>
+        <MEMBER name="مَرَطَ" transliteration="maraTa" transname="مرط" wn="">
+            <Root name="مرط" transliteration="mrT"/>
+            <Deverbal name="مَرْط" transliteration="maroT" transname="مرط" wn=""/>
+            <Active_participle name="مَارِط" transliteration="maAriT" transname="مارط" wn=""/>
+        </MEMBER>
+        <MEMBER name="مَغَدَ" transliteration="magada" transname="مغد" wn="">
+            <Root name="مغد" transliteration="mgd"/>
+            <Deverbal name="مَغد" transliteration="magd" transname="مغد" wn=""/>
+            <Active_participle name="مَاغِد" transliteration="maAgid" transname="ماغد" wn=""/>
+        </MEMBER>
+        <MEMBER name="رَجَّلَ" transliteration="raj~ala" transname="رجل" wn="">
+            <Root name="رجل" transliteration="rjl"/>
+            <Deverbal name="تَرْجِيل" transliteration="tarojiyl" transname="ترجيل" wn=""/>
+            <Active_participle name="مُرَجِّل" transliteration="muraj~il" transname="مرجل" wn=""/>
+        </MEMBER>
+        <MEMBER name="فَكَّ" transliteration="fak~a" transname="فك" wn="">
+            <Root name="فكك" transliteration="fkk"/>
+            <Deverbal name="فَكّ" transliteration="fak~" transname="فك" wn=""/>
+            <Active_participle name="فَاك" transliteration="faAk" transname="فاك" wn=""/>
+        </MEMBER>
+        <MEMBER name="سَرَّحَ" transliteration="sar~aHa" transname="سرح" wn="">
+            <Root name="سرح" transliteration="srH"/>
+            <Deverbal name="تَسْرِيح" transliteration="tasoriyH" transname="تسريح" wn=""/>
+            <Active_participle name="مُسَرِّح" transliteration="musar~iH" transname="مسرح" wn=""/>
+        </MEMBER>
+        <MEMBER name="عَالَجَ" transliteration="EaAlaja" transname="عالج" wn="">
+            <Root name="علج" transliteration="Elj"/>
+            <Deverbal name="مُعَالَجَة" transliteration="muEaAlajap" transname="معالجة" wn=""/>
+            <Active_participle name="مُعَالِج" transliteration="muEaAlij" transname="معالج" wn=""/>
+        </MEMBER>
+        <MEMBER name="فَرَقَ" transliteration="faraqa" transname="فرق" wn="">
+            <Root name="فرق" transliteration="frq"/>
+            <Deverbal name="فَرْق" transliteration="faroq" transname="فرق" wn=""/>
+            <Active_participle name="فَارِق" transliteration="faAriq" transname="فارق" wn=""/>
+        </MEMBER>
+        <MEMBER name="غَسَلَ" transliteration="gasala" transname="غسل" wn="">
+            <Root name="غسل" transliteration="gsl"/>
+            <Deverbal name="غَسْل" transliteration="gasol" transname="غسل" wn=""/>
+            <Active_participle name="غَاسِل" transliteration="gaAsil" transname="غاسل" wn=""/>
+        </MEMBER>
+        <MEMBER name="رَحَضَ" transliteration="raHaDa" transname="رحض" wn="">
+            <Root name="رحض" transliteration="rHD"/>
+            <Deverbal name="رَحْض" transliteration="raHoD" transname="رحض" wn=""/>
+            <Active_participle name="رَاحِض" transliteration="raAHiD" transname="راحض" wn=""/>
+        </MEMBER>
+        <MEMBER name="شَطَفَ" transliteration="$aTafa" transname="شطف" wn="">
+            <Root name="شطف" transliteration="$Tf"/>
+            <Deverbal name="شَطْف" transliteration="$aTof" transname="شطف" wn=""/>
+            <Active_participle name="شَاطِف" transliteration="$aATif" transname="شاطف" wn=""/>
+        </MEMBER>
+        <MEMBER name="وَرَّدَ" transliteration="war~ada" transname="ورد" wn="">
+            <Root name="ورد" transliteration="wrd"/>
+            <Deverbal name="تَوْرِيد" transliteration="taworiyd" transname="توريد" wn=""/>
+            <Active_participle name="مُوَرِّد" transliteration="muwar~id" transname="مورد" wn=""/>
+        </MEMBER>
+        <MEMBER name="لَوَّنَ" transliteration="law~ana" transname="لون" wn="">
+            <Root name="لون" transliteration="lwn"/>
+            <Deverbal name="تَلْوِين" transliteration="talowiyn" transname="تلوين" wn=""/>
+            <Active_participle name="مُلَوِّن" transliteration="mulaw~in" transname="ملون" wn=""/>
+        </MEMBER>
+        <MEMBER name="دَمَّ" transliteration="dam~a" transname="دم" wn="">
+            <Root name="دمم" transliteration="dmm"/>
+            <Deverbal name="دَمّ" transliteration="dam~" transname="دم" wn=""/>
+            <Active_participle name="دَام" transliteration="daAm" transname="دام" wn=""/>
+        </MEMBER>
+        <MEMBER name="شَمَّعَ" transliteration="$am~aEa" transname="شمع" wn="">
+            <Root name="شمع" transliteration="$mE"/>
+            <Deverbal name="تَشْمِيع" transliteration="ta$omiyE" transname="تشميع" wn=""/>
+            <Active_participle name="مُشَمِّع" transliteration="mu$am~iE" transname="مشمع" wn=""/>
+        </MEMBER>
+        <MEMBER name="شَبَكَ" transliteration="$abaka" transname="شبك" wn="">
+            <Root name="شبك" transliteration="$bk"/>
+            <Deverbal name="شَبْك" transliteration="$abok" transname="شبك" wn=""/>
+            <Active_participle name="شَابِك" transliteration="$aAbik" transname="شابك" wn=""/>
+        </MEMBER>
+        <MEMBER name="ضَفَرَ" transliteration="Dafara" transname="ضفر" wn="">
+            <Root name="ضفر" transliteration="Dfr"/>
+            <Deverbal name="ضَفْر" transliteration="Dafor" transname="ضفر" wn=""/>
+            <Active_participle name="ضَافِر" transliteration="DaAfir" transname="ضافر" wn=""/>
+        </MEMBER>
+        <MEMBER name="قَصَّ" transliteration="qaS~a" transname="قص" wn="">
+            <Root name="قصص" transliteration="qSS"/>
+            <Deverbal name="قَصّ" transliteration="qaS~" transname="قص" wn=""/>
+            <Active_participle name="قَاص" transliteration="qaAS" transname="قاص" wn=""/>
+        </MEMBER>
+        <MEMBER name="لَبَّدَ" transliteration="lab~ada" transname="لبد" wn="">
+            <Root name="لبد" transliteration="lbd"/>
+            <Deverbal name="تَلْبِيد" transliteration="talobiyd" transname="تلبيد" wn=""/>
+            <Active_participle name="مُلَبِّد" transliteration="mulab~id" transname="ملبد" wn=""/>
+        </MEMBER>
+        <MEMBER name="عَقَصَ" transliteration="EaqaSa" transname="عقص" wn="">
+            <Root name="عقص" transliteration="EqS"/>
+            <Deverbal name="عَقْص" transliteration="EaqoS" transname="عقص" wn=""/>
+            <Active_participle name="عَاقِص" transliteration="EaAqiS" transname="عاقص" wn=""/>
+        </MEMBER>
+        <MEMBER name="جَدَلَ" transliteration="jadala" transname="جدل" wn="">
+            <Root name="جدل" transliteration="jdl"/>
+            <Deverbal name="جَدْل" transliteration="jadol" transname="جدل" wn=""/>
+            <Active_participle name="جَادِل" transliteration="jaAdil" transname="جادل" wn=""/>
+        </MEMBER>
+        <MEMBER name="قَلَّمَ" transliteration="qal~ama" transname="قلم" wn="">
+            <Root name="قلم" transliteration="qlm"/>
+            <Deverbal name="تَقْلِيم" transliteration="taqoliym" transname="تقليم" wn=""/>
+            <Active_participle name="مُقَلِّم" transliteration="muqal~im" transname="مقلم" wn=""/>
+        </MEMBER>
+        <MEMBER name="شَذَّبَ" transliteration="$a*~aba" transname="شذب" wn="">
+            <Root name="شذب" transliteration="$*b"/>
+            <Deverbal name="تَشْذِيب" transliteration="ta$o*iyb" transname="تشذيب" wn=""/>
+            <Active_participle name="مُشَذِّب" transliteration="mu$a*~ib" transname="مشذب" wn=""/>
+        </MEMBER>
+        <MEMBER name="هَذَبَ" transliteration="ha*aba" transname="هذب" wn="">
+            <Root name="هذب" transliteration="h*b"/>
+            <Deverbal name="تَهْذِيب" transliteration="taho*iyb" transname="تهذيب" wn=""/>
+            <Active_participle name="مُهَذِب" transliteration="muha*ib" transname="مهذب" wn=""/>
+        </MEMBER>
+        <MEMBER name="صَفَّفَ" transliteration="Saf~afa" transname="صفف" wn="">
+            <Root name="صفف" transliteration="Sff"/>
+            <Deverbal name="تَصْفِيف" transliteration="taSofiyf" transname="تصفيف" wn=""/>
+            <Active_participle name="مُصَفِّف" transliteration="muSaf~if" transname="مصفف" wn=""/>
+        </MEMBER>
+        <MEMBER name="مَوَّجَ" transliteration="maw~aja" transname="موج" wn="">
+            <Root name="موج" transliteration="mwj"/>
+            <Deverbal name="تَمْوِيج" transliteration="tamowiyj" transname="تمويج" wn=""/>
+            <Active_participle name="مُمَوِّج" transliteration="mumaw~ij" transname="مموج" wn=""/>
+        </MEMBER>
+        <MEMBER name="جَعَّدَ" transliteration="jaE~ada" transname="جعد" wn="">
+            <Root name="جعد" transliteration="jEd"/>
+            <Deverbal name="تَجْعِيد" transliteration="tajoEiyd" transname="تجعيد" wn=""/>
+            <Active_participle name="مُجَعِّد" transliteration="mujaE~id" transname="مجعد" wn=""/>
+        </MEMBER>
+        <MEMBER name="شَعّثَ" transliteration="$aE~va" transname="شعث" wn="">
+            <Root name="شعث" transliteration="$Ev"/>
+            <Deverbal name="تَشْعِيث" transliteration="ta$oEiyv" transname="تشعيث" wn=""/>
+            <Active_participle name="مُشَعِّث" transliteration="mu$aE~iv" transname="مشعث" wn=""/>
+        </MEMBER>
+        <MEMBER name="بَرَدَ" transliteration="barada" transname="برد" wn="">
+            <Root name="برد" transliteration="brd"/>
+            <Deverbal name="بَرْد" transliteration="barod" transname="برد" wn=""/>
+            <Active_participle name="بَارِد" transliteration="baArid" transname="بارد" wn=""/>
+        </MEMBER>
+        <MEMBER name="فَتَلَ" transliteration="fatala" transname="فتل" wn="">
+            <Root name="فتل" transliteration="ftl"/>
+            <Deverbal name="فَتْل" transliteration="fatol" transname="فتل" wn=""/>
+            <Active_participle name="فَاتِل" transliteration="faAtil" transname="فاتل" wn=""/>
+        </MEMBER>
+        <MEMBER name="بَرَا" transliteration="baraA" transname="برا" wn="">
+            <Root name="برا" transliteration="brA"/>
+            <Deverbal name="بَرْي" transliteration="baroy" transname="بري" wn=""/>
+            <Active_participle name="بَارِي" transliteration="baAriy" transname="باري" wn=""/>
+        </MEMBER>
+        <MEMBER name="رَتَّبَ" transliteration="rat~aba" transname="رتب" wn="">
+            <Root name="رتب" transliteration="rtb"/>
+            <Deverbal name="تَرْتِيب" transliteration="tarotiyb" transname="ترتيب" wn=""/>
+            <Active_participle name="مُرَتِّب" transliteration="murat~ib" transname="مرتب" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Patient">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="body_part"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Instrument">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="V NP NP" secondary="Transitive" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="مَشَطَت سَلْمَى شَعْرَهَا." transliteration="ma$aTat salomaY $aEorahaA."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="take_care_of">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="V NP PP.instrument" secondary="PPInstrument-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="مَشَطَت سَلْمَى شَعْرَهَا بِالمِشْط." transliteration="ma$aTat salomaY $aEorahaA biAlmi$oT."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="بِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Instrument">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="take_care_of">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="use">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</VNCLASS>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="qaAsama-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="شَارَكَ" transliteration="$aAraka" transname="شارك" wn="">
+            <Root name="شرك" transliteration="$rk"/>
+            <Deverbal name="مُشَارَكَة" transliteration="mu$aArakap" transname="مشاركة" wn=""/>
+            <Active_participle name="مُشَارِك" transliteration="mu$aArik" transname="مشارك" wn=""/>
+        </MEMBER>
+        <MEMBER name="قَاسَمَ" transliteration="qaAsama" transname="قاسم" wn="">
+            <Root name="قسم" transliteration="qsm"/>
+            <Deverbal name="مُقَاسَمَة" transliteration="muqaAsamap" transname="مقاسمة" wn=""/>
+            <Active_participle name="مُقَاسِم" transliteration="muqaAsim" transname="مقاسم" wn=""/>
+        </MEMBER>
+        <MEMBER name="شَاطَرَ" transliteration="$aATara" transname="شاطر" wn="">
+            <Root name="شطر" transliteration="$Tr"/>
+            <Deverbal name="مُشَاطَرَة" transliteration="mu$aATarap" transname="مشاطرة" wn=""/>
+            <Active_participle name="مُشَاطِر" transliteration="mu$aATir" transname="مشاطر" wn=""/>
+        </MEMBER>
+        <MEMBER name="بَادَلَ" transliteration="baAdala" transname="بادل" wn="">
+            <Root name="بدل" transliteration="bdl"/>
+            <Deverbal name="مُبَادَلَة" transliteration="mubaAdalap" transname="مبادلة" wn=""/>
+            <Active_participle name="مُبَادِل" transliteration="mubaAdil" transname="مبادل" wn=""/>
+        </MEMBER>
+        <MEMBER name="نَاصَفَ" transliteration="naASafa" transname="ناصف" wn="">
+            <Root name="نصف" transliteration="nSf"/>
+            <Deverbal name="مُنَاصَفَة" transliteration="munaASafap" transname="مناصفة" wn=""/>
+            <Active_participle name="مُنَاصِف" transliteration="munaASif" transname="مناصف" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    
+    <THEMROLES>
+        <THEMROLE type="Actor1">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Actor2">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="V NP NP.actor2 NP.theme" secondary="NP-NPtheme-NP" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="شَارَكَ المُعَزُّونَ العَائِلَةَ اَحْزَانَهَا." transliteration="$aAraka AlmuEaz~uwna AlEaA}ilapa AaHozaAnahaA."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Actor1">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Actor2">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="partake">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Actor1"/>
+                        <ARG type="ThemRole" value="Actor2"/>
+                        <ARG type="ThemRole" value="theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="V NP NP.actor2" secondary="NPactor2" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="شَارَكَ المُقَاوِلُ غَرِيمَهُ." transliteration="$aAraka AlmuqaAwilu gariymahu."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Actor1">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Actor2">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="partake">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Actor1"/>
+                        <ARG type="ThemRole" value="Actor2"/>
+                        <ARG type="ThemRole" value="?theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="V NP NP.actor2 PP.theme" secondary="NP-PPtheme-PP" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="شَارَكَ المُعَزُّونَ العَائِلَةَ فِي اَحْزَانِهَا." transliteration="$aAraka AlmuEaz~uwna AlEaA}ilapa fiy AaHozaAnihaA."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Actor1">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Actor2">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="فِي">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="partake">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Actor1"/>
+                        <ARG type="ThemRole" value="Actor2"/>
+                        <ARG type="ThemRole" value="theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="taqaAsama-1"/>
+    </SIBLINGCLASSES>
+</VNCLASS>

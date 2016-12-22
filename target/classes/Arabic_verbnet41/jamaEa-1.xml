@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="jamaEa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="كَوَّمَ" transliteration="kaw~ama" transname="كوم" wn="">
+            <Root name="كوم" transliteration="kwm"/>
+            <Deverbal name="تَكْوِيم" transliteration="takowiym" transname="تكويم" wn=""/>
+            <Active_participle name="مُكَوِّم" transliteration="mukaw~im" transname="مكوم" wn=""/>
+        </MEMBER>
+        <MEMBER name="رَاكَمَ" transliteration="raAkama" transname="راكم" wn="">
+            <Root name="ركم" transliteration="rkm"/>
+            <Deverbal name="مُرَاكَمَة" transliteration="muraAkamap" transname="مراكمة" wn=""/>
+            <Active_participle name="مُرَاكِم" transliteration="muraAkim" transname="مراكم" wn=""/>
+        </MEMBER>
+        <MEMBER name="حَوَّشَ" transliteration="Haw~a$a" transname="حوش" wn="">
+            <Root name="حوش" transliteration="Hw$"/>
+            <Deverbal name="تَحْوِيش" transliteration="taHowiy$" transname="تحويش" wn=""/>
+            <Active_participle name="مُحَوِّش" transliteration="muHaw~i$" transname="محوش" wn=""/>
+        </MEMBER>
+        <MEMBER name="جَمَعَ" transliteration="jamaEa" transname="جمع" wn="">
+            <Root name="جمع" transliteration="jmE"/>
+            <Deverbal name="جَمْع" transliteration="jamoE" transname="جمع" wn=""/>
+            <Active_participle name="جَامِع" transliteration="jaAmiE" transname="جامع" wn=""/>
+        </MEMBER>
+        <MEMBER name="جَمَّعَ" transliteration="jam~aEa" transname="جمع" wn="">
+            <Root name="جمع" transliteration="jmE"/>
+            <Deverbal name="تَجْمِيع" transliteration="tajomiyE" transname="تجميع" wn=""/>
+            <Active_participle name="مُجَمِّع" transliteration="mujam~iE" transname="مجمع" wn=""/>
+        </MEMBER>
+        <MEMBER name="جَمْهَرَ" transliteration="jamohara" transname="جمهر" wn="">
+            <Root name="جمهر" transliteration="jmhr"/>
+            <Deverbal name="جَمْهَرَة" transliteration="jamoharap" transname="جمهرة" wn=""/>
+            <Active_participle name="مُجَمْهِر" transliteration="mujamohir" transname="مجمهر" wn=""/>
+        </MEMBER>
+        <MEMBER name="وَسَقَ" transliteration="wasaqa" transname="وسق" wn="">
+            <Root name="وسق" transliteration="wsq"/>
+            <Deverbal name="وَسْق" transliteration="wasoq" transname="وسق" wn=""/>
+            <Active_participle name="وَاسِق" transliteration="waAsiq" transname="واسق" wn=""/>
+        </MEMBER>
+        <MEMBER name="حَشَدَ" transliteration="Ha$ada" transname="حشد" wn="">
+            <Root name="حشد" transliteration="H$d"/>
+            <Deverbal name="حَشْد" transliteration="Ha$od" transname="حشد" wn=""/>
+            <Active_participle name="حَاشِد" transliteration="HaA$id" transname="حاشد" wn=""/>
+        </MEMBER>
+        <MEMBER name="رَكَمَ" transliteration="rakama" transname="ركم" wn="">
+            <Root name="ركم" transliteration="rkm"/>
+            <Deverbal name="رَكْم" transliteration="rakom" transname="ركم" wn=""/>
+            <Active_participle name="رَاكِم" transliteration="raAkim" transname="راكم" wn=""/>
+        </MEMBER>
+        <MEMBER name="أَلَبَ" transliteration="Oalaba" transname="ألب" wn="">
+            <Root name="ألب" transliteration="Olb"/>
+            <Deverbal name="أَلْب" transliteration="Oalob" transname="ألب" wn=""/>
+            <Active_participle name="آلِب" transliteration="|lib" transname="آلب" wn=""/>
+        </MEMBER>
+        <MEMBER name="كَتَّلَ" transliteration="kat~ala" transname="كتل" wn="">
+            <Root name="كتل" transliteration="ktl"/>
+            <Deverbal name="تَكْتِيل" transliteration="takotiyl" transname="تكتيل" wn=""/>
+            <Active_participle name="مُكَتِّل" transliteration="mukat~il" transname="مكتل" wn=""/>
+        </MEMBER>
+        <MEMBER name="لَمَّ" transliteration="lam~a" transname="لم" wn="">
+            <Root name="لمم" transliteration="lmm"/>
+            <Deverbal name="لَمّ" transliteration="lam~" transname="لم" wn=""/>
+            <Active_participle name="لَام" transliteration="laAm" transname="لام" wn=""/>
+        </MEMBER>
+        <MEMBER name="لَمْلَمَ" transliteration="lamolama" transname="لملم" wn="">
+            <Root name="لمم" transliteration="lmm"/>
+            <Deverbal name="لَمْلَمَة" transliteration="lamolamap" transname="لملمة" wn=""/>
+            <Active_participle name="مُلَمْلِم" transliteration="mulamolim" transname="ململم" wn=""/>
+        </MEMBER>
+        <MEMBER name="أَلَّفَ" transliteration="Oal~afa" transname="ألف" wn="">
+            <Root name="ألف" transliteration="Olf"/>
+            <Deverbal name="تَأْلِيف" transliteration="taOoliyf" transname="تأليف" wn=""/>
+            <Active_participle name="مُؤَلِّف" transliteration="muWal~if" transname="مؤلف" wn=""/>
+        </MEMBER>
+        <MEMBER name="حَزَّبَ" transliteration="Haz~aba" transname="حزب" wn="">
+            <Root name="حزب" transliteration="Hzb"/>
+            <Deverbal name="تَحْزِيب" transliteration="taHoziyb" transname="تحزيب" wn=""/>
+            <Active_participle name="مُحَزِّب" transliteration="muHaz~ib" transname="محزب" wn=""/>
+        </MEMBER>
+        <MEMBER name="عَنْقَدَ" transliteration="Eanoqada" transname="عنقد" wn="">
+            <Root name="عنقد" transliteration="Enqd"/>
+            <Deverbal name="عَنْقَدَة" transliteration="Eanoqadap" transname="عنقدة" wn=""/>
+            <Active_participle name="مُعَنْقِد" transliteration="muEanoqid" transname="معنقد" wn=""/>
+        </MEMBER>
+        <MEMBER name="حَاشَ" transliteration="HaA$a" transname="حاش" wn="">
+            <Root name="حوش" transliteration="Hw$"/>
+            <Deverbal name="حَوَش" transliteration="Hawa$" transname="حوش" wn=""/>
+            <Active_participle name="حَائِش" transliteration="HaA}i$" transname="حائش" wn=""/>
+        </MEMBER>
+        <MEMBER name="أَحَاشَ" transliteration="OaHaA$a" transname="أحاش" wn="">
+            <Root name="هوش" transliteration="hw$"/>
+            <Deverbal name="إِحَاشَة" transliteration="IiHaA$ap" transname="إحاشة" wn=""/>
+            <Active_participle name="مُحِيش" transliteration="muHiy$" transname="محيش" wn=""/>
+        </MEMBER>
+        <MEMBER name="أَحْوَشَ" transliteration="OaHowa$a" transname="أحوش" wn="">
+            <Root name="حوش" transliteration="Hw$"/>
+            <Deverbal name="إِحْوَاش" transliteration="IiHowaA$" transname="إحواش" wn=""/>
+            <Active_participle name="مُحْوِش" transliteration="muHowi$" transname="محوش" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+                <SELRESTR Value="+" type="plural"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="1.1.2" primary="V NP NP.theme" secondary="NPCausative variant" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="جَمَعَ المُعَلِّمُ التَّلَامِيذ." transliteration="jamaEa AlmuEal~imu Alt~alaAmiy*."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="together">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="Constant" value="physical"/>
+                        <ARG type="ThemRole" value="Theme_i"/>
+                        <ARG type="ThemRole" value="Theme_j"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="together">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="Constant" value="physical"/>
+                        <ARG type="ThemRole" value="Theme_i"/>
+                        <ARG type="ThemRole" value="Theme_j"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLINGCLASS ID="IijotamaEa-1"/>
+    </SIBLINGCLASSES>
+</VNCLASS>

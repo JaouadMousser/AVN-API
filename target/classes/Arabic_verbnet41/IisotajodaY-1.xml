@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="IisotajodaY-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="إِسْتَعْلَمَ" transliteration="IisotaEolama" transname="إستعلم" wn="">
+            <Root name="علم" transliteration="Elm"/>
+            <Deverbal name="إِسْتِعْلَام" transliteration="IisotiEolaAm" transname="إستعلام" wn=""/>
+            <Active_participle name="مُسْتَعلِم" transliteration="musotaElim" transname="مستعلم" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِسْتَطْعَمَ" transliteration="IisotaToEama" transname="إستطعم" wn="">
+            <Root name="طعم" transliteration="TEm"/>
+            <Deverbal name="إِسْتِطْعَام" transliteration="IisotiToEaAm" transname="إستطعام" wn=""/>
+            <Active_participle name="مُسْتَطْعِم" transliteration="musotaToEim" transname="مستطعم" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِسْتَرْزَقَ" transliteration="Iisotarozaqa" transname="إسترزق" wn="">
+            <Root name="رزق" transliteration="rzq"/>
+            <Deverbal name="إِسْتِرْزَاق" transliteration="IisotirozaAq" transname="إسترزاق" wn=""/>
+            <Active_participle name="مُسْتَرْرْزِق" transliteration="musotaroroziq" transname="مستررزق" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِسْتَمْنَحَ" transliteration="IisotamonaHa" transname="إستمنح" wn="">
+            <Root name="منح" transliteration="mnH"/>
+            <Deverbal name="إِسْتِمْنَاح" transliteration="IisotimonaAH" transname="إستمناح" wn=""/>
+            <Active_participle name="مُسْتَمْنِح" transliteration="musotamoniH" transname="مستمنح" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِسْتَقْرَضَ" transliteration="IisotaqoraDa" transname="إستقرض" wn="">
+            <Root name="قرض" transliteration="qrD"/>
+            <Deverbal name="إِسْتِقْرَاض" transliteration="IisotiqoraAD" transname="إستقراض" wn=""/>
+            <Active_participle name="مُسْتَقْرِض" transliteration="musotaqoriD" transname="مستقرض" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِسْتَسْقَى" transliteration="IisotasoqaY" transname="إستسقى" wn="">
+            <Root name="سقي" transliteration="sqy"/>
+            <Deverbal name="إِسْتِسْقَاء" transliteration="IisotisoqaA'" transname="إستسقاء" wn=""/>
+            <Active_participle name="مُسْتَسْقِي" transliteration="musotasoqiy" transname="مستسقي" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِسْتَغْفَرَ" transliteration="Iisotagofara" transname="إستغفر" wn="">
+            
+            <Root name="غفر" transliteration="gfr"/>
+            <Deverbal name="إِسْتِغْفَار" transliteration="IisotigofaAr" transname="إستغفار" wn=""/>
+            <Active_participle name="مُسْتَغْفِر" transliteration="musotagofir" transname="مستغفر" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِسْتَسْمَنَ" transliteration="Iisotasomana" transname="إستسمن" wn="">
+            <Root name="سمن" transliteration="smn"/>
+            <Deverbal name="إِسْتِسْمَان" transliteration="IisotisomaAn" transname="إستسمان" wn=""/>
+            <Active_participle name="مُسْتَسْمِن" transliteration="musotasomin" transname="مستسمن" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Recipient">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Proposition">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="8.1" primary="V NP NP" secondary="NPProposition" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِسْتَجْدَى المُتَسَوِّلُ مَالاً." transliteration="IisotajodaY Almutasaw~ilu maAlAF."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Proposition">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="supplicate">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="ThemRole" value="?Proposition"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="8.1" primary="V NP NP" secondary="NPRecipient" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِسْتَجْدَى المُتَسَوِّلُ المَارَة." transliteration="IisotajodaY Almutasaw~ilu AlmaArap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Recipient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="supplicate">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="ThemRole" value="?Proposition"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="8.1" primary="V NP NP NP.proposition" secondary="NP-NP.recipient-NP" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِسْتَجْدَى المُتَسَوِّلُ المَارَة مَالاً." transliteration="IisotajodaY Almutasaw~ilu AlmaArap maAlAF."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Recipient">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Proposition">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="supplicate">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="ThemRole" value="Proposition"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <VNSUBCLASS ID="IisotajodaY-1.1">
+            <MEMBERS>
+                <MEMBER name="جَدَا" transliteration="jadaA" transname="جدا" wn="">
+                    <Root name="جدا" transliteration="jdA"/>
+                    <Deverbal name="جَدَاء" transliteration="jadaA'" transname="جداء" wn=""/>
+                    <Active_participle name="جَادِي" transliteration="jaAdiy" transname="جادي" wn=""/>
+                </MEMBER>
+                <MEMBER name="دَعَا" transliteration="daEaA" transname="دعا" wn="">
+                    <Root name="دعا" transliteration="dEA"/>
+                    <Deverbal name="دُعَاء" transliteration="duEaA'" transname="دعاء" wn=""/>
+                    <Active_participle name="دَاعِي" transliteration="daAEiy" transname="داعي" wn=""/>
+                </MEMBER>
+                <MEMBER name="إِجْتَدَى" transliteration="IijotadaY" transname="إجتدى" wn="">
+                    <Root name="جدا" transliteration="jdA"/>
+                    <Deverbal name="إِجْتِدَاء" transliteration="IijotidaA'" transname="إجتداء" wn=""/>
+                    <Active_participle name="مُجْتَدِي" transliteration="mujotadiy" transname="مجتدي" wn=""/>
+                </MEMBER>
+                <MEMBER name="إِسْتَجْدَى" transliteration="IisotajodaY" transname="إستجدى" wn="">
+                    <Root name="جدا" transliteration="jdA"/>
+                    <Deverbal name="إِسْتِجْدَاء" transliteration="IisotijodaA'" transname="إستجداء" wn=""/>
+                    <Active_participle name="مُسْتَجْدِي" transliteration="musotajodiy" transname="مستجدي" wn=""/>
+                </MEMBER>
+                <MEMBER name="إِسْتَعْتَى" transliteration="IisotaEotaY" transname="إستعتى" wn="">
+                    <Root name="عطا" transliteration="ETA"/>
+                    <Deverbal name="إِسْتِعْطَاء" transliteration="IisotiEoTaA'" transname="إستعطاء" wn=""/>
+                    <Active_participle name="مُسْتَعْطِي" transliteration="musotaEoTiy" transname="مستعطي" wn=""/>
+                </MEMBER>
+                <MEMBER name="تَعَطَّى" transliteration="taEaT~aY" transname="تعطى" wn="">
+                    <Root name="عطا" transliteration="ETA"/>
+                    <Deverbal name="تَعَطِّي" transliteration="taEaT~iy" transname="تعطي" wn=""/>
+                    <Active_participle name="مُتَعَطِّي" transliteration="mutaEaT~iy" transname="متعطي" wn=""/>
+                </MEMBER>
+                <MEMBER name="سَأَلَ" transliteration="saOala" transname="سأل" wn="">
+                    <Root name="سأل" transliteration="sOl"/>
+                    <Deverbal name="سُؤَال" transliteration="suWaAl" transname="سؤال" wn=""/>
+                    <Active_participle name="سَائِل" transliteration="saA}il" transname="سائل" wn=""/>
+                </MEMBER>
+                <MEMBER name="تَسَوَّلَ" transliteration="tasaw~ala" transname="تسول" wn="">
+                    <Root name="سأل" transliteration="sOl"/>
+                    <Deverbal name="تَسَوُّل" transliteration="tasaw~ul" transname="تسول" wn=""/>
+                    <Active_participle name="مُتَسَوِّل" transliteration="mutasaw~il" transname="متسول" wn=""/>
+                </MEMBER>
+                <MEMBER name="شَحَذَ" transliteration="$aHa*a" transname="شحذ" wn="">
+                    <Root name="شحذ" transliteration="$H*"/>
+                    <Deverbal name="شَحْذ" transliteration="$aHo*" transname="شحذ" wn=""/>
+                    <Active_participle name="شَاحِذ" transliteration="$aAHi*" transname="شاحذ" wn=""/>
+                </MEMBER>
+                <MEMBER name="رَجَا" transliteration="rajaA" transname="رجا" wn="">
+                    <Root name="رجا" transliteration="rjA"/>
+                    <Deverbal name="رَجَاء" transliteration="rajaA'" transname="رجاء" wn=""/>
+                    <Active_participle name="رَاجِي" transliteration="raAjiy" transname="راجي" wn=""/>
+                </MEMBER>
+                <MEMBER name="تَرَجَّا" transliteration="taraj~aA" transname="ترجا" wn="">
+                    <Root name="رجا" transliteration="rjA"/>
+                    <Deverbal name="تَرَجِّي" transliteration="taraj~iy" transname="ترجي" wn=""/>
+                    <Active_participle name="مُتَرَجِّي" transliteration="mutaraj~iy" transname="مترجي" wn=""/>
+                </MEMBER>
+                <MEMBER name="إِسْتَرْجَى" transliteration="IisotarojaY" transname="إسترجى" wn="">
+                    <Root name="رجا" transliteration="rjA"/>
+                    <Deverbal name="إِسْتِرْجَاء" transliteration="IisotirojaA'" transname="إسترجاء" wn=""/>
+                    <Active_participle name="مُسْتَرْجِي" transliteration="musotarojiy" transname="مسترجي" wn=""/>
+                </MEMBER>
+                <MEMBER name="إِرْتَجَى" transliteration="IirotajaY" transname="إرتجى" wn="">
+                    <Root name="رجا" transliteration="rjA"/>
+                    <Deverbal name="إِرْتِجَاء" transliteration="IirotijaA'" transname="إرتجاء" wn=""/>
+                    <Active_participle name="مُرْتَجِي" transliteration="murotajiy" transname="مرتجي" wn=""/>
+                </MEMBER>
+                <MEMBER name="إِسْتَدْعَى" transliteration="IisotadoEaY" transname="إستدعى" wn="">
+                    <Root name="دعا" transliteration="dEA"/>
+                    <Deverbal name="إِسْتَدْعَاء" transliteration="IisotadoEaA'" transname="إستدعاء" wn=""/>
+                    <Active_participle name="مُسْتَدْعِي" transliteration="musotadoEiy" transname="مستدعي" wn=""/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="8.1" primary="V NP NP S_deverbal" secondary="NP-deverbal" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="إِسْتَجْدَى السُجَنَاءُ تَحْرِيرَهُم مِن السِجْن." transliteration="IisotajodaY AlsujanaA'u taHoriyrahum min Alsijon."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Proposition">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="deverval"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="supplicate">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="?Recipient"/>
+                                <ARG type="ThemRole" value="Proposition"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="8.1" primary="V NP NP NP S_deverbal" secondary="NP NP-deverbal" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="إِسْتَجْدَى السُجَنَاء المَلِكَ تَحْرِيرَهُم مِن السِجْن." transliteration="IisotajodaY AlsujanaA' Almalika taHoriyrahum min Alsijon."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Recipient">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Proposition">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="deverval"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="supplicate">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Recipient"/>
+                                <ARG type="ThemRole" value="Proposition"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="8.1" primary="V NP Oano S" secondary="S-SUBJUNCT" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="إِسْتَجْدَى المُتَسَوِّلُ أَنْ يُحَرِّرَحُ المَلِكُ ." transliteration="IisotajodaY Almutasaw~ilu Oano yuHar~iraHu Almaliku ."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Proposition">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="Oano_comp"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="supplicate">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="?Recipient"/>
+                                <ARG type="ThemRole" value="Proposition"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="8.1" primary="V NP NP Oano S" secondary="S-SUBJUNCT" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="إِسْتَجْدَى المُتَسَوِّلُ المَارَة أَنْ يُعْتُوهُ مَالاً." transliteration="IisotajodaY Almutasaw~ilu AlmaArap Oano yuEotuwhu maAlAF."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Recipient">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Proposition">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="Oano_comp"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="supplicate">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Recipient"/>
+                                <ARG type="ThemRole" value="Proposition"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES>
+                <VNSUBCLASS ID="IisotajodaY-1.2">
+                    <MEMBERS>
+                        <MEMBER name="تَوَسَّلَ" transliteration="tawas~ala" transname="توسل" wn="">
+                            <Root name="وسل" transliteration="wsl"/>
+                            <Deverbal name="تَوَسُّل" transliteration="tawas~ul" transname="توسل" wn=""/>
+                            <Active_participle name="مُتَوَسِّل" transliteration="mutawas~il" transname="متوسل" wn=""/>
+                        </MEMBER>
+                    </MEMBERS>
+                    <THEMROLES>
+                        <THEMROLE type="Instrument">
+                            <SELRESTRS/>
+                        </THEMROLE>
+                    </THEMROLES>
+                    <FRAMES>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="V NP PP.recipient" secondary="PPIilaY-PP" xtag="0.2"/>
+                            <EXAMPLES>
+                                <EXAMPLE sentence="تَوَسَّلَ المُومِنُ إلَى اللَّه." transliteration="tawas~ala Almuwminu IlaY All~ah."/>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <VERB/>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <PREP value="إِلَى">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Recipient">
+                                    <SYNRESTRS/>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="supplicate">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Recipient"/>
+                                        <ARG type="ThemRole" value="?Instrument"/>
+                                        <ARG type="ThemRole" value="?Proposition"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="V NP PP PP.instrument" secondary="PPIilaY-PPbi-PP" xtag="0.2"/>
+                            <EXAMPLES>
+                                <EXAMPLE sentence="تَوَسَّلَ المُومِنُ إلَى اللَّه بِالوَلِي الصَالِح." transliteration="tawas~ala Almuwminu IlaY All~ah biAlwaliy AlSaAliH."/>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <VERB/>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <PREP value="إِلَى">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Recipient">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <PREP value="بِ">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Instrument">
+                                    <SYNRESTRS/>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="supplicate">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Recipient"/>
+                                        <ARG type="ThemRole" value="Instrument"/>
+                                        <ARG type="ThemRole" value="?Proposition"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="V NP PP S_deverbal" secondary="PPIilaY NP-deverbal" xtag="0.2"/>
+                            <EXAMPLES>
+                                <EXAMPLE sentence="تَوَسَّلَ المُومِنُ إِلَى اللَّه الدُّخُول إِلَى الجَنَّة." transliteration="tawas~ala Almuwminu IilaY All~ah Ald~uxuwl IilaY Aljan~ap."/>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <VERB/>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <PREP value="إِلَى">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Recipient">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <NP value="Proposition">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="deverval"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="supplicate">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Recipient"/>
+                                        <ARG type="ThemRole" value="?Instrument"/>
+                                        <ARG type="ThemRole" value="Proposition"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="V NP PP PP S_deverbal" secondary="PPIilaY PPbi NP-deverbal" xtag="0.2"/>
+                            <EXAMPLES>
+                                <EXAMPLE sentence="تَوَسَّلَ المُومِنُ إِلَى اللَّه بِالوَلِي الصَالِح الدُّخُول إِلَى الجَنَّة." transliteration="tawas~ala Almuwminu IilaY All~ah biAlwaliy AlSaAliH Ald~uxuwl IilaY Aljan~ap."/>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <VERB/>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <PREP value="إِلَى">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Recipient">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <PREP value="بِ">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Instrument">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <NP value="Proposition">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="deverval"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="supplicate">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Recipient"/>
+                                        <ARG type="ThemRole" value="?Instrument"/>
+                                        <ARG type="ThemRole" value="Proposition"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="V NP PP Oano S" secondary="PPIilaY S-SUBJUNCT" xtag="0.2"/>
+                            <EXAMPLES>
+                                <EXAMPLE sentence="تَوَسَّلَ المُومِنُ إِلَى اللَّه أَنْ يُدْخِلَهُ الجَنَّة." transliteration="tawas~ala Almuwminu IilaY All~ah Oano yudoxilahu Aljan~ap."/>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <VERB/>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <PREP value="إِلَى">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Recipient">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <NP value="Proposition">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="Oano_comp"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="supplicate">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Recipient"/>
+                                        <ARG type="ThemRole" value="?Instrument"/>
+                                        <ARG type="ThemRole" value="Proposition"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="V NP PP PP Oano S" secondary="PPIilaY PPbi S-SUBJUNCT" xtag="0.2"/>
+                            <EXAMPLES>
+                                <EXAMPLE sentence="تَوَسَّلَ المُومِنُ إِلَى اللَّه بِالوَلِي الصَالِح أَنْ يُدْخِلَهُ الجَنَّة." transliteration="tawas~ala Almuwminu IilaY All~ah biAlwaliy AlSaAliH Oano yudoxilahu Aljan~ap."/>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <VERB/>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <PREP value="إِلَى">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Recipient">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <PREP value="بِ">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Instrument">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <NP value="Proposition">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="Oano_comp"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="supplicate">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Recipient"/>
+                                        <ARG type="ThemRole" value="?Instrument"/>
+                                        <ARG type="ThemRole" value="Proposition"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                    </FRAMES>
+                    <SUBCLASSES/>
+                </VNSUBCLASS>
+                <VNSUBCLASS ID="IisotajodaY-1.3">
+                    <MEMBERS>
+                        <MEMBER name="طَلَبَ" transliteration="Talaba" transname="طلب" wn="">
+                            <Root name="طلب" transliteration="Tlb"/>
+                            <Deverbal name="طَلَب" transliteration="Talab" transname="طلب" wn=""/>
+                            <Active_participle name="طَلَب" transliteration="Talab" transname="طلب" wn=""/>
+                        </MEMBER>
+                    </MEMBERS>
+                    <THEMROLES/>
+                    <FRAMES>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="V NP PP.recipient NP" secondary="PPmin-PP NP" xtag="0.2"/>
+                            <EXAMPLES>
+                                <EXAMPLE sentence="طَلَبَ المُتَسَوِّلُ مِنَ المَارَة مَالاٌ." transliteration="Talaba Almutasaw~ilu mina AlmaArap maAlAN."/>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <VERB/>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <PREP value="مِن">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Recipient">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <NP value="Proposition">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="-" type="sentential"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="supplicate">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Recipient"/>
+                                        <ARG type="ThemRole" value="Proposition"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="V NP PP S_deverbal" secondary="PP-deverbal" xtag="0.2"/>
+                            <EXAMPLES>
+                                <EXAMPLE sentence="طَلَبَ السُجَنَاءُ مِنَ المَلِكِ تَحْرِيرَهُم مِن السِجْن." transliteration="Talaba AlsujanaA'u mina Almaliki taHoriyrahum min Alsijon."/>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <VERB/>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <PREP value="مِن">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Recipient">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <NP value="Proposition">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="deverval"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="supplicate">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Recipient"/>
+                                        <ARG type="ThemRole" value="Proposition"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="V NP Oano S" secondary="S-SUBJUNCT" xtag="0.2"/>
+                            <EXAMPLES>
+                                <EXAMPLE sentence="طَلَبَ المُتَسَوِّلُ أَنْ يُحَرِّرَحُ المَلِكُ ." transliteration="Talaba Almutasaw~ilu Oano yuHar~iraHu Almaliku ."/>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <VERB/>
+                                <NP value="Proposition">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="Oano_comp"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="supplicate">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="?Recipient"/>
+                                        <ARG type="ThemRole" value="Proposition"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="V NP PP Oano S" secondary="PPmin S-SUBJUNCT" xtag="0.2"/>
+                            <EXAMPLES>
+                                <EXAMPLE sentence="طَلَبَ المُتَسَوِّلُ مِنَ المَارَة أَنْ يُعْتُوهُ مَالاً." transliteration="Talaba Almutasaw~ilu mina AlmaArap Oano yuEotuwhu maAlAF."/>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <VERB/>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <PREP value="مِن">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Recipient">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <NP value="Proposition">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="Oano_comp"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="supplicate">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Recipient"/>
+                                        <ARG type="ThemRole" value="Proposition"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                    </FRAMES>
+                    <SUBCLASSES/>
+                </VNSUBCLASS>
+            </SUBCLASSES>
+        </VNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES/>
+</VNCLASS>

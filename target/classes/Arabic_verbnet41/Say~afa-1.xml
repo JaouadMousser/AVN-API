@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="Say~afa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="صَيَّفَ" transliteration="Say~afa" transname="صيف" wn="">
+            <Root name="صيف" transliteration="Syf"/>
+            <Deverbal name="تَصْيِيف" transliteration="taSoyiyf" transname="تصييف" wn=""/>
+            <Active_participle name="مُصَيِّف" transliteration="muSay~if" transname="مصيف" wn=""/>
+        </MEMBER>
+        <MEMBER name="بَاتَ" transliteration="baAta" transname="بات" wn="">
+            <Root name="بيت" transliteration="byt"/>
+            <Deverbal name="مَبِيت" transliteration="mabiyt" transname="مبيت" wn=""/>
+            <Active_participle name="بَائِت" transliteration="baA}it" transname="بائت" wn=""/>
+        </MEMBER>
+        <MEMBER name="صَافَ" transliteration="SaAfa" transname="صاف" wn="">
+            <Root name="صيف" transliteration="Syf"/>
+            <Deverbal name="صَيْف" transliteration="Sayof" transname="صيف" wn=""/>
+            <Active_participle name="صَائِف" transliteration="SaA}if" transname="صائف" wn=""/>
+        </MEMBER>
+        <MEMBER name="قَيَّلَ" transliteration="qay~ala" transname="قيل" wn="">
+            <Root name="قيل" transliteration="qyl"/>
+            <Deverbal name="تَقْيِيل" transliteration="taqoyiyl" transname="تقييل" wn=""/>
+            <Active_participle name="مُقَِّل" transliteration="muqa~il" transname="مقل" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَقَيَّلَ" transliteration="taqay~ala" transname="تقيل" wn="">
+            <Root name="قيل" transliteration="qyl"/>
+            <Deverbal name="تَقَيُّل" transliteration="taqay~ul" transname="تقيل" wn=""/>
+            <Active_participle name="مُتَقَيِّل" transliteration="mutaqay~il" transname="متقيل" wn=""/>
+        </MEMBER>
+        <MEMBER name="عَيَّدَ" transliteration="Eay~ada" transname="عيد" wn="">
+            <Root name="عيد" transliteration="Eyd"/>
+            <Deverbal name="تَعْيِيد" transliteration="taEoyiyd" transname="تعييد" wn=""/>
+            <Active_participle name="مُعَيِّد" transliteration="muEay~id" transname="معيد" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Location">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="location"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="V NP PP.location" secondary="PPLocation-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="صَيَّفَت العَائِلَة فِي شَفْشَاوُن." transliteration="Say~afat AlEaA}ilap fiy $afo$aAwun."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="loc"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="location">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</VNCLASS>

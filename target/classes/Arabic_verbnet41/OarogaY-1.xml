@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="OarogaY-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="أَرْغَى" transliteration="OarogaY" transname="أرغى" wn="">
+            <Root name="رغو" transliteration="rgw"/>
+            <Deverbal name="إِرْغَاء" transliteration="IirogaA'" transname="إرغاء" wn=""/>
+            <Active_participle name="مُرْغِي" transliteration="murogiy" transname="مرغي" wn=""/>
+        </MEMBER>
+        <MEMBER name="أَزْبَدَ" transliteration="Oazobada" transname="أزبد" wn="">
+            <Root name="زبد" transliteration="zbd"/>
+            <Deverbal name="إِزْبَاد" transliteration="IizobaAd" transname="إزباد" wn=""/>
+            <Active_participle name="مُزْبِد" transliteration="muzobid" transname="مزبد" wn=""/>
+        </MEMBER>
+        <MEMBER name="زَبَدَ" transliteration="zabada" transname="زبد" wn="">
+            <Root name="زبد" transliteration="zbd"/>
+            <Deverbal name="زَبْد" transliteration="zabod" transname="زبد" wn=""/>
+            <Active_participle name="زَابِد" transliteration="zaAbid" transname="زابد" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَزَبَّدَ" transliteration="tazab~ada" transname="تزبد" wn="">
+            <Root name="زبد" transliteration="zbd"/>
+            <Deverbal name="تَزَبُّد" transliteration="tazab~ud" transname="تزبد" wn=""/>
+            <Active_participle name="مُتَزَبِّد" transliteration="mutazab~id" transname="متزبد" wn=""/>
+        </MEMBER>
+        <MEMBER name="رَغَا" transliteration="ragaA" transname="رغا" wn="">
+            <Root name="رغو" transliteration="rgw"/>
+            <Deverbal name="رَغْو" transliteration="ragow" transname="رغو" wn=""/>
+            <Active_participle name="رَاغِي" transliteration="raAgiy" transname="راغي" wn=""/>
+        </MEMBER>
+        <MEMBER name="رَغَّى" transliteration="rag~aY" transname="رغى" wn="">
+            <Root name="رغو" transliteration="rgw"/>
+            <Deverbal name="تَرْغِيَة" transliteration="tarogiyap" transname="ترغية" wn=""/>
+            <Active_participle name="مُرَغِّي" transliteration="murag~iy" transname="مرغي" wn=""/>
+        </MEMBER>
+        <MEMBER name="دَمَعَ" transliteration="damaEa" transname="دمع" wn="">
+            <Root name="دمع" transliteration="dmE"/>
+            <Deverbal name="دَمْع" transliteration="damoE" transname="دمع" wn=""/>
+            <Active_participle name="دَامِع" transliteration="daAmiE" transname="دامع" wn=""/>
+        </MEMBER>
+        <MEMBER name="عَبَرَ" transliteration="Eabara" transname="عبر" wn="">
+            <Root name="عبر" transliteration="Ebr"/>
+            <Deverbal name="عَبْر" transliteration="Eabor" transname="عبر" wn=""/>
+            <Active_participle name="عَابِر" transliteration="EaAbir" transname="عابر" wn=""/>
+        </MEMBER>
+        <MEMBER name="إِسْتَعْبَرَ" transliteration="IisotaEobara" transname="إستعبر" wn="">
+            <Root name="عبر" transliteration="Ebr"/>
+            <Deverbal name="إِسْتِعْبَار" transliteration="IisotiEobaAr" transname="إستعبار" wn=""/>
+            <Active_participle name="مُسْتَعْبِر" transliteration="musotaEobir" transname="مستعبر" wn=""/>
+        </MEMBER>
+        <MEMBER name="دَمِيَ" transliteration="damiya" transname="دمي" wn="">
+            <Root name="دم" transliteration="dm"/>
+            <Deverbal name="دَمَى" transliteration="damaY" transname="دمى" wn=""/>
+            <Active_participle name="دَامِي" transliteration="daAmiy" transname="دامي" wn=""/>
+        </MEMBER>
+        <MEMBER name="قَاحَ" transliteration="qaAHa" transname="قاح" wn="">
+            <Root name="قيح" transliteration="qyH"/>
+            <Deverbal name="قَيْح" transliteration="qayoH" transname="قيح" wn=""/>
+            <Active_participle name="قَائِح" transliteration="qaA}iH" transname="قائح" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَقَيََّحَ" transliteration="taqaya~aHa" transname="تقيح" wn="">
+            <Root name="قيح" transliteration="qyH"/>
+            <Deverbal name="تَقَيُّح" transliteration="taqay~uH" transname="تقيح" wn=""/>
+            <Active_participle name="مُتَقَيِّح" transliteration="mutaqay~iH" transname="متقيح" wn=""/>
+        </MEMBER>
+        <MEMBER name="تَقَوَّحَ" transliteration="taqaw~aHa" transname="تقوح" wn="">
+            <Root name="قيح" transliteration="qyH"/>
+            <Deverbal name="تَقَوُّح" transliteration="taqaw~uH" transname="تقوح" wn=""/>
+            <Active_participle name="مُتَقَيِّح" transliteration="mutaqay~iH" transname="متقيح" wn=""/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Source">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="-" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="1.1.3" primary="V NP" secondary="Source Subject" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="دَمِيَ الجُرْحُ." transliteration="damiya AljuroHu."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Source">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="emit">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="VerbSpecific" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</VNCLASS>
