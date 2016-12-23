@@ -1,4 +1,4 @@
-AVN-API an API that allows to browse throuth Arabic Verbnet http://ling.uni-konstanz.de/pages/home/mousser/files/Arabic_verbnet.php
+AVN-API is an API that allows to browse throuth Arabic Verbnet http://ling.uni-konstanz.de/pages/home/mousser/files/Arabic_verbnet.php
 and extract the needed information.
 
 The verb classes of AVN are represented as xml files with components as MEMBERS, THEMROLES, FRAMES, SUBCLASSES and sibling classes. The API tries to mimic the structure of the xml classes and  their components. 
