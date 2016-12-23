@@ -30,14 +30,15 @@ AVN-API can be accessed in different way:
         a. Calling AvpParser without arguments:
        AvnParser avp = new AvnParser();
           
-           This constructor instantiates an Array-list with all AvnClass object. The Array-list is returned with the method:
+           This constructor instantiates an Array-list with all AvnClass object. The Array-list is returned by the method:
 
            avp.getAvnClasses();
    
          b. Calling AvnParser with the a verb entry as argument:
         AvnParser avp = new AvnParser("جلس");
    
-          This constructor instantiates an ArrayList with AvnClass objects where the verb "جلس" is found as member. The list is returned              with the method:
+          This constructor instantiates an ArrayList with AvnClass objects where the verb "جلس" is found as member. 
+	  The list is returned by the method:
 
              avp.getAvnClasses();
 
@@ -45,8 +46,7 @@ AVN-API can be accessed in different way:
 
          AvnParser avp = new AvnParser("جلس", SEARCH_BY.ROOT);
 
-             This constructor instan tiates an ArrayList with AvnClass ohjects where the verb "جلس" is found as member of the given type. The              list is returned             
-         with the method:
+         This constructor instan tiates an ArrayList with AvnClass ohjects where the verb "جلس" is found as member of the given type. 		 The list is returned by the method:
 
          avp.getAvnClasses();
 
