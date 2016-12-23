@@ -217,8 +217,8 @@ public final class AvnParser {
     }
     
     
-    private String removeDiac(String entry){
-        return entry.replaceAll("[aiuoNKFًٌٍَُِْ]", entry);
+    private String removeDiac(String str){
+        return entry.replaceAll("[aiuoNKFًٌٍَُِْ]", str);
     }
  // TODO: implement a method to get  information from buttom to top
     
@@ -255,19 +255,19 @@ public final class AvnParser {
     }
 
     
-        //public static void main(String[] args){
-        //AvnParser ap = new AvnParser();
-        //System.out.println(ap.removeDiac("عَمِلَ"));
+        public static void main(String[] args){
+        AvnParser ap = new AvnParser();
+        System.out.println(ap.removeDiac("عَمِلَ"));
 
-        
+        ArrayList<AvnClass> avnClasses = ap.getAvnClasses();
         //System.out.println(ap.getMatchingClasses().size());
         
-       //for(AvnClass e: ks){
-         //   ap.getAllInfo(e);
-      //  }
+       for(AvnClass e: ks){
+            ap.getAllInfo(e);
+       }
        // AvnClass vc = new AvnClass(cl.getDocumentElement());
         
         //ap.getAllInfo(vc);
   
-    //}
+    }
 }
