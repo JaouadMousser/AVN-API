@@ -1,7 +1,7 @@
  /* Copyright (C) 2016 Jaouad Mousser
 
  *
- *   AVN-API is free software: you can redistribute it and/or modify
+ *   AVN-API is a free software: you can redistribute it and/or modify
  *   it under the terms of the GNU General Public License as published by
  *   the Free Software Foundation, either version 3 of the License, or
  *   (at your option) any later version.
@@ -148,7 +148,7 @@ public class Frame {
         }
         if(PredEl.hasAttribute("bool")){
             if("!".equals(PredEl.getAttribute("bool"))){
-                predArg = "NOT(" + predArg + ")";
+                predArg = "NOT(" + predArg + ")"; 
             }
         }
         
