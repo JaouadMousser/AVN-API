@@ -146,8 +146,13 @@ public class Frame {
     }
         predArg  = predArg.substring(0, predArg.length()-2);
         }
+        if(PredEl.hasAttribute("bool")){
+            if("!".equals(PredEl.getAttribute("bool"))){
+                predArg = "NOT(" + predArg + ")";
+            }
+        }
         
-        return predArg;
+        return predArg + ")";
         
     }
     
